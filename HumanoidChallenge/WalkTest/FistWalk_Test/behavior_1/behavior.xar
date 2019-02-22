@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ChoregrapheProject xmlns="http://www.ald.softbankrobotics.com/schema/choregraphe/project.xsd" xar_version="3">
+  <Box name="root" id="-1" localization="8" tooltip="Root box of Choregraphe&apos;s behavior. Highest level possible." x="0" y="0">
+    <bitmap>media/images/box/root.png</bitmap>
+    <script language="4">
+      <content>
+        <![CDATA[]]>
+      </content>
+    </script>
+    <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+    <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
+    <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+    <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
+    <Timeline enable="0">
+      <BehaviorLayer name="behavior_layer1">
+        <BehaviorKeyframe name="keyframe1" index="1">
+          <Diagram scale="70.7107">
+            <Box name="Sound Loc." id="2" localization="8" tooltip="Every time a sound is detected, this box sends on its outputs:&#x0A;- the location of the sound source in relation to robot&apos;s head position.&#x0A;- robot&apos;s head position in relation to the rest of the body in the robot&apos;s space.&#x0A;&#x0A;V1.1.0" x="369" y="73">
+              <bitmap>media/images/box/interaction/target_sound.png</bitmap>
+              <script language="4">
+                <content>
+                  <![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.bIsRunning = False
+
+    def onUnload(self):
+        self.bIsRunning = False
+
+    def onInput_onStart(self):
+        self.bIsRunning = True
+        try:
+            service = self.session().service("ALSoundLocalization")
+            service.setParameter( "Sensitivity", self.getParameter("Volume sensitivity (%)")/100. )
+        except Exception as e:
+            self.logger.error(e)
+
+    def onInput_onStop(self):
+        if( self.bIsRunning ):
+            self.onUnload()
+            self.onStopped()]]>
+                </content>
+              </script>
+              <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+              <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
+              <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+              <Input name="ALSoundLocalization/SoundLocated" type="0" type_size="1" nature="4" stm_value_name="ALSoundLocalization/SoundLocated" inner="1" tooltip="Connected to ALMemory. Will be stimulated every time the value subscribed to changes, respecting the refresh period." id="4" />
+              <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is stopped." id="5" />
+              <Output name="sourceLocation" type="2" type_size="2" nature="2" inner="0" tooltip="Location of the detected sound source including two angles (in radians):&#x0A;- azimutal (horizontal) angle&#x0A;- elevation (vertical) angle&#x0A;Both related to robot&apos;s head position." id="6" />
+              <Output name="headPosition" type="2" type_size="6" nature="2" inner="0" tooltip="Head position when the sound is detected. It contains six values:&#x0A;[x,y,z,wx,wy,wz]. The first three represents the translation of the head&#x0A;related to the robot&apos;s space. The last three represents the orientation of the head.&#x0A;&#x0A;Note: If module ALMotion is not loaded, this output returns -1.&#x0A; " id="7" />
+              <Output name="X" type="2" type_size="1" nature="2" inner="0" tooltip="" id="8" />
+              <Output name="Y" type="2" type_size="1" nature="2" inner="0" tooltip="" id="9" />
+              <Parameter name="Threshold to be sure of the location (%)" inherits_from_parent="0" content_type="1" value="50" default_value="50" min="0" max="100" tooltip="If a sound is localized with a threshold higher than this value, then the sound&#x0A;location will be sent on the output. Else, the robot will consider that the sound is not&#x0A;localized at the right location and he will not take it into account." id="10" />
+              <Parameter name="Volume sensitivity (%)" inherits_from_parent="0" content_type="1" value="90" default_value="90" min="0" max="100" tooltip="Sensitivity to the volume of the sound heard. Higher this parameter is, less the&#x0A;sound have to be loud to be detected." id="11" />
+              <Timeline enable="0">
+                <BehaviorLayer name="behavior_layer1">
+                  <BehaviorKeyframe name="keyframe1" index="1">
+                    <Diagram>
+                      <Box name="ProcessSoundLoc" id="1" localization="8" tooltip="Process the sound localization extractor to filter and give the most interesting data." x="147" y="164">
+                        <bitmap>media/images/box/interaction/target_sound.png</bitmap>
+                        <script language="4">
+                          <content>
+                            <![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        pass
+
+    def onUnload(self):
+        pass
+
+    def onInput_onStart(self, p):
+        if p[1][2] >= self.getParameter("Threshold to be sure of the location (%)")/100.:
+            self.onLocation( [ p[1][0],p[1][1] ] )
+            self.x(p[1][0])
+            self.y(p[1][1])
+            self.onHeadPosition( [ p[2][0] , p[2][1], p[2][2], p[2][3], p[2][4], p[2][5] ] )]]>
+                          </content>
+                        </script>
+                        <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+                        <Input name="onStart" type="0" type_size="1" nature="1" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
+                        <Output name="onLocation" type="2" type_size="2" nature="2" inner="0" tooltip="Location of the detected sound source including two angles (in radians):&#x0A;- azimutal (horizontal) angle&#x0A;- elevation (vertical) angle&#x0A;Both related to robot&apos;s head position." id="3" />
+                        <Output name="onHeadPosition" type="2" type_size="6" nature="2" inner="0" tooltip="Head position when the sound is detected. It contains six values:&#x0A;[x,y,z,wx,wy,wz]. The first three represents the translation of the head&#x0A;related to the robot&apos;s space. The last three represents the orientation of the head.&#x0A;&#x0A;Note: If module ALMotion is not loaded, this output returns -1." id="4" />
+                        <Output name="x" type="2" type_size="1" nature="2" inner="0" tooltip="" id="5" />
+                        <Output name="y" type="2" type_size="1" nature="2" inner="0" tooltip="" id="6" />
+                      </Box>
+                      <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="4" />
+                      <Link inputowner="0" indexofinput="7" outputowner="1" indexofoutput="4" />
+                      <Link inputowner="0" indexofinput="6" outputowner="1" indexofoutput="3" />
+                      <Link inputowner="0" indexofinput="8" outputowner="1" indexofoutput="5" />
+                      <Link inputowner="0" indexofinput="9" outputowner="1" indexofoutput="6" />
+                    </Diagram>
+                  </BehaviorKeyframe>
+                </BehaviorLayer>
+              </Timeline>
+            </Box>
+            <Box name="Walk Toward" id="5" localization="8" tooltip="Make the robot walk in the direction you set in parameters.&#x0A;&#x0A;!!Warning!! the robot will not stop walking by himself. You need to either set x, y and theta to 0 or stop the box to stop him.&#x0A;&#x0A;Note: You can set the period of walk direction update in parameters." x="863" y="68">
+              <bitmap>media/images/box/movement/walk_forward.png</bitmap>
+              <script language="4">
+                <content>
+                  <![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        pass
+
+    def onUnload(self):
+        pass
+
+    def onInput_onStart(self):
+        pass
+
+    def onInput_onStop(self):
+        self.onUnload()]]>
+                </content>
+              </script>
+              <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
+              <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
+              <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+              <Input name="x" type="2" type_size="1" nature="1" inner="0" tooltip="" id="4" />
+              <Input name="y" type="2" type_size="1" nature="1" inner="0" tooltip="" id="5" />
+              <Parameter name="X" inherits_from_parent="0" content_type="2" value="0.5" default_value="0.5" min="-1" max="1" tooltip="Omnidirectional walk vector control for forward/backward motion. It corresponds&#x0A;to forward/backward step length. Two particular values:&#x0A;* 1.0 which is the maximum forward.&#x0A;* -1.0 which is the maximum backward." id="6" />
+              <Parameter name="Y" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-1" max="1" tooltip="Omnidirectional walk vector control for lateral motion. It corresponds to lateral&#x0A;step length. Two particular values:&#x0A;* 1.0 which is the maximum on the left.&#x0A;* -1.0 which is the maximum on the right." id="7" />
+              <Parameter name="Theta" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-1" max="1" tooltip="Omnidirectional walk vector control for rotation motion. It corresponds to&#x0A;rotational step length. Two particular values:&#x0A;* 1.0 which is the maximum for anticlockwise rotation.&#x0A;* -1.0 which is the maximum for clockwise rotation." id="8" />
+              <Parameter name="Step frequency" inherits_from_parent="0" content_type="2" value="1" default_value="1" min="0" max="1" tooltip="Omnidirectional walk vector control for walking speed. Two particular values:&#x0A;* 0.0 which is the minimum speed.&#x0A;* 1.0 which is the maximum speed." id="9" />
+              <Parameter name="Left arm enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Activate left arm motion during the walk to make it more realistic." id="10" />
+              <Parameter name="Right arm enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Activate right arm motion during the walk to make it more realistic." id="11" />
+              <Parameter name="Stop walk when foot contact is lost" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="If this option is activated, the robot stops walking when he loses foot contact with&#x0A;the ground, and starts walking again when he recovers it. Else, he just keeps walking&#x0A;anyway." id="12" />
+              <Parameter name="Period of direction update (s)" inherits_from_parent="0" content_type="2" value="0.5" default_value="0.5" min="0.1" max="1" tooltip="The walk direction is regularly updated. This parameter sets how regularly it is." id="13" />
+              <Timeline enable="0">
+                <BehaviorLayer name="behavior_layer1">
+                  <BehaviorKeyframe name="keyframe1" index="1">
+                    <Diagram>
+                      <Box name="Give direction" id="1" localization="8" tooltip="Get the walk direction from parent box and return it in order to control the Update Direction&#x0A;box." x="136" y="192">
+                        <bitmap>media/images/box/sensors/inertial_unit.png</bitmap>
+                        <script language="4">
+                          <content>
+                            <![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        import threading
+        self.ptask = qi.PeriodicTask()
+        self.lock = threading.RLock()
+
+    def onUnload(self):
+        with self.lock:
+            self.ptask.stop()
+            self.outputX(0.0)
+            self.outputY(0.0)
+            self.outputTheta(0.0)
+
+    def onInput_onStart(self):
+        with self.lock:
+            period = self.getParameter("Period of direction update (s)")
+            us_period = int(period*1000000)
+            self.ptask.compensateCallbackTime(True)
+            self.ptask.setCallback(self.update)
+            self.ptask.setUsPeriod(us_period)
+            self.ptask.start(True)
+
+    def update(self):
+        with self.lock:
+            self.outputX(self.getParameter("X"))
+            self.outputY(self.getParameter("Y"))
+            self.outputTheta(self.getParameter("Theta"))
+            self.outputStepFrequency(self.getParameter("Step frequency"))
+
+            period = self.getParameter("Period of direction update (s)")
+            us_period = int(period*1000000)
+            self.ptask.setUsPeriod(us_period)
+
+    def onInput_onStop(self):
+        with self.lock:
+            self.onUnload()]]>
+                          </content>
+                        </script>
+                        <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
+                        <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" />
+                        <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" />
+                        <Output name="outputX" type="2" type_size="1" nature="2" inner="0" tooltip="The new forward/backward motion value." id="4" />
+                        <Output name="outputY" type="2" type_size="1" nature="2" inner="0" tooltip="The new lateral motion value." id="5" />
+                        <Output name="outputTheta" type="2" type_size="1" nature="2" inner="0" tooltip="The new rotational motion value." id="6" />
+                        <Output name="outputStepFrequency" type="2" type_size="1" nature="2" inner="0" tooltip="The new walking speed value." id="7" />
+                        <Parameter name="Step frequency" inherits_from_parent="1" content_type="2" value="1" default_value="1" min="0" max="1" tooltip="" id="8" />
+                        <Parameter name="Theta" inherits_from_parent="1" content_type="2" value="0" default_value="0" min="-1" max="1" tooltip="" id="9" />
+                        <Parameter name="Period of direction update (s)" inherits_from_parent="1" content_type="2" value="0.5" default_value="0.5" min="0.1" max="1" tooltip="" id="10" />
+                        <Parameter name="X" inherits_from_parent="1" content_type="2" value="0.5" default_value="0.5" min="-1" max="1" tooltip="" id="11" />
+                        <Parameter name="Y" inherits_from_parent="1" content_type="2" value="0" default_value="0" min="-1" max="1" tooltip="" id="12" />
+                      </Box>
+                      <Box name="Update Direction" id="3" localization="8" tooltip="Update the walk direction.&#x0A;&#x0A;!!Warning!! the robot will not stop walking by himself. You need to either set x, y and theta to 0 or stop the box." x="355" y="28">
+                        <bitmap>media/images/box/movement/walk_forward.png</bitmap>
+                        <script language="4">
+                          <content>
+                            <![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.motion = self.session().service("ALMotion")
+        footGaitConfigMin = self.motion.getMoveConfig("Min")
+        footGaitConfigMax = self.motion.getMoveConfig("Max")
+        self.dFootGaitConfig = {}
+        for i in range(len(footGaitConfigMin)):
+            # [0] = key ("MaxStepX" for ex)
+            # [1] = min
+            # [2] = max
+            self.dFootGaitConfig[footGaitConfigMin[i][0]] = [footGaitConfigMin[i][1], footGaitConfigMax[i][1]]
+        self.x = 0.0
+        self.y = 0.0
+        self.theta = 0.0
+        self.stepFrequency = 0.0
+        self.enableArms = []
+        self.enableFootContact = None
+        self.bIsRunning = False
+
+    def onUnload(self):
+        self.motion.stopMove()
+        self.bIsRunning = False
+
+    def onInput_onStop(self):
+        if( self.bIsRunning ):
+            self.onUnload()
+
+    def onInput_x(self, p):
+        self.bIsRunning = True
+        self.x = p
+        self.sendNewWalkTarget()
+
+    def onInput_y(self, p):
+        self.bIsRunning = True
+        self.y = p
+        self.sendNewWalkTarget()
+
+    def onInput_theta(self, p):
+        self.bIsRunning = True
+        self.theta = p
+        self.sendNewWalkTarget()
+
+    def onInput_stepFrequency(self, p):
+        self.stepFrequency = p
+        self.sendNewWalkTarget()
+
+    def initializeWalk(self):
+        enableArms = [self.getParameter("Left arm enabled"),
+                              self.getParameter("Right arm enabled")]
+        enableFootContact = self.getParameter("Stop walk when foot contact is lost")
+        for k, v in self.dFootGaitConfig.iteritems():
+            for unit in ["m", "rad", "%"]:
+                try: # try for each unit and do nothing if value in gaitConfig but not in parameters
+                    param = self.getParameter( str(k) + " (" + unit + ")" )
+                    if( unit == "%" ):
+                        param = param / 100.
+                    if( len(v) == 2 ):
+                        v.append( param )
+                    else:
+                        v[2] = param
+                    break
+                except:
+                    pass
+        if( self.enableArms != enableArms ):
+            self.enableArms = enableArms
+            self.motion.setMoveArmsEnabled( self.enableArms[0], self.enableArms[1] )
+        if( self.enableFootContact != enableFootContact ):
+            self.enableFootContact = enableFootContact
+            self.motion.setMotionConfig([["ENABLE_FOOT_CONTACT_PROTECTION",self.enableFootContact]])
+
+    def sendNewWalkTarget(self):
+        self.initializeWalk()
+        moveConfig = []
+        for k, v in self.dFootGaitConfig.iteritems():
+            try:
+                moveConfig.append( [k, v[2]] )
+            except: # if some value added in moveConfig but not in parameters
+                pass
+        moveConfig.append( ["Frequency", self.stepFrequency] )
+        self.motion.moveToward(self.x, self.y, self.theta, moveConfig)]]>
+                          </content>
+                        </script>
+                        <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
+                        <Input name="x" type="2" type_size="1" nature="2" inner="0" tooltip="Omnidirectional walk vector control for forward/backward motion. It corresponds&#x0A;to forward/backward step length. Two particular values:&#x0A;* 1.0 which is the maximum forward.&#x0A;* -1.0 which is the maximum backward." id="2" />
+                        <Input name="y" type="2" type_size="1" nature="2" inner="0" tooltip="Omnidirectional walk vector control for lateral motion. It corresponds to lateral&#x0A;step length. Two particular values:&#x0A;* 1.0 which is the maximum on the left.&#x0A;* -1.0 which is the maximum on the right." id="3" />
+                        <Input name="theta" type="2" type_size="1" nature="2" inner="0" tooltip="Omnidirectional walk vector control for rotation motion. It corresponds to&#x0A;rotational step length. Two particular values:&#x0A;* 1.0 which is the maximum for anticlockwise rotation.&#x0A;* -1.0 which is the maximum for clockwise rotation." id="4" />
+                        <Input name="stepFrequency" type="2" type_size="1" nature="1" inner="0" tooltip="Omnidirectional walk vector control for walking speed. Two particular values:&#x0A;* 0.0 which is the minimum speed.&#x0A;* 1.0 which is the maximum speed." id="5" />
+                        <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="6" />
+                        <Parameter name="Left arm enabled" inherits_from_parent="1" content_type="0" value="1" default_value="1" tooltip="Activate left arm motion during the walk to make it more realistic." id="7" />
+                        <Parameter name="Right arm enabled" inherits_from_parent="1" content_type="0" value="1" default_value="1" tooltip="Activate right arm motion during the walk to make it more realistic." id="8" />
+                        <Parameter name="Stop walk when foot contact is lost" inherits_from_parent="1" content_type="0" value="1" default_value="1" tooltip="If this option is activated, the robot stops walking when he loses foot contact with&#x0A;the ground, and starts walking again when he recovers it. Else, he just keeps walking&#x0A;anyway." id="9" />
+                        <Parameter name="MaxStepX (m)" inherits_from_parent="0" content_type="2" value="0.04" default_value="0.04" min="0.001" max="0.06" tooltip='Maximum length of forward/backward step.&#x0A;&#x0A;Note: The actual step length is the value of the maximum length &quot;MaxStepX&quot;&#x0A;multiplied by the value of the ratio parameter &quot;X&quot;:&#x0A;ActualX (m) = MaxStepX (m) * X' id="10" />
+                        <Parameter name="MaxStepY (m)" inherits_from_parent="0" content_type="2" value="0.14" default_value="0.14" min="0.101" max="0.16" tooltip='Maximum length of lateral step.&#x0A;&#x0A;Note: The actual step length is the value of the maximum length &quot;MaxStepY&quot;&#x0A;multiplied by the value of the ratio parameter &quot;Y&quot;:&#x0A;ActualY (m) = MaxStepY (m) * Y' id="11" />
+                        <Parameter name="MaxStepTheta (rad)" inherits_from_parent="0" content_type="2" value="0.349065" default_value="0.349065" min="0.001" max="0.523598" tooltip='Maximum length of rotational step.&#x0A;&#x0A;Note: The actual step length is the value of the maximum length &quot;MaxStepTheta&quot;&#x0A;multiplied by the value of the ratio parameter &quot;Theta&quot;:&#x0A;ActualTheta (rad) = MaxStepTheta (rad) * Theta' id="12" />
+                        <Parameter name="MaxStepFrequency (%)" inherits_from_parent="0" content_type="1" value="100" default_value="100" min="0" max="100" tooltip='Maximum step frequency.&#x0A;&#x0A;Note: The actual step frequency is the value of the maximum step frequency&#x0A;&quot;MaxStepFrequency&quot; multiplied by the value of the ratio parameter &quot;StepFrequency&quot;:&#x0A;ActualStepFrequency = MaxStepFrequency (%) / 100 * StepFrequency' id="13" />
+                        <Parameter name="StepHeight (m)" inherits_from_parent="0" content_type="2" value="0.02" default_value="0.02" min="0.005" max="0.04" tooltip="Height of the step i.e. how high the robot put his feet up during the walk." id="14" />
+                        <Parameter name="TorsoWx (rad)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-0.122173" max="0.122173" tooltip="Lateral angle of the torso during the walk.&#x0A;&#x0A;Note: A positive value means that the robot will be tilted to the right. A negative&#x0A;value means he is tilted to the left." id="15" />
+                        <Parameter name="TorsoWy (rad)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-0.122173" max="0.122173" tooltip="Angle of the torso toward forward/backward during the walk.&#x0A;&#x0A;Note: A positive value means that the robot will be inclined forward. A negative&#x0A;value means he is inclined backward." id="16" />
+                      </Box>
+                      <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
+                      <Link inputowner="3" indexofinput="4" outputowner="1" indexofoutput="6" />
+                      <Link inputowner="3" indexofinput="5" outputowner="1" indexofoutput="7" />
+                      <Link inputowner="3" indexofinput="2" outputowner="0" indexofoutput="4" />
+                      <Link inputowner="3" indexofinput="3" outputowner="0" indexofoutput="5" />
+                    </Diagram>
+                  </BehaviorKeyframe>
+                </BehaviorLayer>
+              </Timeline>
+              <Resource name="Legs" type="Lock" timeout="0" />
+            </Box>
+            <Box name="Number Edit" id="1" localization="8" tooltip="Send the number you entered when the input is stimulated." plugin="numberedit_plugin" x="349" y="369">
+              <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
+              <script language="4">
+                <content>
+                  <![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped(2)]]>
+                </content>
+              </script>
+              <pluginContent>
+                <number>2</number>
+              </pluginContent>
+              <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
+              <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the number on the output." id="2" />
+              <Output name="onStopped" type="2" type_size="1" nature="2" inner="0" tooltip="The number you entered." id="3" />
+            </Box>
+            <Box name="Number Edit (1)" id="6" localization="8" tooltip="Send the number you entered when the input is stimulated." plugin="numberedit_plugin" x="358" y="443">
+              <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
+              <script language="4">
+                <content>
+                  <![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped(3)]]>
+                </content>
+              </script>
+              <pluginContent>
+                <number>3</number>
+              </pluginContent>
+              <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
+              <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the number on the output." id="2" />
+              <Output name="onStopped" type="2" type_size="1" nature="2" inner="0" tooltip="The number you entered." id="3" />
+            </Box>
+            <Box name="FirstSteps" id="4" localization="8" tooltip="" x="705" y="349">
+              <bitmap>media/images/box/box-python-script.png</bitmap>
+              <script language="4">
+                <content>
+                  <![CDATA[import math
+
+class MyClass(GeneratedClass):
+    myVar = None
+    def __init__(self):
+        GeneratedClass.__init__(self)
+
+    def onLoad(self):
+
+        endx = self.x
+        endy = self.y
+        self.value(endx)
+        pass
+
+    def onUnload(self):
+        #put clean-up code here
+        pass
+
+    def onInput_enterX(self, p):
+
+        self.x = p
+
+
+    def onInput_enterY(self, p):
+        self.value(p + 1)
+        self.y = p
+
+    def onInput_onStart(self):
+
+        pass
+
+    def onInput_onStop(self):
+        self.onUnload() #it is recommended to reuse the clean-up as the box is stopped
+        self.onStopped() #activate the output of the box]]>
+                </content>
+              </script>
+              <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+              <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
+              <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+              <Input name="enterX" type="2" type_size="1" nature="1" inner="0" tooltip="" id="4" />
+              <Input name="enterY" type="2" type_size="1" nature="1" inner="0" tooltip="" id="5" />
+              <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="6" />
+              <Output name="value" type="2" type_size="1" nature="2" inner="0" tooltip="" id="7" />
+              <Parameter name="x" inherits_from_parent="0" content_type="2" value="0.100917" default_value="0" min="0" max="1" tooltip="" id="8" />
+              <Parameter name="y" inherits_from_parent="0" content_type="2" value="0.155963" default_value="0" min="0" max="1" tooltip="" id="9" />
+            </Box>
+            <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
+            <Link inputowner="6" indexofinput="2" outputowner="0" indexofoutput="2" />
+            <Link inputowner="4" indexofinput="4" outputowner="1" indexofoutput="3" />
+            <Link inputowner="4" indexofinput="5" outputowner="6" indexofoutput="3" />
+          </Diagram>
+        </BehaviorKeyframe>
+      </BehaviorLayer>
+    </Timeline>
+  </Box>
+</ChoregrapheProject>

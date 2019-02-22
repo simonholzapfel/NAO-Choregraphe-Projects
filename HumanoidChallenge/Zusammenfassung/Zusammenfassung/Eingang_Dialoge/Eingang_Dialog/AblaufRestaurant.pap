@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="C9A53FB9F026CC75">
+  <PROJECT FORMAT="1.00" NAME="AblaufRestaurant" AUTHOR="Marc Robert" CREATED="2019.01.03 09:19:43" MODIFIED="2019.01.03 17:03:55">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="RestaurantKellner" CREATED="2019.01.03 09:19:59" MODIFIED="2019.01.03 17:03:55">
+        <LAYOUT FORMAT="1.00" COLUMNS="8" ROWS="31">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="88">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="10">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="109">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="17">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="104">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="9">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="81">
+                <TEXT><![CDATA[Führen zu Stammtisch]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="10">
+              <FIGURE SUBTYPE="PapModule" FORMAT="1.00" ID="75">
+                <TEXT><![CDATA[ZuReserviertenTischFühren]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="21">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="140">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="29">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="137">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[RestaurantKellner]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Gast betritt das Restaurant]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Erkennen und zugehen zur Person]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="4">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[Nach Erreichen stehenbleiben]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="5">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="38">
+                <TEXT><![CDATA[Erkennen des Gesichts]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="6">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[Gesicht bekannt?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="8">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="40">
+                <TEXT><![CDATA[Begrüßen mit Name]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="9">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="76">
+                <TEXT><![CDATA[Ist Stammgast?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="10">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="69">
+                <TEXT><![CDATA[Hat bereits reserviert?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="11">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="41">
+                <TEXT><![CDATA[Wollen sie sie sofort essen oder im vorraus einen Tisch reservieren?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="12">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="43">
+                <TEXT><![CDATA[Eingabe von Antwort]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="13">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="45">
+                <TEXT><![CDATA[Will sofort essen?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="14">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="49">
+                <TEXT><![CDATA[Überprüfung der Tische]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="15">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="51">
+                <TEXT><![CDATA[Ist ein Tisch frei?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="16">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="53">
+                <TEXT><![CDATA[Besetzen des Tisches mit Gast]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="17">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="106">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="18">
+              <FIGURE SUBTYPE="PapModule" FORMAT="1.00" ID="113">
+                <TEXT><![CDATA[Bringen der Speisekarte]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="19">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="125">
+                <TEXT><![CDATA[Wollen sie bereits ein Getränk bestellen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="20">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="127">
+                <TEXT><![CDATA[Will Getränk bereits bestellen?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="21">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="115">
+                <TEXT><![CDATA[Zurück bewegen zur Warteposition]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="22">
+              <FIGURE SUBTYPE="PapLoopStart" FORMAT="1.00" ID="117" ASSOCIATE="119">
+                <TEXT><![CDATA[! Hört Aufruf]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="23">
+              <FIGURE SUBTYPE="PapLoopEnd" FORMAT="1.00" ID="119" ASSOCIATE="117">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="24">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="121">
+                <TEXT><![CDATA[Aufstehen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="25">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="123">
+                <TEXT><![CDATA[Woher kommt der Sound]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="26">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="131">
+                <TEXT><![CDATA[Bewegung zu Tisch]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="27">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="144">
+                <TEXT><![CDATA[Aufruf == "Wir wollen eine Bestellung aufnehmen"?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="28">
+              <FIGURE SUBTYPE="PapModule" FORMAT="1.00" ID="133">
+                <TEXT><![CDATA[Bestellung aufnehmen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="29">
+              <FIGURE SUBTYPE="PapModule" FORMAT="1.00" ID="135">
+                <TEXT><![CDATA[BringenDerBestellung]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="30">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="17">
+              <FIGURE SUBTYPE="PapComment" FORMAT="1.00" ID="112">
+                <TEXT><![CDATA[Gäste sitzen am Tisch]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="20">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="129">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="27">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="150">
+                <TEXT><![CDATA[Aufruf == "wir wollen Zahlen"?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="28">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="161">
+                <TEXT><![CDATA[Erkennen des Tisches]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="29">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="162">
+                <TEXT><![CDATA[Preise berechnen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="6">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="18">
+                <TEXT><![CDATA[Nach Namen fragen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="15">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="57">
+                <TEXT><![CDATA[Wollen sie reservieren]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="21">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="155">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="27">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="151">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="29">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="166">
+                <TEXT><![CDATA[Summe ausgeben]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="5" ROW="6">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="29">
+                <TEXT><![CDATA[Eingabe von Namen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="5" ROW="7">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="19">
+                <TEXT><![CDATA[Name mit Gesicht einspeichern]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="5" ROW="8">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="35">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="5" ROW="15">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="58">
+                <TEXT><![CDATA[Will reservieren?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="5" ROW="16">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="167">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="6" ROW="13">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="64">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="6" ROW="15">
+              <FIGURE SUBTYPE="PapModule" FORMAT="1.00" ID="68">
+                <TEXT><![CDATA[Reservieren]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="7" ROW="15">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="84">
+                <TEXT><![CDATA[Ausgabe von Verabschiedung]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="7" ROW="16">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="171">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="39" FROM="38" TO="12" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="38" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="40" TO="76" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="15" FROM="12" TO="18" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="13" FROM="12" TO="40" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="20" FROM="18" TO="29" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="36" FROM="19" TO="35" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="42" FROM="41" TO="43" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="31" FROM="29" TO="19" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="37" FROM="35" TO="40" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="44" FROM="43" TO="45" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="48" FROM="45" TO="64" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="46" FROM="45" TO="49" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="50" FROM="49" TO="51" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="52" FROM="51" TO="53" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="107" FROM="106" TO="113" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="56" FROM="51" TO="57" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="59" FROM="57" TO="58" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="67" FROM="58" TO="68" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="66" FROM="64" TO="68" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="70" FROM="69" TO="41" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="77" FROM="76" TO="69" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="87" FROM="69" TO="75" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="86" FROM="76" TO="81" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="89" FROM="81" TO="88" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="83" FROM="68" TO="84" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="54" FROM="53" TO="106" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="110" FROM="109" TO="104" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="108" FROM="104" TO="106" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="91" FROM="88" TO="109" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="111" FROM="75" TO="109" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="114" FROM="113" TO="125" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="143" FROM="140" TO="115" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="147" FROM="144" TO="133" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="118" FROM="117" TO="119" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="122" FROM="121" TO="123" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="124" FROM="123" TO="131" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="126" FROM="125" TO="127" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="128" FROM="127" TO="115" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="130" FROM="127" TO="129" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="132" FROM="131" TO="144" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="134" FROM="133" TO="135" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="138" FROM="135" TO="137" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="146" FROM="119" TO="121" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="139" FROM="137" TO="140" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="149" FROM="144" TO="150" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="152" FROM="150" TO="151" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="157" FROM="151" TO="155" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="158" FROM="155" TO="115" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="160" FROM="150" TO="161" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="164" FROM="161" TO="162" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="165" FROM="162" TO="166" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="168" FROM="58" TO="167" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="173" FROM="171" TO="84" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="170" FROM="167" TO="171" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="1" NAME="Reservieren" CREATED="2019.01.03 09:30:52" MODIFIED="2019.01.03 09:30:52">
+        <LAYOUT FORMAT="1.00" COLUMNS="1" ROWS="3">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Reservieren]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="2" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="2" NAME="ZuReserviertenTischFühren" CREATED="2019.01.03 09:32:39" MODIFIED="2019.01.03 09:32:39">
+        <LAYOUT FORMAT="1.00" COLUMNS="1" ROWS="5">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[ZuReserviertenTischFühren]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Suchen und Erkennen des reservierten Tisches]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA["Folgen Sie mir bitte zu Tisch Nummer x"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="8" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="8" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="3" NAME="Bringen der Speisekarte" CREATED="2019.01.03 09:55:10" MODIFIED="2019.01.03 09:55:10">
+        <LAYOUT FORMAT="1.00" COLUMNS="1" ROWS="10">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Bringen der Speisekarte]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Bewegung zum Tisch]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Drehen um 180 Grad]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[Bitte entnehmen sie eine Speisekarte]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Klopfen sie mir auf den Kopf, wenn sie eine genommen haben]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapLoopStart" FORMAT="1.00" ID="19" ASSOCIATE="21">
+                <TEXT><![CDATA[Hat noch nicht genommen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapLoopEnd" FORMAT="1.00" ID="21" ASSOCIATE="19">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="23">
+                <TEXT><![CDATA[Ausgabe von Bedankung]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="10" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="20" FROM="19" TO="21" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="22" FROM="21" TO="23" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="10" TO="19" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="24" FROM="23" TO="2" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="4" NAME="Bestellung aufnehmen" CREATED="2019.01.03 10:06:51" MODIFIED="2019.01.03 10:06:51">
+        <LAYOUT FORMAT="1.00" COLUMNS="3" ROWS="9">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Bestellung aufnehmen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapLoopStart" FORMAT="1.00" ID="6" ASSOCIATE="8">
+                <TEXT><![CDATA[Wollen sie noch etwas bestellen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Wollen sie noch etwas bestellen?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="11">
+                <TEXT><![CDATA[Will noch etwas bestellen?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="13">
+                <TEXT><![CDATA[break]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapLoopEnd" FORMAT="1.00" ID="8" ASSOCIATE="6">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="22">
+                <TEXT><![CDATA[Ausgabe von Verabschiedung]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="4">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="17">
+                <TEXT><![CDATA[Bestellung eines Produkts aufnehmen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="4">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="20">
+                <TEXT><![CDATA[Einspeichern]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="10" FROM="4" TO="11" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="22" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="12" FROM="11" TO="13" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="14" FROM="13" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="16" FROM="11" TO="17" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="19" FROM="17" TO="20" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="23" FROM="22" TO="2" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="5" NAME="BringenDerBestellung" CREATED="2019.01.03 10:13:24" MODIFIED="2019.01.03 10:13:24">
+        <LAYOUT FORMAT="1.00" COLUMNS="1" ROWS="11">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[BringenDerBestellung]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapLoopStart" FORMAT="1.00" ID="4" ASSOCIATE="6">
+                <TEXT><![CDATA[while Bestellung sind noch nicht alle gebracht]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[Bewegung zum Aufenthalt der Speisen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Was bringe ich]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[Suchen der Speise]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="14">
+                <TEXT><![CDATA[Nehmen der Speise]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="16">
+                <TEXT><![CDATA[180 Grad Drehung]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="18">
+                <TEXT><![CDATA[Bringen der Speise]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapLoopEnd" FORMAT="1.00" ID="6" ASSOCIATE="4">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="10">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="10" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="10" TO="12" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="13" FROM="12" TO="14" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="15" FROM="14" TO="16" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="16" TO="18" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="19" FROM="18" TO="6" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>

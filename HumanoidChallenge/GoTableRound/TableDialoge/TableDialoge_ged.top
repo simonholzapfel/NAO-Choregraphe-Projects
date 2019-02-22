@@ -1,0 +1,6 @@
+topic: ~TableDialoge()
+language: ged
+
+u:(my name is _*) nice to meet you $name=$1
+u:(what is my name) ^first["your name is $name" "I don't know"]
+   u1:(no) OK ^clear(name)
