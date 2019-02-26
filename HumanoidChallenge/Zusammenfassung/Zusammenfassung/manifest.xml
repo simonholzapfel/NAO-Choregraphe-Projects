@@ -53,7 +53,7 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
-  <dialogContent topicName="YesNoDialoge" typeVersion="1.0">
+  <dialogContent typeVersion="1.0" topicName="YesNoDialoge">
    <topic language="de_DE" path="YesNoDialoge/YesNoDialoge_ged.top"/>
   </dialogContent>
  </contents>
