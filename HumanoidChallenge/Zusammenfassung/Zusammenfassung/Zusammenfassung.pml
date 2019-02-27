@@ -51,6 +51,7 @@
         <File name="manifest" src="WalkFromBeginToEachTable/FromBeginningToEachTable/manifest.xml" />
         <File name="manifest" src="WalkRestaurant/manifest.xml" />
         <File name="WalkRestaurant" src="WalkRestaurant/WalkRestaurant.pml" />
+        <File name="new" src="new.pmt" />
     </Resources>
     <Topics>
         <Topic name="OrderDialoge_ged" src="Bestellung/Bestellung/OrderDialoge/OrderDialoge_ged.top" topicName="OrderDialoge" language="de_DE" nuance="ged" />

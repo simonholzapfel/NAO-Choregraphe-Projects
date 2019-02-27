@@ -397,19 +397,10 @@
         </message>
     </context>
     <context>
-        <name>Personenerkennung/Robotic_Project/behavior_1/behavior.xar:/NameEinspeichern/Say</name>
+        <name>Personenerkennung/Robotic_Project/behavior_1/behavior.xar:/NameEinspeichern (1)/Say</name>
         <message>
             <location filename="Personenerkennung/Robotic_Project/behavior_1/behavior.xar" line="0"/>
             <source>Ich kenne sie bereits</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
-        <name>Personenerkennung/Robotic_Project/behavior_1/behavior.xar:/NameEinspeichern/Say (1)</name>
-        <message>
-            <location filename="Personenerkennung/Robotic_Project/behavior_1/behavior.xar" line="0"/>
-            <source>Ich kenne sie</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
@@ -424,10 +415,37 @@
         </message>
     </context>
     <context>
-        <name>Personenerkennung/Robotic_Project/behavior_1/behavior.xar:/Say (1)</name>
+        <name>WalkFromBeginToEachTable/FromBeginningToEachTable/behavior_1/behavior.xar:/BeginToEachTable/Say</name>
         <message>
-            <location filename="Personenerkennung/Robotic_Project/behavior_1/behavior.xar" line="0"/>
-            <source>Ich kenne sie</source>
+            <location filename="WalkFromBeginToEachTable/FromBeginningToEachTable/behavior_1/behavior.xar" line="0"/>
+            <source>Bitte nehmen Sie Platz</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>WalkFromBeginToEachTable/FromBeginningToEachTable/behavior_1/behavior.xar:/BeginToEachTable/Say (1)</name>
+        <message>
+            <location filename="WalkFromBeginToEachTable/FromBeginningToEachTable/behavior_1/behavior.xar" line="0"/>
+            <source>Keine gültige Tischnummer</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>WalkFromBeginToEachTable/FromBeginningToEachTable/behavior_1/behavior.xar:/BeginToEachTable/Say (2)</name>
+        <message>
+            <location filename="WalkFromBeginToEachTable/FromBeginningToEachTable/behavior_1/behavior.xar" line="0"/>
+            <source>Bitte nehmen Sie Platz</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>WalkFromBeginToEachTable/FromBeginningToEachTable/behavior_1/behavior.xar:/BeginToEachTable/Say (3)</name>
+        <message>
+            <location filename="WalkFromBeginToEachTable/FromBeginningToEachTable/behavior_1/behavior.xar" line="0"/>
+            <source>Bitte nehmen Sie Platz</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
@@ -464,6 +482,33 @@
         <message>
             <location filename="WalkFromBeginToEachTable/FromBeginningToEachTable/behavior_1/behavior.xar" line="0"/>
             <source>Bitte nehmen Sie Platz</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/BeginToEachChair/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte nehmen Sie Platz</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/BeginToEachChair/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Keine gültige Tischnummer</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/NameEinspeichern (1)/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich kenne sie bereits</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>

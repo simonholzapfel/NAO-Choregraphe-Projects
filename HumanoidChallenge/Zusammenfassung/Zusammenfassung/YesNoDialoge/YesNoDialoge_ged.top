@@ -2,7 +2,7 @@ topic: ~YesNoDialoge()
 language: ged
 
 # Defining extra concepts out of words or group of words
-concept:(positive) [Ja Bitte Natürlich "Sehr gern" "Sehr gerne" gern gerne "Ja bitte"]
+concept:(positive) [Ja Bitte Natürlich "Sehr gern" gern gerne "Ja bitte"]
 
 concept:(negative) [Nein "Nein danke" danke "Kein Problem"]
 

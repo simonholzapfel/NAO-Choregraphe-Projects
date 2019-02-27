@@ -15,6 +15,6 @@ concept:(reserve) [reservieren belegen]
 
 # Replying to speech
 #u:(~hello) ~hello
-u:({~person ~konjunktiv ~time} ~eatNow) Ok, sie wollen also jetzt essen. $eatNow=1
+u:(~eatNow) Ok, sie wollen also jetzt essen. $eatNow=1
 
-u:({~person ~konjunktiv ~time} ~reserve) Ok, sie wollen also einen Tisch reservieren. $reserve=1
+u:(~reserve) Ok, sie wollen also einen Tisch reservieren. $reserve=1
