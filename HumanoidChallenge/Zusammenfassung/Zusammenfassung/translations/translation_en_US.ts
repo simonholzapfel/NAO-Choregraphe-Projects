@@ -548,7 +548,7 @@
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/BeginToEachChair/Say</name>
+        <name>behavior_1/behavior.xar:/BeginToEachChair (1)/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte nehmen Sie Platz</source>
@@ -557,12 +557,28 @@
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/BeginToEachChair/Say (1)</name>
+        <name>behavior_1/behavior.xar:/BeginToEachChair (1)/Say (1)</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Keine gültige Tischnummer</source>
             <comment>Text</comment>
             <translation type="unfinished">Keine gültige Tischnummer</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/BeginToEachChair/Say</name>
+        <message>
+            <source>Bitte nehmen Sie Platz</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Bitte nehmen Sie Platz</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/BeginToEachChair/Say (1)</name>
+        <message>
+            <source>Keine gültige Tischnummer</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Keine gültige Tischnummer</translation>
         </message>
     </context>
     <context>
