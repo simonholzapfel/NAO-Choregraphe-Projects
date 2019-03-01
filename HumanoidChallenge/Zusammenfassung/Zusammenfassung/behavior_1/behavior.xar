@@ -15,7 +15,7 @@
       <BehaviorLayer name="behavior_layer1">
         <BehaviorKeyframe name="keyframe1" index="1">
           <Diagram scale="70.7107">
-            <Box name="NameEinspeichern" id="5" localization="8" tooltip="" x="642" y="500">
+            <Box name="NameEinspeichern" id="5" localization="8" tooltip="" x="663" y="583">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
@@ -1549,7 +1549,7 @@ class MyClass(GeneratedClass):
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="ReturnPlaceChoice" id="31" localization="8" tooltip="" x="857" y="109">
+            <Box name="ReturnPlaceChoice" id="31" localization="8" tooltip="" x="775" y="28">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
@@ -1921,7 +1921,7 @@ class MyClass(GeneratedClass):
 		GeneratedClass.__init__(self)
 
 	def onInput_onStart(self):
-		self.onStopped("3\n")]]>
+		self.onStopped("3\r\n")]]>
                                     </content>
                                   </script>
                                   <pluginContent>
@@ -3078,7 +3078,7 @@ class MyClass(GeneratedClass):
 		GeneratedClass.__init__(self)
 
 	def onInput_onStart(self):
-		self.onStopped("3\n")]]>
+		self.onStopped("3\r\n")]]>
                                     </content>
                                   </script>
                                   <pluginContent>
@@ -4178,7 +4178,7 @@ class MyClass(GeneratedClass):
 		GeneratedClass.__init__(self)
 
 	def onInput_onStart(self):
-		self.onStopped("3\n")]]>
+		self.onStopped("3\r\n")]]>
                                     </content>
                                   </script>
                                   <pluginContent>
@@ -5037,7 +5037,7 @@ class MyClass(GeneratedClass):
 		GeneratedClass.__init__(self)
 
 	def onInput_onStart(self):
-		self.onStopped("3\n")]]>
+		self.onStopped("3\r\n")]]>
                                     </content>
                                   </script>
                                   <pluginContent>
@@ -5520,7 +5520,7 @@ class MyClass(GeneratedClass):
 		GeneratedClass.__init__(self)
 
 	def onInput_onStart(self):
-		self.onStopped("3\n")]]>
+		self.onStopped("3\r\n")]]>
                                     </content>
                                   </script>
                                   <pluginContent>
@@ -5806,7 +5806,7 @@ class MyClass(GeneratedClass):
               <Output name="onSuccess" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent if the clearing succeeded." id="3" />
               <Output name="onFailure" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent if the clearing failed." id="4" />
             </Box>
-            <Box name="BeginToEachChair" id="13" localization="8" tooltip="" x="1079" y="294">
+            <Box name="BeginToEachChair" id="13" localization="8" tooltip="" x="983" y="58">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
@@ -8470,7 +8470,7 @@ class MyClass(GeneratedClass):
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="Comment" id="7" localization="8" tooltip="To comment your behavior. Enter the text here and move the box where you like&#x0A;to add the comment.&#x0A;&#x0A;Note: This box is not functional and has no effect on the behavior." plugin="textedit_plugin" x="1083" y="165">
+            <Box name="Comment" id="7" localization="8" tooltip="To comment your behavior. Enter the text here and move the box where you like&#x0A;to add the comment.&#x0A;&#x0A;Note: This box is not functional and has no effect on the behavior." plugin="textedit_plugin" x="1229" y="179">
               <bitmap>media/images/box/box-script.png</bitmap>
               <script language="4">
                 <content>
@@ -13738,7 +13738,7 @@ class MyClass(GeneratedClass):
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="Insert Data" id="10" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key." x="1147" y="51">
+            <Box name="Insert Data" id="10" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key." x="1437" y="43">
               <bitmap>media/images/box/sensors/STM.png</bitmap>
               <script language="4">
                 <content>
@@ -17622,7 +17622,7 @@ class MyClass(GeneratedClass):
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="Sit Down" id="16" localization="8" tooltip="the robot tries to sit down from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="250" y="792">
+            <Box name="Sit Down" id="16" localization="8" tooltip="the robot tries to sit down from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="473" y="631">
               <bitmap>media/images/box/movement/sit_ground.png</bitmap>
               <script language="4">
                 <content>
@@ -17694,7 +17694,7 @@ class MyClass(GeneratedClass):
               </Timeline>
               <Resource name="All motors" type="Lock" timeout="0" />
             </Box>
-            <Box name="Insert Data (1)" id="17" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key." x="448" y="356">
+            <Box name="Insert Data (1)" id="17" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key." x="581" y="414">
               <bitmap>media/images/box/sensors/STM.png</bitmap>
               <script language="4">
                 <content>
@@ -17747,7 +17747,7 @@ class MyClass(GeneratedClass):
               <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
               <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
             </Box>
-            <Box name="Text Edit (1)" id="19" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="1214" y="356">
+            <Box name="Text Edit (1)" id="19" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="1046" y="264">
               <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
               <script language="4">
                 <content>
@@ -18642,7 +18642,7 @@ class MyClass(GeneratedClass):
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="SayBox" id="22" localization="8" tooltip="" x="824" y="933">
+            <Box name="SayBox" id="22" localization="8" tooltip="" x="949" y="337">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
