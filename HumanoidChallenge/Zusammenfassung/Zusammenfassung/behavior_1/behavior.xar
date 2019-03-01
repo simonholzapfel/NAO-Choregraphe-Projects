@@ -17458,7 +17458,7 @@ class MyClass(GeneratedClass):
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="SayBox" id="22" localization="8" tooltip="" x="824" y="933">
+            <Box name="SayBox" id="22" localization="8" tooltip="" x="845" y="666">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
