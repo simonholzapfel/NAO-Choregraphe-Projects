@@ -1,0 +1,19 @@
+topic: ~BeginningConversation()
+language: ged
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(greetings) ^rand[hi hallo "Guten Tag"]
+concept:(name) [Marc Simon Robert Hannes Karl Sarah]
+concept:(namePresentation) ["Mein Name lautet" "Ich heiße" "Mein Name ist"]
+
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Ich kenne Sie nicht, wie lautet ihr Name?
+
+# Replying to speech
+u:(~greetings) ~greetings
+
+
+u:({~namePresentation} _~name) Schön dich kennenzulernen $1 $username=$1
+

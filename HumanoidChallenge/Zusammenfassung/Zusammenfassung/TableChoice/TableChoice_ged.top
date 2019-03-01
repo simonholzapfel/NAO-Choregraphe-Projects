@@ -1,0 +1,17 @@
+topic: ~TableChoice()
+language: ged
+
+# Defining extra concepts out of words or group of words
+concept:(first) [Eins "Tischnummer eins" ersten]
+concept:(second) [Zwei "Tischnummer zwei" zweiten]
+concept:(third) [Drei "Tischnummer drei" dritten]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Sie können nun den Tisch mit der Nummber 2 oder mit der Tischnummer 3 reservieren.
+
+# Replying to speech
+u:(~first) Es tut und leid, aber dieser Tisch ist für Stammgäste bereits reserviert. $invalid=true
+
+u:(~second) Ok, der Tisch mit der Nummber 2 wurde für sie reserviert. Bei ihrem nächsten Besuch werden sie diesem Tisch zugeteilt. $tablenumber=second
+
+u:(~third) Ok, der Tisch mit der Nummber 3 wurde für sie reserviert. Bei ihrem nächsten Besuch werden sie diesem Tisch zugeteilt. $tablenumber=third

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.0" uuid="robotic_project-d1c489">
+ <names>
+  <name lang="en_US">Untitled</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="BeginningConversation">
+   <topic path="BeginningConversation/BeginningConversation_ged.top" language="de_DE"/>
+   <topic path="BeginningConversation/BeginningConversation_enu.top" language="en_US"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="YesNoDialoge">
+   <topic path="YesNoDialoge/YesNoDialoge_ged.top" language="de_DE"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="NowOrReserveDialoge">
+   <topic path="NowOrReserveDialoge/NowOrReserveDialoge_ged.top" language="de_DE"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_ged.top" language="de_DE"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="CallRoboter_Dialoge">
+   <topic path="CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top" language="de_DE"/>
+  </dialogContent>
+ </contents>
+</package>
