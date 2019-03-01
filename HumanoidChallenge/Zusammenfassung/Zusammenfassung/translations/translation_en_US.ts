@@ -671,19 +671,17 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="unfinished">unbekannt</translation>
+            <translation type="obsolete">unbekannt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/FromRestaurantToTable/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="unfinished">unbekannt</translation>
+            <translation type="obsolete">unbekannt</translation>
         </message>
     </context>
     <context>
@@ -694,10 +692,9 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
         </message>
     </context>
     <context>
