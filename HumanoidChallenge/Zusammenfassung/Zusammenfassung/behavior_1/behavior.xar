@@ -16596,12 +16596,12 @@ class MyClass(GeneratedClass):
 		GeneratedClass.__init__(self)
 
 	def onInput_onStart(self):
-		self.onStopped("Robert")]]>
+		self.onStopped("Simon")]]>
                 </content>
               </script>
               <pluginContent>
                 <text>
-                  <![CDATA[Robert]]>
+                  <![CDATA[Simon]]>
                 </text>
               </pluginContent>
               <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
@@ -18634,6 +18634,8 @@ class MyClass(GeneratedClass):
             <Link inputowner="31" indexofinput="2" outputowner="2" indexofoutput="4" />
             <Link inputowner="24" indexofinput="2" outputowner="10" indexofoutput="4" />
             <Link inputowner="19" indexofinput="2" outputowner="24" indexofoutput="5" />
+            <Link inputowner="31" indexofinput="3" outputowner="31" indexofoutput="5" />
+            <Link inputowner="10" indexofinput="2" outputowner="31" indexofoutput="5" />
           </Diagram>
         </BehaviorKeyframe>
       </BehaviorLayer>
