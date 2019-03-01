@@ -27,6 +27,8 @@
         <Dialog name="CallRoboter_Dialoge" src="EingangReservierungDialog/Robotic/Robotic_Project/CallRoboter_Dialoge/CallRoboter_Dialoge.dlg" />
         <Dialog name="NowOrReserveDialoge" src="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge.dlg" />
         <Dialog name="YesNoDialoge" src="YesNoDialoge/YesNoDialoge.dlg" />
+        <Dialog name="ExampleDialog" src="behavior_1/ExampleDialog/ExampleDialog.dlg" />
+        <Dialog name="TableChoice" src="TableChoice/TableChoice.dlg" />
     </Dialogs>
     <Resources>
         <File name="Animations" src="Animationen/Animations/Animations.pml" />
@@ -61,7 +63,6 @@
         <Topic name="CallRoboter_Dialoge_ged" src="Eingang_Dialoge/Eingang_Dialog/CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top" topicName="CallRoboter_Dialoge" language="de_DE" nuance="ged" />
         <Topic name="NowOrReserveDialoge_ged" src="Eingang_Dialoge/Eingang_Dialog/NowOrReserveDialoge/NowOrReserveDialoge_ged.top" topicName="NowOrReserveDialoge" language="de_DE" nuance="ged" />
         <Topic name="TableDialoge_ged" src="GoTableRound/TableDialoge/TableDialoge_ged.top" topicName="TableDialoge" language="de_DE" nuance="ged" />
-        <Topic name="ExampleDialog_enu" src="Personenerkennung/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" nuance="enu" />
         <Topic name="GetName_ged" src="Personenerkennung/Robotic_Project/GetName/GetName_ged.top" topicName="GetName" language="de_DE" nuance="ged" />
         <Topic name="BeginningConversation_enu" src="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_enu.top" topicName="BeginningConversation" language="en_US" nuance="enu" />
         <Topic name="BeginningConversation_ged" src="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_ged.top" topicName="BeginningConversation" language="de_DE" nuance="ged" />
@@ -69,6 +70,8 @@
         <Topic name="CallRoboter_Dialoge_ged" src="EingangReservierungDialog/Robotic/Robotic_Project/CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top" topicName="CallRoboter_Dialoge" language="de_DE" nuance="ged" />
         <Topic name="NowOrReserveDialoge_ged" src="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge_ged.top" topicName="NowOrReserveDialoge" language="de_DE" nuance="ged" />
         <Topic name="YesNoDialoge_ged" src="YesNoDialoge/YesNoDialoge_ged.top" topicName="YesNoDialoge" language="de_DE" nuance="ged" />
+        <Topic name="ExampleDialog_ged" src="behavior_1/ExampleDialog/ExampleDialog_ged.top" topicName="ExampleDialog" language="de_DE" nuance="ged" />
+        <Topic name="TableChoice_ged" src="TableChoice/TableChoice_ged.top" topicName="TableChoice" language="de_DE" nuance="ged" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

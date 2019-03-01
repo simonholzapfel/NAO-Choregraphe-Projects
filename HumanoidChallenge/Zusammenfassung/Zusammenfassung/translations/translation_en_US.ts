@@ -535,6 +535,19 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Animated Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <source>Ich bringe ihnen die Speisekarte.</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Ich bringe ihnen die Speisekarte.</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/BeginToEachChair/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
@@ -582,6 +595,93 @@
             <source>Bitte nehmen Sie Platz</source>
             <comment>Text</comment>
             <translation type="obsolete">Bitte nehmen Sie Platz</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/BringMenu/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>unbekannt</source>
+            <comment>Text</comment>
+            <translation type="unfinished">unbekannt</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/BringMenu/Say (1)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich benötige eine Speisekarte.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Ich benötige eine Speisekarte.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/BringMenu/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte entnehmen Sie ihre Speisekarte.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte entnehmen Sie ihre Speisekarte.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/BringMenu/Say (3)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich benötige eine Speisekarte.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Ich benötige eine Speisekarte.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/BringMenu/Say (4)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich benötige eine Speisekarte.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Ich benötige eine Speisekarte.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FromChairToRestaurant/Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>unbekannt</source>
+            <comment>Text</comment>
+            <translation type="unfinished">unbekannt</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FromRestaurantToTable/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>unbekannt</source>
+            <comment>Text</comment>
+            <translation type="unfinished">unbekannt</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FromRestaurantToTable/Say (1)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte entnehmen Sie ihre Bestellung</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
         </message>
     </context>
     <context>
@@ -703,6 +803,34 @@
             <source>So heißen sie</source>
             <comment>Text</comment>
             <translation type="obsolete">So heißen sie</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/TellOrder/Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>möchte folgendes Bestellen</source>
+            <comment>Text</comment>
+            <translation type="unfinished">möchte folgendes Bestellen</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/WaitForOrder/Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
 </TS>
