@@ -54,50 +54,50 @@
    <permissions/>
   </behaviorContent>
   <dialogContent typeVersion="1.0" topicName="YesNoDialoge">
-   <topic language="de_DE" path="YesNoDialoge/YesNoDialoge_ged.top"/>
+   <topic path="YesNoDialoge/YesNoDialoge_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="GetName">
-   <topic language="de_DE" path="Personenerkennung/Robotic_Project/GetName/GetName_ged.top"/>
+   <topic path="Personenerkennung/Robotic_Project/GetName/GetName_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="OrderDialoge">
-   <topic language="de_DE" path="Bestellung/Bestellung/OrderDialoge/OrderDialoge_ged.top"/>
+   <topic path="Bestellung/Bestellung/OrderDialoge/OrderDialoge_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="BeginningConversation">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_ged.top"/>
-   <topic language="en_US" path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_enu.top"/>
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_ged.top" language="de_DE"/>
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="ExampleDialog">
-   <topic language="de_DE" path="behavior_1/ExampleDialog/ExampleDialog_ged.top"/>
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="CallRoboter_Dialoge">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top"/>
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="NowOrReserveDialoge">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge_ged.top"/>
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="TableDialoge">
-   <topic language="de_DE" path="GoTableRound/TableDialoge/TableDialoge_ged.top"/>
+   <topic path="GoTableRound/TableDialoge/TableDialoge_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="ExampleDialog">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top"/>
-   <topic language="en_US" path="Personenerkennung/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top" language="de_DE"/>
+   <topic path="Personenerkennung/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="BeginningConversation">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_ged.top"/>
-   <topic language="en_US" path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_enu.top"/>
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_ged.top" language="de_DE"/>
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="ExampleDialog">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top"/>
-   <topic language="en_US" path="Personenerkennung/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top" language="de_DE"/>
+   <topic path="Personenerkennung/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="CallRoboter_Dialoge">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top"/>
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="NowOrReserveDialoge">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge_ged.top"/>
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="TableChoice">
-   <topic language="de_DE" path="TableChoice/TableChoice_ged.top"/>
+   <topic path="TableChoice/TableChoice_ged.top" language="de_DE"/>
   </dialogContent>
  </contents>
 </package>
