@@ -72,6 +72,7 @@
         <Topic name="YesNoDialoge_ged" src="YesNoDialoge/YesNoDialoge_ged.top" topicName="YesNoDialoge" language="de_DE" nuance="ged" />
         <Topic name="ExampleDialog_ged" src="behavior_1/ExampleDialog/ExampleDialog_ged.top" topicName="ExampleDialog" language="de_DE" nuance="ged" />
         <Topic name="TableChoice_ged" src="TableChoice/TableChoice_ged.top" topicName="TableChoice" language="de_DE" nuance="ged" />
+        <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" nuance="enu" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
