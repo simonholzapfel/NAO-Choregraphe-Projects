@@ -563,20 +563,26 @@
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/CheckoutVisitor/Animated Say</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>Bis Später</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
         <name>behavior_1/behavior.xar:/FromChairToRestaurant/Say</name>
         <message>
             <source>Hello</source>
             <comment>Text</comment>
             <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>unbekannt</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FromRestaurantToTable/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>unbekannt</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
         </message>
     </context>
     <context>
@@ -586,12 +592,9 @@
             <comment>Text</comment>
             <translation type="vanished">Hallo</translation>
         </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/NameEinspeichern (1)/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>Ich kenne sie bereits</source>
+            <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>

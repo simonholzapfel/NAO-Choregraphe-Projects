@@ -664,15 +664,6 @@
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/CheckoutVisitor/Animated Say</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>Bis Später</source>
-            <comment>Text</comment>
-            <translation type="unfinished">Bis Später</translation>
-        </message>
-    </context>
-    <context>
         <name>behavior_1/behavior.xar:/FromChairToRestaurant/Say</name>
         <message>
             <source>Hello</source>
@@ -680,17 +671,19 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="obsolete">unbekannt</translation>
+            <translation type="unfinished">unbekannt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/FromRestaurantToTable/Say</name>
         <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="obsolete">unbekannt</translation>
+            <translation type="unfinished">unbekannt</translation>
         </message>
     </context>
     <context>
@@ -701,18 +694,18 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/NameEinspeichern (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich kenne sie bereits</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich kenne sie bereits</translation>
+            <translation type="obsolete">Ich kenne sie bereits</translation>
         </message>
     </context>
     <context>
