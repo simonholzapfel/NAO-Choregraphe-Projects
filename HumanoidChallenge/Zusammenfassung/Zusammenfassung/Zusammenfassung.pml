@@ -29,6 +29,8 @@
         <Dialog name="YesNoDialoge" src="YesNoDialoge/YesNoDialoge.dlg" />
         <Dialog name="ExampleDialog" src="behavior_1/ExampleDialog/ExampleDialog.dlg" />
         <Dialog name="TableChoice" src="TableChoice/TableChoice.dlg" />
+        <Dialog name="GetränkBestellung" src="GetränkBestellung/GetränkBestellung.dlg" />
+        <Dialog name="SpeiseBestellung" src="SpeiseBestellung/SpeiseBestellung.dlg" />
     </Dialogs>
     <Resources>
         <File name="Animations" src="Animationen/Animations/Animations.pml" />
@@ -72,6 +74,8 @@
         <Topic name="YesNoDialoge_ged" src="YesNoDialoge/YesNoDialoge_ged.top" topicName="YesNoDialoge" language="de_DE" nuance="ged" />
         <Topic name="ExampleDialog_ged" src="behavior_1/ExampleDialog/ExampleDialog_ged.top" topicName="ExampleDialog" language="de_DE" nuance="ged" />
         <Topic name="TableChoice_ged" src="TableChoice/TableChoice_ged.top" topicName="TableChoice" language="de_DE" nuance="ged" />
+        <Topic name="GetränkBestellung_ged" src="GetränkBestellung/GetränkBestellung_ged.top" topicName="GetränkBestellung" language="de_DE" nuance="ged" />
+        <Topic name="SpeiseBestellung_ged" src="SpeiseBestellung/SpeiseBestellung_ged.top" topicName="SpeiseBestellung" language="de_DE" nuance="ged" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

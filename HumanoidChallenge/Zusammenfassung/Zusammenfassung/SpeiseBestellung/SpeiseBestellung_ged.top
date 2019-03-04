@@ -1,0 +1,26 @@
+topic: ~SpeiseBestellung()
+language: ged
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+# Defining extra concepts out of words or group of words
+concept:(hello) [hello hi hey "good morning" greetings]
+concept:(dishes) ["Kabelsalat" "Schnitzel mit Pommes" "Toast mit Omlett"]
+concept:(drinks) [Limonade Wasser Kaffee]
+concept:(positiv) [ja gerne natürlich]
+concept:(negativ) [nein danke nicht]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Haben Sie sich schon für eine Speise entschieden?
+
+
+# Replying to speech
+
+u: (~positiv) Sehr gut, was soll ich Ihnen bringen?
+    u1:(_~dishes) Alles klar, $1 kommt sofort, haben Sie bitte etwas Geduld. $food=$1
+
+u: (~negativ) Natürlich, ich lass ihnen noch etwas Zeit. $notYet=true
+
+
