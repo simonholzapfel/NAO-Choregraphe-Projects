@@ -14,7 +14,7 @@
     <Timeline enable="0">
       <BehaviorLayer name="behavior_layer1">
         <BehaviorKeyframe name="keyframe1" index="1">
-          <Diagram scale="42.0448">
+          <Diagram scale="84.0896">
             <Box name="NameEinspeichern" id="5" localization="8" tooltip="" x="642" y="500">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
@@ -30630,13 +30630,9 @@ class MyClass(GeneratedClass):
             <Link inputowner="3" indexofinput="2" outputowner="6" indexofoutput="4" />
             <Link inputowner="34" indexofinput="2" outputowner="33" indexofoutput="4" />
             <Link inputowner="13" indexofinput="2" outputowner="17" indexofoutput="4" />
-            <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
-            <Link inputowner="4" indexofinput="2" outputowner="0" indexofoutput="2" />
             <Link inputowner="6" indexofinput="3" outputowner="6" indexofoutput="4" />
-            <Link inputowner="27" indexofinput="2" outputowner="0" indexofoutput="2" />
             <Link inputowner="18" indexofinput="2" outputowner="27" indexofoutput="3" />
             <Link inputowner="3" indexofinput="2" outputowner="18" indexofoutput="4" />
-            <Link inputowner="27" indexofinput="2" outputowner="21" indexofoutput="4" />
             <Link inputowner="10" indexofinput="2" outputowner="31" indexofoutput="5" />
             <Link inputowner="28" indexofinput="2" outputowner="14" indexofoutput="4" />
             <Link inputowner="29" indexofinput="2" outputowner="28" indexofoutput="3" />
@@ -30653,6 +30649,10 @@ class MyClass(GeneratedClass):
             <Link inputowner="46" indexofinput="2" outputowner="45" indexofoutput="3" />
             <Link inputowner="48" indexofinput="2" outputowner="46" indexofoutput="4" />
             <Link inputowner="47" indexofinput="2" outputowner="48" indexofoutput="4" />
+            <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
+            <Link inputowner="4" indexofinput="2" outputowner="0" indexofoutput="2" />
+            <Link inputowner="27" indexofinput="2" outputowner="0" indexofoutput="2" />
+            <Link inputowner="27" indexofinput="2" outputowner="21" indexofoutput="4" />
           </Diagram>
         </BehaviorKeyframe>
       </BehaviorLayer>
