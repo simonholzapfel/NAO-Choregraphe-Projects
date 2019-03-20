@@ -1,0 +1,19 @@
+topic: ~GetrankBestellung()
+language: ged
+
+# Defining extra concepts out of words or group of words
+concept:(hello) [hello hi hey "good morning" greetings]
+concept:(dishes) ["Kabelsalat" "Schnitzel mit Pommes" "Toast mit Omlett"]
+concept:(drinks) [Limonade Wasser Kaffee]
+concept:(positiv) [ja gerne natürlich]
+concept:(negativ) [nein danke nicht]
+
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Welches Getränk soll ich Ihnen bringen?
+
+# Replying to speech
+u: (_~drinks) $1 kommt sofort. Wollen sie auch gleich ein zweites Drinken bestellen? $drink1=$1
+    u1:(~positiv) Was soll es neben $drink1 noch zu drinken geben.
+        u2:(_~drinks) Okay, das zweite Getränk $1 wurde zusätzlich in meiner Datenbank notiert. Es wird alles vorbereitet und in kürze serviert. Bitte haben sie etwas Gedult. $Drink1=$drink1 $Drink2=$1
+    u1:(~negativ) Alles klar. Ich bringe gleich mal zu drinken $drink1 . $Drink1=$drink1 $Drink2=null
