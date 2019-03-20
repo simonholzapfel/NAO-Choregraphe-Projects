@@ -13,8 +13,8 @@
  </descriptionLanguages>
  <contents>
   <behaviorContent path="behavior_1">
-   <nature>interactive</nature>
-   <autonomous/>
+   <userRequestable/>
+   <nature>solitary</nature>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="Animationen/Animations/behavior_1">
@@ -23,7 +23,6 @@
   </behaviorContent>
   <behaviorContent path="Bestellung/Bestellung/behavior_1">
    <nature>interactive</nature>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="Eingang_Dialoge/Eingang_Dialog/behavior_1">
@@ -99,9 +98,6 @@
   </dialogContent>
   <dialogContent topicName="TableChoice" typeVersion="1.0">
    <topic path="TableChoice/TableChoice_ged.top" language="de_DE"/>
-  </dialogContent>
-  <dialogContent topicName="GetränkBestellung" typeVersion="1.0">
-   <topic path="GetränkBestellung/GetränkBestellung_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent topicName="SpeiseBestellung" typeVersion="1.0">
    <topic path="SpeiseBestellung/SpeiseBestellung_ged.top" language="de_DE"/>
