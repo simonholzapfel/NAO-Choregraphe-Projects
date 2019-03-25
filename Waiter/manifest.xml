@@ -53,16 +53,16 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
-  <dialogContent topicName="SpeiseBestellung" typeVersion="1.0">
+  <dialogContent typeVersion="1.0" topicName="SpeiseBestellung">
    <topic language="de_DE" path="SpeiseBestellung/SpeiseBestellung_ged.top"/>
   </dialogContent>
-  <dialogContent topicName="TableChoice" typeVersion="1.0">
+  <dialogContent typeVersion="1.0" topicName="TableChoice">
    <topic language="de_DE" path="TableChoice/TableChoice_ged.top"/>
   </dialogContent>
-  <dialogContent topicName="YesNoDialoge" typeVersion="1.0">
+  <dialogContent typeVersion="1.0" topicName="YesNoDialoge">
    <topic language="de_DE" path="YesNoDialoge/YesNoDialoge_ged.top"/>
   </dialogContent>
-  <dialogContent topicName="GetrankBestellung" typeVersion="1.0">
+  <dialogContent typeVersion="1.0" topicName="GetrankBestellung">
    <topic language="de_DE" path="GetrankBestellung/GetrankBestellung_ged.top"/>
   </dialogContent>
  </contents>
