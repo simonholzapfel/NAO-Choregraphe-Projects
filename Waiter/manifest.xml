@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="waiter-bbb9ec" version="0.0.0">
+<package version="0.0.0" uuid="waiter-bbb9ec">
  <names>
   <name lang="en_US">Untitled</name>
  </names>
@@ -54,16 +54,16 @@
    <permissions/>
   </behaviorContent>
   <dialogContent typeVersion="1.0" topicName="SpeiseBestellung">
-   <topic path="SpeiseBestellung/SpeiseBestellung_ged.top" language="de_DE"/>
+   <topic language="de_DE" path="SpeiseBestellung/SpeiseBestellung_ged.top"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="TableChoice">
-   <topic path="TableChoice/TableChoice_ged.top" language="de_DE"/>
+   <topic language="de_DE" path="TableChoice/TableChoice_ged.top"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="YesNoDialoge">
-   <topic path="YesNoDialoge/YesNoDialoge_ged.top" language="de_DE"/>
+   <topic language="de_DE" path="YesNoDialoge/YesNoDialoge_ged.top"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="GetrankBestellung">
-   <topic path="GetrankBestellung/GetrankBestellung_ged.top" language="de_DE"/>
+   <topic language="de_DE" path="GetrankBestellung/GetrankBestellung_ged.top"/>
   </dialogContent>
  </contents>
 </package>
