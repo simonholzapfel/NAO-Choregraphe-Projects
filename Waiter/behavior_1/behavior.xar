@@ -5199,7 +5199,7 @@ class MyClass(GeneratedClass):
                                     <Choice value="&gt;" />
                                     <Choice value="≠" />
                                   </Parameter>
-                                  <Parameter name="Value to compare" inherits_from_parent="0" content_type="3" value="MyApplication/name" default_value="0" custom_choice="0" tooltip="This is the value which is compared to the input value." id="6" />
+                                  <Parameter name="Value to compare" inherits_from_parent="0" content_type="3" value="null" default_value="0" custom_choice="0" tooltip="This is the value which is compared to the input value." id="6" />
                                 </Box>
                                 <Box name="Switch Case" id="12" localization="8" tooltip="Test input value and stimulate the output matching to this value. If there is no&#x0A;matching output, the default output (onDefault) is stimulated.&#x0A;&#x0A;You can edit a case by left double-clicking on the line. You can add a&#x0A;case by right clicking on a line and selecting &apos;Insert a row&apos;. You can delete&#x0A;a case by right clicking on a line and selecting &apos;Remove a row&apos;." plugin="dispatcher_plugin" x="30" y="630">
                                   <bitmap>media/images/box/interaction/choice.png</bitmap>

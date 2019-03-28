@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="waiter-bbb9ec" version="0.0.0">
+<package version="0.0.0" uuid="waiter-bbb9ec">
  <names>
   <name lang="en_US">Untitled</name>
  </names>
@@ -54,19 +54,19 @@
    <permissions/>
   </behaviorContent>
   <dialogContent typeVersion="1.0" topicName="SpeiseBestellung">
-   <topic language="de_DE" path="SpeiseBestellung/SpeiseBestellung_ged.top"/>
+   <topic path="SpeiseBestellung/SpeiseBestellung_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="TableChoice">
-   <topic language="de_DE" path="TableChoice/TableChoice_ged.top"/>
+   <topic path="TableChoice/TableChoice_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="YesNoDialoge">
-   <topic language="de_DE" path="YesNoDialoge/YesNoDialoge_ged.top"/>
+   <topic path="YesNoDialoge/YesNoDialoge_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="GetrankBestellung">
-   <topic language="de_DE" path="GetrankBestellung/GetrankBestellung_ged.top"/>
+   <topic path="GetrankBestellung/GetrankBestellung_ged.top" language="de_DE"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="GetName">
-   <topic language="de_DE" path="Personenerkennung/Robotic_Project/GetName/GetName_ged.top"/>
+   <topic path="Personenerkennung/Robotic_Project/GetName/GetName_ged.top" language="de_DE"/>
   </dialogContent>
  </contents>
 </package>
