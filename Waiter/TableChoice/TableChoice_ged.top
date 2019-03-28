@@ -2,9 +2,9 @@ topic: ~TableChoice()
 language: ged
 
 # Defining extra concepts out of words or group of words
-concept:(first) [Eins "Tischnummer eins" ersten]
-concept:(second) [Zwei "Tischnummer zwei" zweiten]
-concept:(third) [Drei "Tischnummer drei" dritten]
+concept:(first) [Eins "Tischnummer eins" ersten "Nummer eins"]
+concept:(second) [Zwei "Tischnummer zwei" zweiten "Nummer zwei"]
+concept:(third) [Drei "Tischnummer drei" dritten "Nummer drei"]
 
 # Catching inputs and triggering outputs
 u:(e:onStart) Sie können nun den Tisch mit der Nummber 2 oder mit der Tischnummer 3 reservieren.
