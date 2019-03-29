@@ -7,7 +7,7 @@ concept:(second) [Zwei "Tischnummer zwei" zweiten "Nummer zwei"]
 concept:(third) [Drei "Tischnummer drei" dritten "Nummer drei"]
 
 # Catching inputs and triggering outputs
-u:(e:onStart) Sie können nun den Tisch mit der Nummber 2 oder mit der Tischnummer 3 reservieren.
+u:(e:onStart) Sie können nun den Tisch mit der Nummer 2 oder mit der Tischnummer 3 reservieren.
 
 # Replying to speech
 u:(~first) Es tut und leid, aber dieser Tisch ist für Stammgäste bereits reserviert. $invalid=true
