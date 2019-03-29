@@ -53,20 +53,20 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
-  <dialogContent topicName="SpeiseBestellung" typeVersion="1.0">
-   <topic path="SpeiseBestellung/SpeiseBestellung_ged.top" language="de_DE"/>
+  <dialogContent typeVersion="1.0" topicName="SpeiseBestellung">
+   <topic language="de_DE" path="SpeiseBestellung/SpeiseBestellung_ged.top"/>
   </dialogContent>
-  <dialogContent topicName="TableChoice" typeVersion="1.0">
-   <topic path="TableChoice/TableChoice_ged.top" language="de_DE"/>
+  <dialogContent typeVersion="1.0" topicName="TableChoice">
+   <topic language="de_DE" path="TableChoice/TableChoice_ged.top"/>
   </dialogContent>
-  <dialogContent topicName="YesNoDialoge" typeVersion="1.0">
-   <topic path="YesNoDialoge/YesNoDialoge_ged.top" language="de_DE"/>
+  <dialogContent typeVersion="1.0" topicName="YesNoDialoge">
+   <topic language="de_DE" path="YesNoDialoge/YesNoDialoge_ged.top"/>
   </dialogContent>
-  <dialogContent topicName="GetrankBestellung" typeVersion="1.0">
-   <topic path="GetrankBestellung/GetrankBestellung_ged.top" language="de_DE"/>
+  <dialogContent typeVersion="1.0" topicName="GetrankBestellung">
+   <topic language="de_DE" path="GetrankBestellung/GetrankBestellung_ged.top"/>
   </dialogContent>
-  <dialogContent topicName="GetName" typeVersion="1.0">
-   <topic path="Personenerkennung/Robotic_Project/GetName/GetName_ged.top" language="de_DE"/>
+  <dialogContent typeVersion="1.0" topicName="GetName">
+   <topic language="de_DE" path="Personenerkennung/Robotic_Project/GetName/GetName_ged.top"/>
   </dialogContent>
  </contents>
 </package>

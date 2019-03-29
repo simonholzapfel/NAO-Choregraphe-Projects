@@ -966,4 +966,13 @@
             <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FromChairToEnd/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>He oida irgendwos passt ned.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">He oida irgendwos passt ned.</translation>
+        </message>
+    </context>
 </TS>
