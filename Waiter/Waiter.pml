@@ -54,6 +54,7 @@
         <File name="manifest" src="WalkFromBeginToEachTable/FromBeginningToEachTable/manifest.xml" />
         <File name="manifest" src="WalkRestaurant/manifest.xml" />
         <File name="WalkRestaurant" src="WalkRestaurant/WalkRestaurant.pml" />
+        <File name="vacuum1" src="behavior_1/vacuum1.ogg" />
     </Resources>
     <Topics>
         <Topic name="SpeiseBestellung_ged" src="SpeiseBestellung/SpeiseBestellung_ged.top" topicName="SpeiseBestellung" language="de_DE" nuance="ged" />

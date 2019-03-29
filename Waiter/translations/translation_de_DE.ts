@@ -636,6 +636,15 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/FromChairToEnd/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>He oida irgendwos passt ned.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">He oida irgendwos passt ned.</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/FromChairToRestaurant (1)/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
@@ -683,10 +692,9 @@
     <context>
         <name>behavior_1/behavior.xar:/GiveBestellung (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
         </message>
     </context>
     <context>
@@ -941,6 +949,38 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/WaitForHeadContact (1)/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/WaitForHeadContact (2)/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/WaitForHeadContact/Say</name>
+        <message>
+            <source>Bitte entnehmen Sie ihre Bestellung</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/WaitForOrder (1)/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
@@ -964,15 +1004,6 @@
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
             <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/FromChairToEnd/Say</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>He oida irgendwos passt ned.</source>
-            <comment>Text</comment>
-            <translation type="unfinished">He oida irgendwos passt ned.</translation>
         </message>
     </context>
 </TS>
