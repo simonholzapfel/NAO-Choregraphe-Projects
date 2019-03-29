@@ -35775,7 +35775,7 @@ class MyClass(GeneratedClass):
               <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
               <Resource name="Speech" type="Lock" timeout="0" />
             </Box>
-            <Box name="Say Text (5)" id="56" localization="8" tooltip="Say the text received on its input." x="259" y="334">
+            <Box name="Say Text (5)" id="56" localization="8" tooltip="Say the text received on its input." x="63" y="259">
               <bitmap>media/images/box/interaction/say.png</bitmap>
               <script language="4">
                 <content>
