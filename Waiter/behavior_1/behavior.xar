@@ -21,7 +21,7 @@
     <Timeline enable="0">
       <BehaviorLayer name="behavior_layer1">
         <BehaviorKeyframe name="keyframe1" index="1">
-          <Diagram scale="17.6777">
+          <Diagram scale="59.4604">
             <Box name="NameEinspeichern" id="5" localization="8" tooltip="" x="1315" y="842">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
@@ -1576,7 +1576,7 @@ class MyClass(GeneratedClass):
               <Timeline enable="0">
                 <BehaviorLayer name="behavior_layer1">
                   <BehaviorKeyframe name="keyframe1" index="1">
-                    <Diagram scale="70.7107">
+                    <Diagram scale="59.4604">
                       <Box name="If Stammgast" id="9" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="809" y="634">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
@@ -6142,6 +6142,8 @@ class MyClass(GeneratedClass):
                       <Link inputowner="2" indexofinput="2" outputowner="4" indexofoutput="6" />
                       <Link inputowner="14" indexofinput="2" outputowner="9" indexofoutput="4" />
                       <Link inputowner="4" indexofinput="2" outputowner="14" indexofoutput="4" />
+                      <Link inputowner="2" indexofinput="3" outputowner="2" indexofoutput="5" />
+                      <Link inputowner="2" indexofinput="3" outputowner="2" indexofoutput="6" />
                     </Diagram>
                   </BehaviorKeyframe>
                 </BehaviorLayer>
@@ -13604,6 +13606,7 @@ class MyClass(GeneratedClass):
                       <Link inputowner="2" indexofinput="2" outputowner="7" indexofoutput="5" />
                       <Link inputowner="0" indexofinput="4" outputowner="2" indexofoutput="4" />
                       <Link inputowner="7" indexofinput="2" outputowner="0" indexofoutput="2" />
+                      <Link inputowner="7" indexofinput="3" outputowner="2" indexofoutput="4" />
                     </Diagram>
                   </BehaviorKeyframe>
                 </BehaviorLayer>
@@ -39176,6 +39179,8 @@ class MyClass(GeneratedClass):
             <Link inputowner="62" indexofinput="2" outputowner="55" indexofoutput="4" />
             <Link inputowner="49" indexofinput="2" outputowner="62" indexofoutput="4" />
             <Link inputowner="67" indexofinput="2" outputowner="66" indexofoutput="4" />
+            <Link inputowner="31" indexofinput="3" outputowner="31" indexofoutput="5" />
+            <Link inputowner="21" indexofinput="2" outputowner="21" indexofoutput="4" />
           </Diagram>
         </BehaviorKeyframe>
       </BehaviorLayer>
