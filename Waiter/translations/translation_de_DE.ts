@@ -874,6 +874,15 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/SaveFace (1)/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich bitte den zukünftigen Stammgast sich vor mich zu stelle.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Ich bitte den zukünftigen Stammgast sich vor mich zu stelle.</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/SaveFace/Say</name>
         <message>
             <source>Hallo</source>
