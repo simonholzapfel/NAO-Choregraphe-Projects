@@ -6149,7 +6149,7 @@ class MyClass(GeneratedClass):
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="Say Text" id="2" localization="8" tooltip="Say the text received on its input." x="1093" y="173">
+            <Box name="Say Text" id="2" localization="8" tooltip="Say the text received on its input." x="1043" y="25">
               <bitmap>media/images/box/interaction/say.png</bitmap>
               <script language="4">
                 <content>
@@ -6205,7 +6205,7 @@ class MyClass(GeneratedClass):
               <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
               <Resource name="Speech" type="Lock" timeout="0" />
             </Box>
-            <Box name="Get Data" id="3" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="946" y="190">
+            <Box name="Get Data" id="3" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="896" y="42">
               <bitmap>media/images/box/sensors/STM.png</bitmap>
               <script language="4">
                 <content>
@@ -13713,7 +13713,7 @@ class MyClass(GeneratedClass):
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="NameEinspeichern (1)" id="6" localization="8" tooltip="" x="775" y="142">
+            <Box name="NameEinspeichern (1)" id="6" localization="8" tooltip="" x="757" y="34">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
@@ -43611,7 +43611,7 @@ class MyClass(GeneratedClass):
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="SaveFace (1)" id="18" localization="8" tooltip="" x="127" y="57">
+            <Box name="SaveFace (1)" id="18" localization="8" tooltip="" x="662" y="184">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
@@ -44999,7 +44999,7 @@ class MyClass(GeneratedClass):
                                   <Output name="firstTime" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent first time the onSignal input is stimulated." id="3" />
                                 </Box>
                                 <Box name="GetName (1)" id="7" localization="8" tooltip="" x="1689" y="585">
-                                  <dialogFile>../GetName/GetName.dlg</dialogFile>
+                                  <dialogFile>../Personenerkennung/Robotic_Project/GetName/GetName.dlg</dialogFile>
                                   <bitmap>media/images/box/box-dialog.png</bitmap>
                                   <script language="4">
                                     <content>
@@ -45945,10 +45945,8 @@ class MyClass(GeneratedClass):
             <Link inputowner="21" indexofinput="2" outputowner="31" indexofoutput="10" />
             <Link inputowner="31" indexofinput="3" outputowner="31" indexofoutput="10" />
             <Link inputowner="25" indexofinput="2" outputowner="26" indexofoutput="3" />
-            <Link inputowner="31" indexofinput="2" outputowner="2" indexofoutput="4" />
             <Link inputowner="24" indexofinput="2" outputowner="10" indexofoutput="4" />
             <Link inputowner="19" indexofinput="2" outputowner="24" indexofoutput="5" />
-            <Link inputowner="3" indexofinput="2" outputowner="6" indexofoutput="4" />
             <Link inputowner="34" indexofinput="2" outputowner="33" indexofoutput="4" />
             <Link inputowner="13" indexofinput="2" outputowner="17" indexofoutput="4" />
             <Link inputowner="10" indexofinput="2" outputowner="31" indexofoutput="5" />
@@ -45969,7 +45967,6 @@ class MyClass(GeneratedClass):
             <Link inputowner="48" indexofinput="2" outputowner="49" indexofoutput="4" />
             <Link inputowner="4" indexofinput="2" outputowner="0" indexofoutput="2" />
             <Link inputowner="45" indexofinput="3" outputowner="45" indexofoutput="4" />
-            <Link inputowner="6" indexofinput="2" outputowner="1" indexofoutput="4" />
             <Link inputowner="1" indexofinput="2" outputowner="21" indexofoutput="4" />
             <Link inputowner="49" indexofinput="2" outputowner="46" indexofoutput="6" />
             <Link inputowner="50" indexofinput="2" outputowner="51" indexofoutput="4" />
@@ -46001,8 +45998,9 @@ class MyClass(GeneratedClass):
             <Link inputowner="80" indexofinput="2" outputowner="47" indexofoutput="4" />
             <Link inputowner="65" indexofinput="2" outputowner="80" indexofoutput="4" />
             <Link inputowner="67" indexofinput="2" outputowner="66" indexofoutput="4" />
-            <Link inputowner="18" indexofinput="2" outputowner="0" indexofoutput="2" />
-            <Link inputowner="67" indexofinput="2" outputowner="18" indexofoutput="4" />
+            <Link inputowner="3" indexofinput="2" outputowner="6" indexofoutput="4" />
+            <Link inputowner="18" indexofinput="2" outputowner="1" indexofoutput="4" />
+            <Link inputowner="31" indexofinput="2" outputowner="18" indexofoutput="4" />
           </Diagram>
         </BehaviorKeyframe>
       </BehaviorLayer>
