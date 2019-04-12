@@ -22,7 +22,7 @@
       <BehaviorLayer name="behavior_layer1">
         <BehaviorKeyframe name="keyframe1" index="1">
           <Diagram scale="84.0896">
-            <Box name="Program itself" id="79" localization="8" tooltip="" x="1065" y="112">
+            <Box name="Program itself" id="79" localization="8" tooltip="" x="1083" y="121">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
