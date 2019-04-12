@@ -1,0 +1,13 @@
+topic: ~AreYouFerdinand()
+language: ged
+
+# Defining extra concepts out of words or group of words
+concept:(positive) [ja natürlich]
+concept:(negativ) [nein nicht]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Sind sie Ferdinand?
+
+# Replying to speech
+u:(~positive) Alles klar Ferdinand. $Yes=1
+u:(~negativ) Ich würde gerne Ferdinand sehen. $No=1
