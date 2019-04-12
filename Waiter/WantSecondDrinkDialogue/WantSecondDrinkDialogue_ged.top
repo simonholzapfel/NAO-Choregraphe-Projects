@@ -1,0 +1,14 @@
+topic: ~WantSecondDrinkDialogue()
+language: ged
+
+# Defining extra concepts out of words or group of words
+concept:(positiv) [ja gerne natürlich]
+concept:(negativ) [nein danke nicht]
+
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Sie sind in der Lage ein zweites Getränk zu bestellen. Wollen Sie dieses jetzt bestellen.
+
+# Replying to speech
+u:(~positiv) Sie haben zugestimmt. $true=1
+u:(~negativ) Sie haben verneint. $false=1

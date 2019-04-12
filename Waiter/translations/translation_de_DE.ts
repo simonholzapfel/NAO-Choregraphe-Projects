@@ -479,6 +479,15 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/AusgabeGetränke (1)/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>möchte folgendes Bestellen</source>
+            <comment>Text</comment>
+            <translation type="unfinished">möchte folgendes Bestellen</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/AusgabeGetränke/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
@@ -692,9 +701,10 @@
     <context>
         <name>behavior_1/behavior.xar:/GiveBestellung (1)/Say</name>
         <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
         </message>
     </context>
     <context>
@@ -864,6 +874,20 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/SaveFace/Say</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich bitte den zukünftigen Stammgast sich vor mich zu stelle.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Ich bitte den zukünftigen Stammgast sich vor mich zu stelle.</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Say</name>
         <message>
             <source>Hallo</source>
@@ -992,9 +1016,10 @@
     <context>
         <name>behavior_1/behavior.xar:/WaitForOrder (2)/Say</name>
         <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
+            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>

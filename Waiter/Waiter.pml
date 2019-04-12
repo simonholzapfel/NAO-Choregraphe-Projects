@@ -30,6 +30,10 @@
         <Dialog name="TableDialoge" src="GoTableRound/TableDialoge/TableDialoge.dlg" />
         <Dialog name="ExampleDialog" src="Personenerkennung/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog.dlg" />
         <Dialog name="GetName" src="Personenerkennung/Robotic_Project/GetName/GetName.dlg" />
+        <Dialog name="ExampleDialog" src="behavior_1/ExampleDialog/ExampleDialog.dlg" />
+        <Dialog name="WantSecondDrinkDialogue" src="WantSecondDrinkDialogue/WantSecondDrinkDialogue.dlg" />
+        <Dialog name="SecondDrink" src="SecondDrink/SecondDrink.dlg" />
+        <Dialog name="Beschwerde" src="Beschwerde/Beschwerde.dlg" />
     </Dialogs>
     <Resources>
         <File name="Animations" src="Animationen/Animations/Animations.pml" />
@@ -74,6 +78,10 @@
         <Topic name="NowOrReserveDialoge_ged" src="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge_ged.top" topicName="NowOrReserveDialoge" language="de_DE" nuance="ged" />
         <Topic name="TableDialoge_ged" src="GoTableRound/TableDialoge/TableDialoge_ged.top" topicName="TableDialoge" language="de_DE" nuance="ged" />
         <Topic name="GetName_ged" src="Personenerkennung/Robotic_Project/GetName/GetName_ged.top" topicName="GetName" language="de_DE" nuance="ged" />
+        <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" nuance="enu" />
+        <Topic name="WantSecondDrinkDialogue_ged" src="WantSecondDrinkDialogue/WantSecondDrinkDialogue_ged.top" topicName="WantSecondDrinkDialogue" language="de_DE" nuance="ged" />
+        <Topic name="SecondDrink_ged" src="SecondDrink/SecondDrink_ged.top" topicName="SecondDrink" language="de_DE" nuance="ged" />
+        <Topic name="Beschwerde_ged" src="Beschwerde/Beschwerde_ged.top" topicName="Beschwerde" language="de_DE" nuance="ged" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="de_DE">

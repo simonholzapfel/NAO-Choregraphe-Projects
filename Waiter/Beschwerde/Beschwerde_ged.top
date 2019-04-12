@@ -1,0 +1,14 @@
+topic: ~Beschwerde()
+language: ged
+
+# Defining extra concepts out of words or group of words
+concept:(positiv) [ja gerne natürlich]
+concept:(negativ) [nein danke nicht]
+
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Haben sie noch irgendwelche Beschwerden?
+
+# Replying to speech
+u:(~positiv) Sie haben eine Beschwerde zu melden. Welche Beschwerde wollen sie uns hinterlassen? $true=1
+u:(~negativ) Ich gehe somit davon aus, dass alles in Ordnung ist. $false=1

@@ -1,0 +1,12 @@
+topic: ~SecondDrink()
+language: ged
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(drinks) [Limonade Wasser Kaffee]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Was soll ich als zweites Getränk bringen.
+
+# Replying to speech
+u:(_~drinks) Alles klar, als zweites Getränk bringe ich Ihnen $1 . $drink=$1
