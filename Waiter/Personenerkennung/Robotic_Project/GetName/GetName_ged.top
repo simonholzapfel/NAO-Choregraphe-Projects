@@ -9,4 +9,4 @@ concept:(names) [Marc Simon Robert Franz Auernig Sabine Emina Manuel]
 u:(e:onStart) Hallo, wie lautet Ihr Name?
 
 # Replying to speech
-u:(_~names) Schön Sie im Toaster begrüßen zu dürfen, $1 . $Name=$1
+u:(_~names) Schön Sie im Toaster begrüssen zu dürfen, $1 . $Name=$1
