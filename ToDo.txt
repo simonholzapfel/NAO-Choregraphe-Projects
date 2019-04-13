@@ -1,0 +1,7 @@
+ERLEDIGT From Table 1 to restuarant
+Beschwerde dialog outputs
+weg animation
+Rechnung 2. Getränk
+Preis ausgaben (evtl. am Schluss entfernen)
+Debug ausgaben entfernen
+„null“-Ausgaben entfernen

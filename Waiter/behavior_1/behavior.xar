@@ -36,7 +36,7 @@
               <Timeline enable="0">
                 <BehaviorLayer name="behavior_layer1">
                   <BehaviorKeyframe name="keyframe1" index="1">
-                    <Diagram scale="70.7107">
+                    <Diagram scale="59.4604">
                       <Box name="NameEinspeichern" id="5" localization="8" tooltip="" x="1629" y="1122">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
@@ -32904,7 +32904,7 @@ class MyClass(GeneratedClass):
                           <BehaviorLayer name="behavior_layer1">
                             <BehaviorKeyframe name="keyframe1" index="1">
                               <Diagram>
-                                <Box name="YesNoDialoge" id="28" localization="8" tooltip="" x="630" y="411">
+                                <Box name="YesNoDialoge" id="28" localization="8" tooltip="" x="575" y="392">
                                   <dialogFile>../YesNoDialoge/YesNoDialoge.dlg</dialogFile>
                                   <bitmap>media/images/box/box-dialog.png</bitmap>
                                   <script language="4">
@@ -41484,6 +41484,8 @@ class MyClass(GeneratedClass):
                                 <Link inputowner="0" indexofinput="5" outputowner="1" indexofoutput="5" />
                                 <Link inputowner="0" indexofinput="6" outputowner="1" indexofoutput="6" />
                                 <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
+                                <Link inputowner="1" indexofinput="3" outputowner="1" indexofoutput="5" />
+                                <Link inputowner="1" indexofinput="3" outputowner="1" indexofoutput="6" />
                               </Diagram>
                             </BehaviorKeyframe>
                           </BehaviorLayer>
@@ -42382,7 +42384,7 @@ class MyClass(GeneratedClass):
                                             <Output name="output_5" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="8" />
                                             <Output name="output_6" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="9" />
                                           </Box>
-                                          <Box name="Get Data" id="8" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="40" y="260">
+                                          <Box name="Get Data" id="8" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="90" y="218">
                                             <bitmap>media/images/box/sensors/STM.png</bitmap>
                                             <script language="4">
                                               <content>
