@@ -1149,10 +1149,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/WaitForHeadContact (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</translation>
+            <translation type="obsolete">Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte berühren Sie mich am Kopf, wenn Sie fertig sind.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte berühren Sie mich am Kopf, wenn Sie fertig sind.</translation>
         </message>
     </context>
     <context>
