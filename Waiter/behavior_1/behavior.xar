@@ -42491,7 +42491,7 @@ class MyClass(GeneratedClass):
                                     <BehaviorLayer name="behavior_layer1">
                                       <BehaviorKeyframe name="keyframe1" index="1">
                                         <Diagram>
-                                          <Box name="BeschwerdeItself" id="1" localization="8" tooltip="" x="293" y="105">
+                                          <Box name="BeschwerdeItself" id="1" localization="8" tooltip="" x="617" y="266">
                                             <dialogFile>../BeschwerdeItself/BeschwerdeItself.dlg</dialogFile>
                                             <bitmap>media/images/box/box-dialog.png</bitmap>
                                             <script language="4">
@@ -42506,10 +42506,10 @@ class MyClass(GeneratedClass):
                                             <Output name="end" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
                                             <Output name="repeat" type="1" type_size="1" nature="2" inner="0" tooltip="" id="6" />
                                           </Box>
-                                          <Link inputowner="1" indexofinput="2" outputowner="1" indexofoutput="6" />
-                                          <Link inputowner="1" indexofinput="3" outputowner="1" indexofoutput="5" />
                                           <Link inputowner="0" indexofinput="4" outputowner="1" indexofoutput="5" />
                                           <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
+                                          <Link inputowner="1" indexofinput="2" outputowner="1" indexofoutput="6" />
+                                          <Link inputowner="1" indexofinput="3" outputowner="1" indexofoutput="5" />
                                         </Diagram>
                                       </BehaviorKeyframe>
                                     </BehaviorLayer>
@@ -42523,6 +42523,7 @@ class MyClass(GeneratedClass):
                                 <Link inputowner="3" indexofinput="2" outputowner="1" indexofoutput="6" />
                                 <Link inputowner="4" indexofinput="2" outputowner="1" indexofoutput="5" />
                                 <Link inputowner="3" indexofinput="2" outputowner="4" indexofoutput="4" />
+                                <Link inputowner="4" indexofinput="3" outputowner="4" indexofoutput="4" />
                               </Diagram>
                             </BehaviorKeyframe>
                           </BehaviorLayer>
