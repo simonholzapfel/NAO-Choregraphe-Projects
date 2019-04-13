@@ -44926,30 +44926,13 @@ class MyClass(GeneratedClass):
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="BeschwerdeItself" id="4" localization="8" tooltip="" x="214" y="277">
-              <dialogFile>../BeschwerdeItself/BeschwerdeItself.dlg</dialogFile>
-              <bitmap>media/images/box/box-dialog.png</bitmap>
-              <script language="4">
-                <content>
-                  <![CDATA[]]>
-                </content>
-              </script>
-              <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
-              <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
-              <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
-              <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
-              <Output name="end" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
-              <Output name="repeat" type="1" type_size="1" nature="2" inner="0" tooltip="" id="6" />
-            </Box>
             <Link inputowner="0" indexofinput="11" outputowner="79" indexofoutput="4" />
             <Link inputowner="14" indexofinput="2" outputowner="1" indexofoutput="4" />
             <Link inputowner="79" indexofinput="2" outputowner="14" indexofoutput="4" />
             <Link inputowner="1" indexofinput="2" outputowner="2" indexofoutput="3" />
             <Link inputowner="25" indexofinput="2" outputowner="3" indexofoutput="4" />
             <Link inputowner="2" indexofinput="2" outputowner="25" indexofoutput="4" />
-            <Link inputowner="4" indexofinput="2" outputowner="4" indexofoutput="6" />
-            <Link inputowner="4" indexofinput="3" outputowner="4" indexofoutput="5" />
-            <Link inputowner="4" indexofinput="2" outputowner="0" indexofoutput="2" />
+            <Link inputowner="3" indexofinput="2" outputowner="0" indexofoutput="2" />
           </Diagram>
         </BehaviorKeyframe>
       </BehaviorLayer>

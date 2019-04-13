@@ -1361,6 +1361,11 @@
             <comment>Text</comment>
             <translation type="obsolete">Ihr Betrag zu bezahlen lautet</translation>
         </message>
+        <message>
+            <source>Du hast das ende erreicht.</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Du hast das ende erreicht.</translation>
+        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Say (1)</name>
