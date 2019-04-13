@@ -1,0 +1,17 @@
+topic: ~AskEatOrDrink()
+language: ged
+
+# Defining extra concepts out of words or group of words
+concept:(positiv) [ja gerne natürlich]
+concept:(negativ) [nein danke nicht]
+
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+concept: (ask) ^rand["Sind Sie nur hungrig?" "Haben Sie nur Hunger?" "Möchten Sie nur ein wunderbares Gericht verspeisen?"]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+u:(~ask) ~ask
+# Replying to speech
+#u:(~hello) ~hello
+u: (~positiv) 
