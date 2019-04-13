@@ -35,6 +35,7 @@
         <Dialog name="SecondDrink" src="SecondDrink/SecondDrink.dlg" />
         <Dialog name="Beschwerde" src="Beschwerde/Beschwerde.dlg" />
         <Dialog name="AreYouFerdinand" src="AreYouFerdinand/AreYouFerdinand.dlg" />
+        <Dialog name="BeschwerdeItself" src="BeschwerdeItself/BeschwerdeItself.dlg" />
     </Dialogs>
     <Resources>
         <File name="Animations" src="Animationen/Animations/Animations.pml" />
@@ -84,6 +85,7 @@
         <Topic name="SecondDrink_ged" src="SecondDrink/SecondDrink_ged.top" topicName="SecondDrink" language="de_DE" nuance="ged" />
         <Topic name="Beschwerde_ged" src="Beschwerde/Beschwerde_ged.top" topicName="Beschwerde" language="de_DE" nuance="ged" />
         <Topic name="AreYouFerdinand_ged" src="AreYouFerdinand/AreYouFerdinand_ged.top" topicName="AreYouFerdinand" language="de_DE" nuance="ged" />
+        <Topic name="BeschwerdeItself_ged" src="BeschwerdeItself/BeschwerdeItself_ged.top" topicName="BeschwerdeItself" language="de_DE" nuance="ged" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="de_DE">

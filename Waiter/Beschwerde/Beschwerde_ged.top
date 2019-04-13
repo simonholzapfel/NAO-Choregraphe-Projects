@@ -10,5 +10,5 @@ concept:(negativ) [nein danke nicht]
 u:(e:onStart) Haben sie noch irgendwelche Beschwerden?
 
 # Replying to speech
-u:(~positiv) Sie haben eine Beschwerde zu melden. Welche Beschwerde wollen sie uns hinterlassen? $true=1
-u:(~negativ) Ich gehe somit davon aus, dass alles in Ordnung ist. $false=1
+u:(~positiv) $true=1
+u:(~negativ) Das freut mich! $false=1

@@ -1,7 +1,5 @@
-ERLEDIGT From Table 1 to restuarant
-Beschwerde dialog outputs
 weg animation
-Rechnung 2. Getränk
-Preis ausgaben (evtl. am Schluss entfernen)
+Preis ausgaben (evtl alle außer schluss löschen)
 Debug ausgaben entfernen
 „null“-Ausgaben entfernen
+"Ich möchte keine Speise bestellen."
