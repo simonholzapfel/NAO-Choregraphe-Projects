@@ -749,10 +749,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/BestellungGetränk/DrinkSentences/sentence</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Soll es ein Wasser, einen heißen Kaffee oder doch lieber eine erfrischende Limonade sein.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Soll es ein Wasser, einen heißen Kaffee oder doch lieber eine erfrischende Limonade sein.</translation>
+            <translation type="obsolete">Soll es ein Wasser, einen heißen Kaffee oder doch lieber eine erfrischende Limonade sein.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</translation>
         </message>
     </context>
     <context>

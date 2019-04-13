@@ -4,3 +4,4 @@
 - „null“-Ausgaben entfernen
 - "Ich möchte keine Speise bestellen."
 - Nur Getränk oder nur Speise!!!!
+- New Tablet - maybe
