@@ -1,5 +1,6 @@
-weg animation
-Preis ausgaben (evtl alle außer schluss löschen)
-Debug ausgaben entfernen
-„null“-Ausgaben entfernen
-"Ich möchte keine Speise bestellen."
+- weg animation
+- Preis ausgaben (evtl alle außer schluss löschen)
+- Debug ausgaben entfernen
+- „null“-Ausgaben entfernen
+- "Ich möchte keine Speise bestellen."
+- Nur Getränk oder nur Speise!!!!
