@@ -6,9 +6,7 @@ language: ged
 
 # Catching inputs and triggering outputs
 # Defining extra concepts out of words or group of words
-concept:(hello) [hello hi hey "good morning" greetings]
 concept:(dishes) ["Kabelsalat" "Schnitzel mit Pommes" "Toast mit Omlett"]
-concept:(drinks) [Limonade Wasser Kaffee]
 concept:(positiv) [ja gerne natürlich]
 concept:(negativ) [nein danke nicht]
 

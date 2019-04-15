@@ -2,10 +2,17 @@ topic: ~NowDrink()
 language: ged
 
 # Defining extra concepts out of words or group of words
-#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(positive) [Ja Bitte Natürlich "Sehr gern" gern gerne "Ja bitte"]
+
+concept:(negative) [Nein "Nein danke" danke "Kein Problem"]
+
+concept:(ask) ^rand["Möchten Sie was Drinken?" "Darf es was zum Drinken sein?"]
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1
+u: (e:onStart) Darf es jetzt etwas zum Drinken sein.
 
 # Replying to speech
 #u:(~hello) ~hello
+u:(~positive) Sie haben zugestimmt $Yes=1
+u:(~negative) Sie haben verneint $No=1
