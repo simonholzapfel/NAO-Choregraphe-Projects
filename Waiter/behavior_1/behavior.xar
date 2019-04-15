@@ -36,7 +36,7 @@
               <Timeline enable="0">
                 <BehaviorLayer name="behavior_layer1">
                   <BehaviorKeyframe name="keyframe1" index="1">
-                    <Diagram scale="59.4604">
+                    <Diagram scale="50">
                       <Box name="NameEinspeichern" id="5" localization="8" tooltip="" x="1629" y="1122">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
@@ -10480,7 +10480,7 @@ class MyClass(GeneratedClass):
                                   <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" />
                                   <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" />
                                   <Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" />
-                                  <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
+                                  <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="109" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
                                   <Parameter name="Text" inherits_from_parent="0" content_type="5" value="Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist." default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" />
                                   <Resource name="Speech" type="Lock" timeout="0" />
                                 </Box>
@@ -18259,7 +18259,7 @@ class MyClass(GeneratedClass):
                         </Timeline>
                         <Resource name="All motors" type="Stop on demand" timeout="1" />
                       </Box>
-                      <Box name="BestellungSpeisen" id="35" localization="8" tooltip="" x="2495" y="1331">
+                      <Box name="BestellungSpeisen" id="35" localization="8" tooltip="" x="2312" y="1478">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
                           <content>
@@ -19642,7 +19642,7 @@ class MyClass(GeneratedClass):
                                   <Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="5" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" />
                                   <Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" />
                                 </Box>
-                                <Box name="MenuSentences" id="1" localization="8" tooltip="" x="702" y="82">
+                                <Box name="MenuSentences" id="1" localization="8" tooltip="" x="614" y="293">
                                   <bitmap>media/images/box/box-diagram.png</bitmap>
                                   <script language="4">
                                     <content>
@@ -25418,11 +25418,10 @@ class MyClass(GeneratedClass):
                                 <Link inputowner="3" indexofinput="2" outputowner="1" indexofoutput="8" />
                                 <Link inputowner="3" indexofinput="2" outputowner="1" indexofoutput="9" />
                                 <Link inputowner="3" indexofinput="2" outputowner="1" indexofoutput="10" />
-                                <Link inputowner="14" indexofinput="2" outputowner="3" indexofoutput="3" />
                                 <Link inputowner="4" indexofinput="2" outputowner="14" indexofoutput="4" />
                                 <Link inputowner="6" indexofinput="2" outputowner="4" indexofoutput="4" />
                                 <Link inputowner="5" indexofinput="2" outputowner="6" indexofoutput="4" />
-                                <Link inputowner="0" indexofinput="4" outputowner="5" indexofoutput="4" />
+                                <Link inputowner="0" indexofinput="4" outputowner="3" indexofoutput="3" />
                               </Diagram>
                             </BehaviorKeyframe>
                           </BehaviorLayer>
@@ -36785,7 +36784,7 @@ class MyClass(GeneratedClass):
                                   <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                   <Output name="onStopped" type="0" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. It contains the retrieved value from ALMemory." id="4" />
                                   <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
-                                  <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/CurrentTable" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
+                                  <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/currentTable" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
                                 </Box>
                                 <Box name="Switch Case" id="1" localization="8" tooltip="Test input value and stimulate the output matching to this value. If there is no&#x0A;matching output, the default output (onDefault) is stimulated.&#x0A;&#x0A;You can edit a case by left double-clicking on the line. You can add a&#x0A;case by right clicking on a line and selecting &apos;Insert a row&apos;. You can delete&#x0A;a case by right clicking on a line and selecting &apos;Remove a row&apos;." plugin="dispatcher_plugin" x="418" y="315">
                                   <bitmap>media/images/box/interaction/choice.png</bitmap>
@@ -37796,7 +37795,6 @@ class MyClass(GeneratedClass):
                                     </BehaviorLayer>
                                   </Timeline>
                                 </Box>
-                                <Link inputowner="1" indexofinput="2" outputowner="3" indexofoutput="4" />
                                 <Link inputowner="2" indexofinput="2" outputowner="1" indexofoutput="3" />
                                 <Link inputowner="4" indexofinput="2" outputowner="1" indexofoutput="4" />
                                 <Link inputowner="5" indexofinput="2" outputowner="1" indexofoutput="5" />
@@ -37806,6 +37804,7 @@ class MyClass(GeneratedClass):
                                 <Link inputowner="0" indexofinput="4" outputowner="5" indexofoutput="4" />
                                 <Link inputowner="0" indexofinput="4" outputowner="6" indexofoutput="4" />
                                 <Link inputowner="3" indexofinput="2" outputowner="0" indexofoutput="2" />
+                                <Link inputowner="1" indexofinput="2" outputowner="3" indexofoutput="4" />
                               </Diagram>
                             </BehaviorKeyframe>
                           </BehaviorLayer>
@@ -45175,6 +45174,190 @@ class MyClass(GeneratedClass):
                           </BehaviorLayer>
                         </Timeline>
                       </Box>
+                      <Box name="GetReadyForTablet (1)" id="93" localization="8" tooltip="" x="2995" y="1581">
+                        <bitmap>media/images/box/box-diagram.png</bitmap>
+                        <script language="4">
+                          <content>
+                            <![CDATA[]]>
+                          </content>
+                        </script>
+                        <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+                        <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
+                        <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+                        <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
+                        <Timeline enable="0">
+                          <BehaviorLayer name="behavior_layer1">
+                            <BehaviorKeyframe name="keyframe1" index="1">
+                              <Diagram>
+                                <Box name="TablettHalten" id="8" localization="8" tooltip="" x="577" y="110">
+                                  <bitmap>media/images/box/box-timeLine.png</bitmap>
+                                  <script language="4">
+                                    <content>
+                                      <![CDATA[]]>
+                                    </content>
+                                  </script>
+                                  <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+                                  <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
+                                  <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+                                  <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
+                                  <Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="60">
+                                    <ActuatorList model="">
+                                      <ActuatorCurve name="value" actuator="HeadPitch" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="HeadYaw" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="LElbowRoll" mute="0" unit="0">
+                                        <Key frame="60" value="-28.5" />
+                                      </ActuatorCurve>
+                                      <ActuatorCurve name="value" actuator="LElbowYaw" mute="0" unit="0">
+                                        <Key frame="60" value="-118.6" />
+                                      </ActuatorCurve>
+                                      <ActuatorCurve name="value" actuator="LHand" mute="0" unit="1">
+                                        <Key frame="60" value="0.34" />
+                                      </ActuatorCurve>
+                                      <ActuatorCurve name="value" actuator="LShoulderPitch" mute="0" unit="0">
+                                        <Key frame="60" value="24.1" />
+                                      </ActuatorCurve>
+                                      <ActuatorCurve name="value" actuator="LShoulderRoll" mute="0" unit="0">
+                                        <Key frame="60" value="-5.8" />
+                                      </ActuatorCurve>
+                                      <ActuatorCurve name="value" actuator="LWristYaw" mute="0" unit="0">
+                                        <Key frame="60" value="-7.2" />
+                                      </ActuatorCurve>
+                                      <ActuatorCurve name="value" actuator="RElbowRoll" mute="0" unit="0">
+                                        <Key frame="60" value="28.8" />
+                                      </ActuatorCurve>
+                                      <ActuatorCurve name="value" actuator="RElbowYaw" mute="0" unit="0">
+                                        <Key frame="60" value="118.9" />
+                                      </ActuatorCurve>
+                                      <ActuatorCurve name="value" actuator="RHand" mute="0" unit="1">
+                                        <Key frame="60" value="0.34" />
+                                      </ActuatorCurve>
+                                      <ActuatorCurve name="value" actuator="RShoulderPitch" mute="0" unit="0">
+                                        <Key frame="60" value="24.1" />
+                                      </ActuatorCurve>
+                                      <ActuatorCurve name="value" actuator="RShoulderRoll" mute="0" unit="0">
+                                        <Key frame="60" value="16.2" />
+                                      </ActuatorCurve>
+                                      <ActuatorCurve name="value" actuator="RWristYaw" mute="0" unit="0">
+                                        <Key frame="60" value="7.4" />
+                                      </ActuatorCurve>
+                                      <ActuatorCurve name="value" actuator="LAnklePitch" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="LAnkleRoll" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="LHipPitch" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="LHipRoll" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="LHipYawPitch" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="LKneePitch" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="RAnklePitch" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="RAnkleRoll" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="RHipPitch" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="RHipRoll" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="RHipYawPitch" mute="1" unit="0" />
+                                      <ActuatorCurve name="value" actuator="RKneePitch" mute="1" unit="0" />
+                                    </ActuatorList>
+                                  </Timeline>
+                                </Box>
+                                <Box name="Get Data" id="3" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="93" y="96">
+                                  <bitmap>media/images/box/sensors/STM.png</bitmap>
+                                  <script language="4">
+                                    <content>
+                                      <![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self)
+        pass
+
+    def onLoad(self):
+        self.memory = self.session().service("ALMemory")
+
+    def onUnload(self):
+        self.memory = None
+
+    def onInput_onStart(self):
+        result = self.memory.getData(self.getParameter("key"))
+        self.onStopped(result)
+
+    def onInput_onStop(self):
+        self.onUnload() #~ it is recommended to call onUnload of this box in a onStop method, as the code written in onUnload is used to stop the box as well
+        pass]]>
+                                    </content>
+                                  </script>
+                                  <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+                                  <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
+                                  <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+                                  <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="4" />
+                                  <Output name="onStopped" type="0" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. It contains the retrieved value from ALMemory." id="5" />
+                                  <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/HasTab" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
+                                </Box>
+                                <Box name="If" id="1" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="312" y="136">
+                                  <bitmap>media/images/box/box-diagram.png</bitmap>
+                                  <script language="4">
+                                    <content>
+                                      <![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        #~ puts code for box initialization here
+        pass
+
+    def onUnload(self):
+        #~ puts code for box cleanup here
+        pass
+
+    def onInput_onData(self, p):
+        param = self.getParameter("Value to compare")
+        try:
+            p = float(p)
+            param = float(param)
+        except:
+            p = str(p)
+            param = str(param)
+        operator = self.getParameter("Condition operator")
+        if( operator == "<" ):
+            self.outputTrueOrFalse( p < param )
+        elif( operator == "< or =" ):
+            self.outputTrueOrFalse( p <= param )
+        elif( operator == "=" ):
+            self.outputTrueOrFalse( p == param )
+        elif( operator == "> or =" ):
+            self.outputTrueOrFalse( p >= param )
+        elif( operator == ">" ):
+            self.outputTrueOrFalse( p > param )
+        elif( operator == "≠" ):
+            self.outputTrueOrFalse( p != param )
+        else:
+            raise Exception( "Operator not known: " + str(operator) )
+
+    def outputTrueOrFalse(self, condition):
+        if( condition ):
+            self.output_then()
+        else:
+            self.output_else()]]>
+                                    </content>
+                                  </script>
+                                  <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+                                  <Input name="onData" type="0" type_size="1" nature="1" inner="0" tooltip="The data to test." id="2" />
+                                  <Output name="output_then" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent if the condition is true." id="3" />
+                                  <Output name="output_else" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent if the condition is false." id="4" />
+                                  <Parameter name="Condition operator" inherits_from_parent="0" content_type="3" value="=" default_value="≠" custom_choice="0" tooltip='Choose the condition operator.&#x0A;&#x0A;For example:&#x0A;If you choose &quot;&gt; or =&quot;, the condition will be: is the input is higher or equal&#x0A;than the parameter?' id="5">
+                                    <Choice value="&lt;" />
+                                    <Choice value="&lt; or =" />
+                                    <Choice value="=" />
+                                    <Choice value="&gt; or =" />
+                                    <Choice value="&gt;" />
+                                    <Choice value="≠" />
+                                  </Parameter>
+                                  <Parameter name="Value to compare" inherits_from_parent="0" content_type="3" value="false" default_value="0" custom_choice="0" tooltip="This is the value which is compared to the input value." id="6" />
+                                </Box>
+                                <Link inputowner="3" indexofinput="2" outputowner="0" indexofoutput="2" />
+                                <Link inputowner="1" indexofinput="2" outputowner="3" indexofoutput="5" />
+                                <Link inputowner="0" indexofinput="4" outputowner="1" indexofoutput="4" />
+                                <Link inputowner="0" indexofinput="4" outputowner="8" indexofoutput="4" />
+                                <Link inputowner="8" indexofinput="2" outputowner="1" indexofoutput="3" />
+                                <Link inputowner="3" indexofinput="2" outputowner="3" indexofoutput="4" />
+                              </Diagram>
+                            </BehaviorKeyframe>
+                          </BehaviorLayer>
+                        </Timeline>
+                      </Box>
                       <Link inputowner="31" indexofinput="3" outputowner="31" indexofoutput="10" />
                       <Link inputowner="45" indexofinput="3" outputowner="45" indexofoutput="4" />
                       <Link inputowner="31" indexofinput="3" outputowner="31" indexofoutput="5" />
@@ -45193,7 +45376,6 @@ class MyClass(GeneratedClass):
                       <Link inputowner="40" indexofinput="2" outputowner="8" indexofoutput="4" />
                       <Link inputowner="41" indexofinput="2" outputowner="40" indexofoutput="4" />
                       <Link inputowner="42" indexofinput="2" outputowner="41" indexofoutput="4" />
-                      <Link inputowner="43" indexofinput="2" outputowner="42" indexofoutput="4" />
                       <Link inputowner="12" indexofinput="2" outputowner="35" indexofoutput="4" />
                       <Link inputowner="47" indexofinput="2" outputowner="48" indexofoutput="4" />
                       <Link inputowner="26" indexofinput="2" outputowner="4" indexofoutput="3" />
@@ -45232,7 +45414,6 @@ class MyClass(GeneratedClass):
                       <Link inputowner="79" indexofinput="2" outputowner="36" indexofoutput="4" />
                       <Link inputowner="82" indexofinput="2" outputowner="81" indexofoutput="4" />
                       <Link inputowner="81" indexofinput="2" outputowner="79" indexofoutput="4" />
-                      <Link inputowner="35" indexofinput="2" outputowner="82" indexofoutput="4" />
                       <Link inputowner="85" indexofinput="2" outputowner="84" indexofoutput="4" />
                       <Link inputowner="83" indexofinput="2" outputowner="44" indexofoutput="4" />
                       <Link inputowner="84" indexofinput="2" outputowner="83" indexofoutput="4" />
@@ -45250,8 +45431,14 @@ class MyClass(GeneratedClass):
                       <Link inputowner="69" indexofinput="2" outputowner="85" indexofoutput="4" />
                       <Link inputowner="94" indexofinput="2" outputowner="82" indexofoutput="3" />
                       <Link inputowner="8" indexofinput="2" outputowner="94" indexofoutput="3" />
-                      <Link inputowner="92" indexofinput="2" outputowner="43" indexofoutput="4" />
-                      <Link inputowner="15" indexofinput="2" outputowner="11" indexofoutput="4" />
+                      <Link inputowner="92" indexofinput="2" outputowner="42" indexofoutput="4" />
+                      <Link inputowner="35" indexofinput="2" outputowner="82" indexofoutput="4" />
+                      <Link inputowner="43" indexofinput="2" outputowner="92" indexofoutput="4" />
+                      <Link inputowner="44" indexofinput="2" outputowner="43" indexofoutput="4" />
+                      <Link inputowner="93" indexofinput="2" outputowner="11" indexofoutput="4" />
+                      <Link inputowner="35" indexofinput="2" outputowner="75" indexofoutput="4" />
+                      <Link inputowner="15" indexofinput="2" outputowner="93" indexofoutput="4" />
+                      <Link inputowner="66" indexofinput="2" outputowner="65" indexofoutput="4" />
                     </Diagram>
                   </BehaviorKeyframe>
                 </BehaviorLayer>
