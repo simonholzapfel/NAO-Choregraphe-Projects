@@ -38,6 +38,8 @@
         <Dialog name="BeschwerdeItself" src="BeschwerdeItself/BeschwerdeItself.dlg" />
         <Dialog name="AskEatOrDrink" src="AskEatOrDrink/AskEatOrDrink.dlg" />
         <Dialog name="WantDrink" src="WantDrink/WantDrink.dlg" />
+        <Dialog name="Eat" src="Eat/Eat.dlg" />
+        <Dialog name="NowDrink" src="NowDrink/NowDrink.dlg" />
     </Dialogs>
     <Resources>
         <File name="Animations" src="Animationen/Animations/Animations.pml" />
@@ -90,6 +92,8 @@
         <Topic name="BeschwerdeItself_ged" src="BeschwerdeItself/BeschwerdeItself_ged.top" topicName="BeschwerdeItself" language="de_DE" nuance="ged" />
         <Topic name="AskEatOrDrink_ged" src="AskEatOrDrink/AskEatOrDrink_ged.top" topicName="" language="en_US-x-scrald" nuance="" />
         <Topic name="WantDrink_ged" src="WantDrink/WantDrink_ged.top" topicName="WantDrink" language="de_DE" nuance="ged" />
+        <Topic name="Eat_ged" src="Eat/Eat_ged.top" topicName="Eat" language="de_DE" nuance="ged" />
+        <Topic name="NowDrink_ged" src="NowDrink/NowDrink_ged.top" topicName="NowDrink" language="de_DE" nuance="ged" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="de_DE">

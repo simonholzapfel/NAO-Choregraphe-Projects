@@ -1,4 +1,4 @@
-topic: ~WantDrink()
+topic: ~Eat()
 language: ged
 
 # Defining extra concepts out of words or group of words
@@ -10,7 +10,7 @@ concept:(ask) ^rand["Möchten Sie was Drinken?" "Darf es was zum Drinken sein?"]
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1
-u: (e:onStart) Darf es was zum Drinken sein.
+u: (e: onStrart) Möchten Sie etwas zum Essen haben.
 
 # Replying to speech
 #u:(~hello) ~hello
