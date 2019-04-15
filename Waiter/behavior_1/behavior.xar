@@ -36,7 +36,7 @@
               <Timeline enable="0">
                 <BehaviorLayer name="behavior_layer1">
                   <BehaviorKeyframe name="keyframe1" index="1">
-                    <Diagram scale="50">
+                    <Diagram scale="84.0896">
                       <Box name="NameEinspeichern" id="5" localization="8" tooltip="" x="1629" y="1122">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
@@ -44574,7 +44574,7 @@ class MyClass(GeneratedClass):
                           </BehaviorLayer>
                         </Timeline>
                       </Box>
-                      <Box name="Get Data (6)" id="89" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="3239" y="1634">
+                      <Box name="Get Data (6)" id="89" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="3234" y="1644">
                         <bitmap>media/images/box/sensors/STM.png</bitmap>
                         <script language="4">
                           <content>
