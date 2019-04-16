@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.0" uuid="waiter-bbb9ec">
+<package uuid="waiter-bbb9ec" version="0.0.0">
  <names>
   <name lang="en_US">Untitled</name>
  </names>
@@ -53,76 +53,76 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
-  <dialogContent typeVersion="1.0" topicName="TableChoice">
+  <dialogContent topicName="TableChoice" typeVersion="1.0">
    <topic language="de_DE" path="TableChoice/TableChoice_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="YesNoDialoge">
+  <dialogContent topicName="YesNoDialoge" typeVersion="1.0">
    <topic language="de_DE" path="YesNoDialoge/YesNoDialoge_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="GetrankBestellung">
+  <dialogContent topicName="GetrankBestellung" typeVersion="1.0">
    <topic language="de_DE" path="GetrankBestellung/GetrankBestellung_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="GetName">
+  <dialogContent topicName="GetName" typeVersion="1.0">
    <topic language="de_DE" path="Personenerkennung/Robotic_Project/GetName/GetName_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="WantSecondDrinkDialogue">
+  <dialogContent topicName="WantSecondDrinkDialogue" typeVersion="1.0">
    <topic language="de_DE" path="WantSecondDrinkDialogue/WantSecondDrinkDialogue_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="SecondDrink">
+  <dialogContent topicName="SecondDrink" typeVersion="1.0">
    <topic language="de_DE" path="SecondDrink/SecondDrink_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="Beschwerde">
+  <dialogContent topicName="Beschwerde" typeVersion="1.0">
    <topic language="de_DE" path="Beschwerde/Beschwerde_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="BeschwerdeItself">
+  <dialogContent topicName="BeschwerdeItself" typeVersion="1.0">
    <topic language="de_DE" path="BeschwerdeItself/BeschwerdeItself_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="AreYouFerdinand">
+  <dialogContent topicName="AreYouFerdinand" typeVersion="1.0">
    <topic language="de_DE" path="AreYouFerdinand/AreYouFerdinand_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
    <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top"/>
    <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="TableDialoge">
+  <dialogContent topicName="TableDialoge" typeVersion="1.0">
    <topic language="de_DE" path="GoTableRound/TableDialoge/TableDialoge_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="NowOrReserveDialoge">
+  <dialogContent topicName="NowOrReserveDialoge" typeVersion="1.0">
    <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="CallRoboter_Dialoge">
+  <dialogContent topicName="CallRoboter_Dialoge" typeVersion="1.0">
    <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
    <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top"/>
    <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="BeginningConversation">
+  <dialogContent topicName="BeginningConversation" typeVersion="1.0">
    <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_ged.top"/>
    <topic language="en_US" path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_enu.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="NowOrReserveDialoge">
+  <dialogContent topicName="NowOrReserveDialoge" typeVersion="1.0">
    <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="CallRoboter_Dialoge">
+  <dialogContent topicName="CallRoboter_Dialoge" typeVersion="1.0">
    <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
    <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top"/>
    <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="BeginningConversation">
+  <dialogContent topicName="BeginningConversation" typeVersion="1.0">
    <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_ged.top"/>
    <topic language="en_US" path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_enu.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="OrderDialoge">
+  <dialogContent topicName="OrderDialoge" typeVersion="1.0">
    <topic language="de_DE" path="Bestellung/Bestellung/OrderDialoge/OrderDialoge_ged.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
    <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top"/>
    <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="SpeiseBestellung">
+  <dialogContent topicName="SpeiseBestellung" typeVersion="1.0">
    <topic language="de_DE" path="SpeiseBestellung/SpeiseBestellung_ged.top"/>
   </dialogContent>
  </contents>
