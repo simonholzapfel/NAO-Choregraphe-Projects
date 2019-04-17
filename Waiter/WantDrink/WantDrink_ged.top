@@ -2,17 +2,17 @@ topic: ~WantDrink()
 language: ged
 
 # Defining extra concepts out of words or group of words
-concept:(positive) [Ja Bitte Natürlich "Sehr gern" gern gerne "Ja bitte"]
+concept:(positive) [Ja "Bitte gerne" Natürlich "Sehr gern" gern gerne "Ja bitte"]
 
-concept:(negative) [Nein "Nein danke" danke "Kein Problem"]
+concept:(negative) [Nein "Nein danke"]
 
-concept:(ask) ^rand["Möchten Sie was Drinken?" "Darf es was zum Drinken sein?"]
+concept:(ask) ^rand["Möchten Sie was zu Trinken?" "Darf es was zum Drinken sein?"]
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1
-u: (e:onStart) Darf es was zum Drinken sein.
+u: (e:onStart) ~ask
 
 # Replying to speech
 #u:(~hello) ~hello
-u:(~positive) Sie haben zugestimmt $Yes=1
-u:(~negative) Sie haben verneint $No=1
+u:(~positive) Okay. $Yes=1
+u:(~negative) Okay, dann nicht. $No=1

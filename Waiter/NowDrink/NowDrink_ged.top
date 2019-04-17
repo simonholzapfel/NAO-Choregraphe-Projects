@@ -14,5 +14,5 @@ u: (e:onStart) Darf es jetzt etwas zum Drinken sein.
 
 # Replying to speech
 #u:(~hello) ~hello
-u:(~positive) Sie haben zugestimmt $Yes=1
-u:(~negative) Sie haben verneint $No=1
+u:(~positive) Ok. $Yes=1
+u:(~negative) Ok. $No=1

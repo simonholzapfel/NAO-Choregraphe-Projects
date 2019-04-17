@@ -7,8 +7,8 @@ concept:(negativ) [nein danke nicht]
 
 
 # Catching inputs and triggering outputs
-u:(e:onStart) Sie sind in der Lage ein zweites Getränk zu bestellen. Wollen Sie dieses jetzt bestellen.
+u:(e:onStart) Sie können noch ein Getränk bestellen? Wollen Sie das jetzt?
 
 # Replying to speech
-u:(~positiv) Sie haben zugestimmt. $true=1
-u:(~negativ) Sie haben verneint. $false=1
+u:(~positiv) Okay. $true=1
+u:(~negativ) Okay. $false=1

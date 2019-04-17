@@ -3,7 +3,7 @@ language: ged
 
 # Defining extra concepts out of words or group of words
 
-concept:(names) [Marc Simon Robert Franz Auernig Sabine Emina Manuel]
+concept:(names) [Marc Simon Robert Franz Sabine Emina Manuel Ferdinand]
 
 # Catching inputs and triggering outputs
 u:(e:onStart) Hallo, wie lautet Ihr Name?
