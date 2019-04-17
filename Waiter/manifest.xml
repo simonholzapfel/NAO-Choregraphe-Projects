@@ -123,5 +123,15 @@
   <dialogContent typeVersion="1.0" topicName="SpeiseBestellung">
    <topic path="SpeiseBestellung/SpeiseBestellung_ged.top" language="de_DE"/>
   </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="AskEatOrDrink"/>
+  <dialogContent typeVersion="1.0" topicName="WantDrink">
+   <topic path="WantDrink/WantDrink_ged.top" language="de_DE"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="Eat">
+   <topic path="Eat/Eat_ged.top" language="de_DE"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="NowDrink">
+   <topic path="NowDrink/NowDrink_ged.top" language="de_DE"/>
+  </dialogContent>
  </contents>
 </package>
