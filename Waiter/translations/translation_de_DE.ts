@@ -965,19 +965,17 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself (1)/ReturnPlaceChoice/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Dieser Tisch ist reserviert</source>
             <comment>Text</comment>
-            <translation type="unfinished">Dieser Tisch ist reserviert</translation>
+            <translation type="obsolete">Dieser Tisch ist reserviert</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself (1)/ReturnPlaceChoice/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Es wurde kein Tisch reserviert</source>
             <comment>Text</comment>
-            <translation type="unfinished">Es wurde kein Tisch reserviert</translation>
+            <translation type="obsolete">Es wurde kein Tisch reserviert</translation>
         </message>
     </context>
     <context>
@@ -1149,6 +1147,20 @@
             <source>verlangt nach einer Rechnung. Die Tischnummer lautet</source>
             <comment>Text</comment>
             <translation type="unfinished">verlangt nach einer Rechnung. Die Tischnummer lautet</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself (1)/Verabschiedung/Say</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Wir wünschen Ihnen noch einen angenehmen Tag.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Wir wünschen Ihnen noch einen angenehmen Tag.</translation>
         </message>
     </context>
     <context>
