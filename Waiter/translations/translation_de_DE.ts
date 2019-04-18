@@ -1910,28 +1910,37 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/ReturnPlaceChoice/IsATableAvaible/ThreeIsReserved</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tischnummer zwei ist bereits reserviert.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tischnummer zwei ist bereits reserviert.</translation>
+            <translation type="obsolete">Tischnummer zwei ist bereits reserviert.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Tisch zwei ist bereits reserviert.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Tisch zwei ist bereits reserviert.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/ReturnPlaceChoice/IsATableAvaible/TwoIsReserved</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tischnummer zwei ist bereits reserviert.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tischnummer zwei ist bereits reserviert.</translation>
+            <translation type="obsolete">Tischnummer zwei ist bereits reserviert.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Tisch zwei ist bereits reserviert.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Tisch zwei ist bereits reserviert.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/ReturnPlaceChoice/NoTableAvaible</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Es ist zur Zeit kein Tisch verfügbar</source>
             <comment>Text</comment>
-            <translation type="unfinished">Es ist zur Zeit kein Tisch verfügbar</translation>
+            <translation type="obsolete">Es ist zur Zeit kein Tisch verfügbar</translation>
         </message>
     </context>
     <context>
@@ -1962,37 +1971,45 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/ReturnPlaceChoice/Say (4)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Alle Tische sind nun frei</source>
             <comment>Text</comment>
-            <translation type="unfinished">Alle Tische sind nun frei</translation>
+            <translation type="obsolete">Alle Tische sind nun frei</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/ReturnPlaceChoice/Stammgast</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Sie sind ein Stammgast</source>
             <comment>Text</comment>
-            <translation type="unfinished">Sie sind ein Stammgast</translation>
+            <translation type="obsolete">Sie sind ein Stammgast</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Hallo Ferdinand</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Hallo Ferdinand</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/ReturnPlaceChoice/ZuTischFühren</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich führe sie zu ihrem Tisch. Der Tisch mit der Nummer eins ist für Sie reserviert.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich führe sie zu ihrem Tisch. Der Tisch mit der Nummer eins ist für Sie reserviert.</translation>
+            <translation type="obsolete">Ich führe sie zu ihrem Tisch. Der Tisch mit der Nummer eins ist für Sie reserviert.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich führe dich zu deinem Tisch.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Ich führe dich zu deinem Tisch.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/ReturnPlaceChoice/keinStammgast (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Sie sind kein Stammgast</source>
             <comment>Text</comment>
-            <translation type="unfinished">Sie sind kein Stammgast</translation>
+            <translation type="obsolete">Sie sind kein Stammgast</translation>
         </message>
     </context>
     <context>
