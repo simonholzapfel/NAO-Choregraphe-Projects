@@ -10,7 +10,7 @@ concept:(ask) ^rand["Möchten Sie was zu trinken?" "Darf es was zum Drinken sein
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1
-u: (e: onStrart) Möchten Sie etwas zum Essen haben.
+u: (e:onStart) Möchten Sie etwas zum Essen haben.
 
 # Replying to speech
 #u:(~hello) ~hello
