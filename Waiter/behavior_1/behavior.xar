@@ -31110,8 +31110,6 @@ class MyClass(GeneratedClass):
                                 <Link inputowner="0" indexofinput="5" outputowner="1" indexofoutput="5" />
                                 <Link inputowner="0" indexofinput="6" outputowner="1" indexofoutput="6" />
                                 <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
-                                <Link inputowner="1" indexofinput="3" outputowner="1" indexofoutput="5" />
-                                <Link inputowner="1" indexofinput="3" outputowner="1" indexofoutput="6" />
                               </Diagram>
                             </BehaviorKeyframe>
                           </BehaviorLayer>
