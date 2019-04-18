@@ -1786,10 +1786,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/GetränkBestellungUndTischZumBringen/GiveBestellung/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</translation>
         </message>
     </context>
     <context>
