@@ -11,4 +11,4 @@ u:(e:onStart) Sie können noch ein Getränk bestellen? Wollen Sie das jetzt?
 
 # Replying to speech
 u:(~positiv) Okay. $true=1
-u:(~negativ) Okay. $false=1
+u:(~negativ) Okay. $false=1 

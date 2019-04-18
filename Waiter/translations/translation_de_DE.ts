@@ -2136,21 +2136,37 @@
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/BestellungSpeisen/MenuSentences/Toast mit Omlett</name>
+        <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/BestellungSpeisen/MenuSentences/Kuchen</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/BestellungSpeisen/MenuSentences/Pizza</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/BestellungSpeisen/MenuSentences/Toast mit Omlett</name>
+        <message>
             <source>Ich würde Ihnen den Toast mit Omlett empfehlen, mit regionalen Eiern aus Freilandhaltung.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich würde Ihnen den Toast mit Omlett empfehlen, mit regionalen Eiern aus Freilandhaltung.</translation>
+            <translation type="obsolete">Ich würde Ihnen den Toast mit Omlett empfehlen, mit regionalen Eiern aus Freilandhaltung.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/BestellungSpeisen/MenuSentences/Wiener Schnitzel</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen einen Klassiker empfehlen, Wiener Schnitzel mit Pommes. Hergestellt aus frischem, regionalem Rindfleisch, Freilandhun Eiern und Kartoffeln.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen einen Klassiker empfehlen, Wiener Schnitzel mit Pommes. Hergestellt aus frischem, regionalem Rindfleisch, Freilandhun Eiern und Kartoffeln.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen einen Klassiker empfehlen, Wiener Schnitzel mit Pommes. Hergestellt aus frischem, regionalem Rindfleisch, Freilandhun Eiern und Kartoffeln.</translation>
         </message>
     </context>
     <context>
@@ -2165,10 +2181,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/GiveBestellung (2)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
         </message>
     </context>
     <context>
