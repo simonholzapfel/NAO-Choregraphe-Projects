@@ -1426,7 +1426,7 @@ class MyClass(GeneratedClass):
               <Timeline enable="0">
                 <BehaviorLayer name="behavior_layer1">
                   <BehaviorKeyframe name="keyframe1" index="1">
-                    <Diagram scale="84.0896">
+                    <Diagram scale="59.4604">
                       <Box name="NameEinspeichern" id="5" localization="8" tooltip="" x="1629" y="1122">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
@@ -28097,7 +28097,7 @@ class MyClass(GeneratedClass):
                         <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
                         <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/oneDrinkLeft" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
                       </Box>
-                      <Box name="Comment (1)" id="70" localization="8" tooltip="To comment your behavior. Enter the text here and move the box where you like&#x0A;to add the comment.&#x0A;&#x0A;Note: This box is not functional and has no effect on the behavior." plugin="textedit_plugin" x="3748" y="1450">
+                      <Box name="Comment (1)" id="70" localization="8" tooltip="To comment your behavior. Enter the text here and move the box where you like&#x0A;to add the comment.&#x0A;&#x0A;Note: This box is not functional and has no effect on the behavior." plugin="textedit_plugin" x="4647" y="1797">
                         <bitmap>media/images/box/box-script.png</bitmap>
                         <script language="4">
                           <content>
@@ -28117,7 +28117,7 @@ class MyClass(GeneratedClass):
                         </pluginContent>
                         <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
                       </Box>
-                      <Box name="GoFromChairToBar (2)" id="71" localization="8" tooltip="" x="3942" y="1319">
+                      <Box name="GoFromChairToBar (2)" id="71" localization="8" tooltip="" x="4841" y="1666">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
                           <content>
@@ -29068,7 +29068,7 @@ class MyClass(GeneratedClass):
                           </BehaviorLayer>
                         </Timeline>
                       </Box>
-                      <Box name="AusgabeGetränke (1)" id="72" localization="8" tooltip="" x="4075" y="1314">
+                      <Box name="AusgabeGetränke (1)" id="72" localization="8" tooltip="" x="4974" y="1661">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
                           <content>
@@ -29501,7 +29501,7 @@ class MyClass(GeneratedClass):
                           </BehaviorLayer>
                         </Timeline>
                       </Box>
-                      <Box name="WaitForOrder (2)" id="73" localization="8" tooltip="" x="4234" y="1296">
+                      <Box name="WaitForOrder (2)" id="73" localization="8" tooltip="" x="5133" y="1643">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
                           <content>
@@ -29874,7 +29874,7 @@ class MyClass(GeneratedClass):
                           </BehaviorLayer>
                         </Timeline>
                       </Box>
-                      <Box name="GoFromBarToChair (2)" id="74" localization="8" tooltip="" x="4378" y="1320">
+                      <Box name="GoFromBarToChair (2)" id="74" localization="8" tooltip="" x="5277" y="1667">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
                           <content>
@@ -30825,7 +30825,7 @@ class MyClass(GeneratedClass):
                           </BehaviorLayer>
                         </Timeline>
                       </Box>
-                      <Box name="GiveBestellung (1)" id="75" localization="8" tooltip="" x="4554" y="1324">
+                      <Box name="GiveBestellung (1)" id="75" localization="8" tooltip="" x="5453" y="1671">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
                           <content>
@@ -31075,7 +31075,7 @@ class MyClass(GeneratedClass):
                           </BehaviorLayer>
                         </Timeline>
                       </Box>
-                      <Box name="WantSecondDrink" id="76" localization="8" tooltip="" x="3630" y="1511">
+                      <Box name="WantSecondDrink" id="76" localization="8" tooltip="" x="4529" y="1858">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
                           <content>
@@ -31115,7 +31115,7 @@ class MyClass(GeneratedClass):
                           </BehaviorLayer>
                         </Timeline>
                       </Box>
-                      <Box name="SecondDrink" id="77" localization="8" tooltip="" x="3813" y="1276">
+                      <Box name="SecondDrink" id="77" localization="8" tooltip="" x="4657" y="1671">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
                           <content>
@@ -34626,7 +34626,7 @@ class MyClass(GeneratedClass):
                         </Parameter>
                         <Parameter name="Value to compare" inherits_from_parent="0" content_type="3" value="true" default_value="0" custom_choice="0" tooltip="This is the value which is compared to the input value." id="6" />
                       </Box>
-                      <Box name="WantNowDrink" id="88" localization="8" tooltip="Fragt ein zweites mal ob der Gast etwas zum Drinken haben möchte&#x0A;" x="3851" y="1079">
+                      <Box name="WantNowDrink" id="88" localization="8" tooltip="Fragt ein zweites mal ob der Gast etwas zum Drinken haben möchte&#x0A;" x="4600" y="877">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
                           <content>
@@ -34746,7 +34746,7 @@ class MyClass(GeneratedClass):
                           </BehaviorLayer>
                         </Timeline>
                       </Box>
-                      <Box name="Get Data (6)" id="89" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="3523" y="1136">
+                      <Box name="Get Data (6)" id="89" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="4272" y="934">
                         <bitmap>media/images/box/sensors/STM.png</bitmap>
                         <script language="4">
                           <content>
@@ -34777,7 +34777,7 @@ class MyClass(GeneratedClass):
                         <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
                         <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/WantDrink" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
                       </Box>
-                      <Box name="If (4)" id="90" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="3655" y="1073">
+                      <Box name="If (4)" id="90" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="4404" y="871">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
                           <content>
@@ -46770,7 +46770,7 @@ class MyClass(GeneratedClass):
                           </BehaviorLayer>
                         </Timeline>
                       </Box>
-                      <Box name="If (5)" id="12" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="4397" y="1202">
+                      <Box name="If (5)" id="12" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="5071" y="1456">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
                           <content>
@@ -46831,7 +46831,7 @@ class MyClass(GeneratedClass):
                         </Parameter>
                         <Parameter name="Value to compare" inherits_from_parent="0" content_type="3" value="false" default_value="0" custom_choice="0" tooltip="This is the value which is compared to the input value." id="6" />
                       </Box>
-                      <Box name="Get Data (7)" id="28" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="4240" y="1151">
+                      <Box name="Get Data (7)" id="28" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="4914" y="1405">
                         <bitmap>media/images/box/sensors/STM.png</bitmap>
                         <script language="4">
                           <content>
@@ -46936,7 +46936,6 @@ class MyClass(GeneratedClass):
                       <Link inputowner="46" indexofinput="2" outputowner="12" indexofoutput="4" />
                       <Link inputowner="8" indexofinput="2" outputowner="82" indexofoutput="4" />
                       <Link inputowner="8" indexofinput="3" outputowner="82" indexofoutput="4" />
-                      <Link inputowner="28" indexofinput="2" outputowner="88" indexofoutput="4" />
                     </Diagram>
                   </BehaviorKeyframe>
                 </BehaviorLayer>
