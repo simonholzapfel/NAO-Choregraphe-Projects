@@ -1590,10 +1590,24 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/AusgabeGetränke (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>möchte folgendes Bestellen</source>
             <comment>Text</comment>
-            <translation type="unfinished">möchte folgendes Bestellen</translation>
+            <translation type="obsolete">möchte folgendes Bestellen</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>hat folgendes bestellt</source>
+            <comment>Text</comment>
+            <translation type="unfinished">hat folgendes bestellt</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself/AusgabeGetränke (1)/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Tisch</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Tisch</translation>
         </message>
     </context>
     <context>
@@ -1875,10 +1889,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/GiveBill/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hier ist Ihre Rechnung, bitte sehr.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Hier ist Ihre Rechnung, bitte sehr.</translation>
+            <translation type="obsolete">Hier ist Ihre Rechnung, bitte sehr.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Hier haben Sie Ihre Rechnung</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Hier haben Sie Ihre Rechnung</translation>
         </message>
     </context>
     <context>
@@ -2051,10 +2070,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ihr Betrag zu bezahlen lautet</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ihr Betrag zu bezahlen lautet</translation>
+            <translation type="obsolete">Ihr Betrag zu bezahlen lautet</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Der zu bezahlende Betrag lautet</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Der zu bezahlende Betrag lautet</translation>
         </message>
     </context>
     <context>
@@ -2204,10 +2228,27 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/TellBill/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>verlangt nach einer Rechnung. Die Tischnummer lautet</source>
             <comment>Text</comment>
-            <translation type="unfinished">verlangt nach einer Rechnung. Die Tischnummer lautet</translation>
+            <translation type="obsolete">verlangt nach einer Rechnung. Die Tischnummer lautet</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself/TellBill/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>möchte die Rechnung</source>
+            <comment>Text</comment>
+            <translation type="unfinished">möchte die Rechnung</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself/TellBill/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Tisch</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Tisch</translation>
         </message>
     </context>
     <context>
@@ -2221,10 +2262,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/Verabschiedung/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Wir wünschen Ihnen noch einen angenehmen Tag.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Wir wünschen Ihnen noch einen angenehmen Tag.</translation>
+            <translation type="obsolete">Wir wünschen Ihnen noch einen angenehmen Tag.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Wir wünschen Ihnen noch einen noch einen angenehmen Tag.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Wir wünschen Ihnen noch einen noch einen angenehmen Tag.</translation>
         </message>
     </context>
     <context>
