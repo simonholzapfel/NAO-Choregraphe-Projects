@@ -40985,14 +40985,69 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="1" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" />
                                             <Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently delaying at least one signal and cancelled, output will be stimulated." id="6" />
                                           </Box>
+                                          <Box name="Text Edit" id="2" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="85" y="240">
+                                            <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
+                                            <script language="4">
+                                              <content>
+                                                <![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("true")]]>
+                                              </content>
+                                            </script>
+                                            <pluginContent>
+                                              <text>
+                                                <![CDATA[true]]>
+                                              </text>
+                                            </pluginContent>
+                                            <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
+                                            <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
+                                            <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
+                                          </Box>
+                                          <Box name="Insert Data" id="7" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key." x="471" y="301">
+                                            <bitmap>media/images/box/sensors/STM.png</bitmap>
+                                            <script language="4">
+                                              <content>
+                                                <![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self)
+        pass
+
+    def onLoad(self):
+        self.memory = self.session().service("ALMemory")
+
+    def onUnload(self):
+        self.memory = None
+
+    def onInput_onStart(self, p):
+        self.memory.insertData(self.getParameter("key"), p)
+        self.onStopped(p)
+
+    def onInput_onStop(self):
+        self.onUnload() #~ it is recommended to call onUnload of this box in a onStop method, as the code written in onUnload is used to stop the box as well
+        pass]]>
+                                              </content>
+                                            </script>
+                                            <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+                                            <Input name="onStart" type="0" type_size="1" nature="2" inner="0" tooltip="Receives the value to be inserted in ALMemory." id="2" />
+                                            <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+                                            <Output name="onStopped" type="0" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. It contains the inserted value in ALMemory." id="4" />
+                                            <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
+                                            <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/MyData" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
+                                          </Box>
                                           <Link inputowner="3" indexofinput="2" outputowner="0" indexofoutput="2" />
                                           <Link inputowner="1" indexofinput="2" outputowner="3" indexofoutput="4" />
                                           <Link inputowner="0" indexofinput="4" outputowner="1" indexofoutput="4" />
                                           <Link inputowner="4" indexofinput="2" outputowner="14" indexofoutput="4" />
                                           <Link inputowner="6" indexofinput="2" outputowner="4" indexofoutput="4" />
                                           <Link inputowner="5" indexofinput="2" outputowner="6" indexofoutput="4" />
-                                          <Link inputowner="14" indexofinput="2" outputowner="1" indexofoutput="3" />
                                           <Link inputowner="0" indexofinput="4" outputowner="5" indexofoutput="4" />
+                                          <Link inputowner="2" indexofinput="2" outputowner="1" indexofoutput="3" />
+                                          <Link inputowner="14" indexofinput="2" outputowner="7" indexofoutput="4" />
+                                          <Link inputowner="7" indexofinput="2" outputowner="2" indexofoutput="3" />
                                         </Diagram>
                                       </BehaviorKeyframe>
                                     </BehaviorLayer>
@@ -46169,14 +46224,69 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="1" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" />
                                             <Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently delaying at least one signal and cancelled, output will be stimulated." id="6" />
                                           </Box>
+                                          <Box name="Text Edit" id="2" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="0" y="644">
+                                            <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
+                                            <script language="4">
+                                              <content>
+                                                <![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("true")]]>
+                                              </content>
+                                            </script>
+                                            <pluginContent>
+                                              <text>
+                                                <![CDATA[true]]>
+                                              </text>
+                                            </pluginContent>
+                                            <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
+                                            <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
+                                            <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
+                                          </Box>
+                                          <Box name="Insert Data" id="7" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key." x="383" y="705">
+                                            <bitmap>media/images/box/sensors/STM.png</bitmap>
+                                            <script language="4">
+                                              <content>
+                                                <![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self)
+        pass
+
+    def onLoad(self):
+        self.memory = self.session().service("ALMemory")
+
+    def onUnload(self):
+        self.memory = None
+
+    def onInput_onStart(self, p):
+        self.memory.insertData(self.getParameter("key"), p)
+        self.onStopped(p)
+
+    def onInput_onStop(self):
+        self.onUnload() #~ it is recommended to call onUnload of this box in a onStop method, as the code written in onUnload is used to stop the box as well
+        pass]]>
+                                              </content>
+                                            </script>
+                                            <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+                                            <Input name="onStart" type="0" type_size="1" nature="2" inner="0" tooltip="Receives the value to be inserted in ALMemory." id="2" />
+                                            <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+                                            <Output name="onStopped" type="0" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. It contains the inserted value in ALMemory." id="4" />
+                                            <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
+                                            <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/MyData" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
+                                          </Box>
                                           <Link inputowner="1" indexofinput="2" outputowner="3" indexofoutput="4" />
                                           <Link inputowner="4" indexofinput="2" outputowner="14" indexofoutput="4" />
                                           <Link inputowner="6" indexofinput="2" outputowner="4" indexofoutput="4" />
                                           <Link inputowner="5" indexofinput="2" outputowner="6" indexofoutput="4" />
-                                          <Link inputowner="14" indexofinput="2" outputowner="1" indexofoutput="3" />
                                           <Link inputowner="3" indexofinput="2" outputowner="0" indexofoutput="2" />
                                           <Link inputowner="0" indexofinput="4" outputowner="5" indexofoutput="4" />
                                           <Link inputowner="0" indexofinput="4" outputowner="1" indexofoutput="4" />
+                                          <Link inputowner="7" indexofinput="2" outputowner="2" indexofoutput="3" />
+                                          <Link inputowner="2" indexofinput="2" outputowner="1" indexofoutput="3" />
+                                          <Link inputowner="14" indexofinput="2" outputowner="7" indexofoutput="4" />
                                         </Diagram>
                                       </BehaviorKeyframe>
                                     </BehaviorLayer>
