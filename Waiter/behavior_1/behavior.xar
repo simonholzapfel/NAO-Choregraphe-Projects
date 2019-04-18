@@ -40795,7 +40795,7 @@ class MyClass(GeneratedClass):
                                             <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                             <Output name="onStopped" type="0" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. It contains the inserted value in ALMemory." id="4" />
                                             <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
-                                            <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/MyData" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
+                                            <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/HasTab" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
                                           </Box>
                                           <Link inputowner="3" indexofinput="2" outputowner="0" indexofoutput="2" />
                                           <Link inputowner="1" indexofinput="2" outputowner="3" indexofoutput="4" />
@@ -46268,7 +46268,7 @@ class MyClass(GeneratedClass):
                                             <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                             <Output name="onStopped" type="0" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. It contains the inserted value in ALMemory." id="4" />
                                             <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
-                                            <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/MyData" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
+                                            <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/HasTab" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
                                           </Box>
                                           <Link inputowner="1" indexofinput="2" outputowner="3" indexofoutput="4" />
                                           <Link inputowner="4" indexofinput="2" outputowner="14" indexofoutput="4" />
