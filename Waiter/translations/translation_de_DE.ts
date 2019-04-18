@@ -2141,10 +2141,46 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/TellOrder/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>möchte folgendes Bestellen</source>
             <comment>Text</comment>
-            <translation type="unfinished">möchte folgendes Bestellen</translation>
+            <translation type="obsolete">möchte folgendes Bestellen</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/TellOrder/Say (1)</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>hat</source>
+            <comment>Text</comment>
+            <translation type="unfinished">hat</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/TellOrder/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Tisch</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Tisch</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/TellOrder/Say (3)</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>bestellt</source>
+            <comment>Text</comment>
+            <translation type="unfinished">bestellt</translation>
         </message>
     </context>
     <context>
