@@ -34416,7 +34416,7 @@ class MyClass(GeneratedClass):
                                   <Resource name="Legs" type="Lock" timeout="0" />
                                   <Resource name="Audio" type="Lock" timeout="0" />
                                 </Box>
-                                <Box name="Insert Data" id="2" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key." x="614" y="131">
+                                <Box name="Insert Data" id="2" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key." x="411" y="329">
                                   <bitmap>media/images/box/sensors/STM.png</bitmap>
                                   <script language="4">
                                     <content>
@@ -34447,7 +34447,7 @@ class MyClass(GeneratedClass):
                                   <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
                                   <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/WantEat" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
                                 </Box>
-                                <Box name="Text Edit" id="3" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="229" y="86">
+                                <Box name="Text Edit" id="3" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="26" y="284">
                                   <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
                                   <script language="4">
                                     <content>
@@ -34469,7 +34469,7 @@ class MyClass(GeneratedClass):
                                   <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
                                   <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
                                 </Box>
-                                <Box name="Text Edit (1)" id="4" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="231" y="208">
+                                <Box name="Text Edit (1)" id="4" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="28" y="406">
                                   <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
                                   <script language="4">
                                     <content>
@@ -34491,7 +34491,7 @@ class MyClass(GeneratedClass):
                                   <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
                                   <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
                                 </Box>
-                                <Box name="Insert Data (1)" id="5" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key." x="532" y="0">
+                                <Box name="Insert Data (1)" id="5" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key." x="329" y="198">
                                   <bitmap>media/images/box/sensors/STM.png</bitmap>
                                   <script language="4">
                                     <content>
@@ -34522,108 +34522,13 @@ class MyClass(GeneratedClass):
                                   <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
                                   <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/HasEat" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
                                 </Box>
-                                <Box name="Get Data" id="28" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="88" y="37">
-                                  <bitmap>media/images/box/sensors/STM.png</bitmap>
-                                  <script language="4">
-                                    <content>
-                                      <![CDATA[class MyClass(GeneratedClass):
-    def __init__(self):
-        GeneratedClass.__init__(self)
-        pass
-
-    def onLoad(self):
-        self.memory = self.session().service("ALMemory")
-
-    def onUnload(self):
-        self.memory = None
-
-    def onInput_onStart(self):
-        result = self.memory.getData(self.getParameter("key"))
-        self.onStopped(result)
-
-    def onInput_onStop(self):
-        self.onUnload() #~ it is recommended to call onUnload of this box in a onStop method, as the code written in onUnload is used to stop the box as well
-        pass]]>
-                                    </content>
-                                  </script>
-                                  <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
-                                  <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
-                                  <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
-                                  <Output name="onStopped" type="0" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. It contains the retrieved value from ALMemory." id="4" />
-                                  <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
-                                  <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/HasEat" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
-                                </Box>
-                                <Box name="If" id="6" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="265" y="0">
-                                  <bitmap>media/images/box/box-diagram.png</bitmap>
-                                  <script language="4">
-                                    <content>
-                                      <![CDATA[class MyClass(GeneratedClass):
-    def __init__(self):
-        GeneratedClass.__init__(self, False)
-
-    def onLoad(self):
-        #~ puts code for box initialization here
-        pass
-
-    def onUnload(self):
-        #~ puts code for box cleanup here
-        pass
-
-    def onInput_onData(self, p):
-        param = self.getParameter("Value to compare")
-        try:
-            p = float(p)
-            param = float(param)
-        except:
-            p = str(p)
-            param = str(param)
-        operator = self.getParameter("Condition operator")
-        if( operator == "<" ):
-            self.outputTrueOrFalse( p < param )
-        elif( operator == "< or =" ):
-            self.outputTrueOrFalse( p <= param )
-        elif( operator == "=" ):
-            self.outputTrueOrFalse( p == param )
-        elif( operator == "> or =" ):
-            self.outputTrueOrFalse( p >= param )
-        elif( operator == ">" ):
-            self.outputTrueOrFalse( p > param )
-        elif( operator == "≠" ):
-            self.outputTrueOrFalse( p != param )
-        else:
-            raise Exception( "Operator not known: " + str(operator) )
-
-    def outputTrueOrFalse(self, condition):
-        if( condition ):
-            self.output_then()
-        else:
-            self.output_else()]]>
-                                    </content>
-                                  </script>
-                                  <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
-                                  <Input name="onData" type="0" type_size="1" nature="1" inner="0" tooltip="The data to test." id="2" />
-                                  <Output name="output_then" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent if the condition is true." id="3" />
-                                  <Output name="output_else" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent if the condition is false." id="4" />
-                                  <Parameter name="Condition operator" inherits_from_parent="0" content_type="3" value="=" default_value="≠" custom_choice="0" tooltip='Choose the condition operator.&#x0A;&#x0A;For example:&#x0A;If you choose &quot;&gt; or =&quot;, the condition will be: is the input is higher or equal&#x0A;than the parameter?' id="5">
-                                    <Choice value="&lt;" />
-                                    <Choice value="&lt; or =" />
-                                    <Choice value="=" />
-                                    <Choice value="&gt; or =" />
-                                    <Choice value="&gt;" />
-                                    <Choice value="≠" />
-                                  </Parameter>
-                                  <Parameter name="Value to compare" inherits_from_parent="0" content_type="3" value="false" default_value="0" custom_choice="0" tooltip="This is the value which is compared to the input value." id="6" />
-                                </Box>
                                 <Link inputowner="2" indexofinput="2" outputowner="3" indexofoutput="3" />
                                 <Link inputowner="2" indexofinput="2" outputowner="4" indexofoutput="3" />
+                                <Link inputowner="5" indexofinput="2" outputowner="3" indexofoutput="3" />
                                 <Link inputowner="3" indexofinput="2" outputowner="1" indexofoutput="5" />
                                 <Link inputowner="4" indexofinput="2" outputowner="1" indexofoutput="6" />
                                 <Link inputowner="0" indexofinput="4" outputowner="2" indexofoutput="4" />
-                                <Link inputowner="5" indexofinput="2" outputowner="3" indexofoutput="3" />
-                                <Link inputowner="28" indexofinput="2" outputowner="0" indexofoutput="2" />
-                                <Link inputowner="1" indexofinput="2" outputowner="6" indexofoutput="3" />
-                                <Link inputowner="6" indexofinput="2" outputowner="28" indexofoutput="4" />
-                                <Link inputowner="0" indexofinput="4" outputowner="6" indexofoutput="4" />
+                                <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
                               </Diagram>
                             </BehaviorKeyframe>
                           </BehaviorLayer>
@@ -47003,7 +46908,6 @@ class MyClass(GeneratedClass):
                       <Link inputowner="81" indexofinput="2" outputowner="79" indexofoutput="4" />
                       <Link inputowner="83" indexofinput="2" outputowner="95" indexofoutput="4" />
                       <Link inputowner="87" indexofinput="2" outputowner="86" indexofoutput="4" />
-                      <Link inputowner="86" indexofinput="2" outputowner="88" indexofoutput="4" />
                       <Link inputowner="90" indexofinput="2" outputowner="89" indexofoutput="4" />
                       <Link inputowner="88" indexofinput="2" outputowner="90" indexofoutput="3" />
                       <Link inputowner="76" indexofinput="2" outputowner="68" indexofoutput="3" />
@@ -47032,6 +46936,7 @@ class MyClass(GeneratedClass):
                       <Link inputowner="46" indexofinput="2" outputowner="12" indexofoutput="4" />
                       <Link inputowner="8" indexofinput="2" outputowner="82" indexofoutput="4" />
                       <Link inputowner="8" indexofinput="3" outputowner="82" indexofoutput="4" />
+                      <Link inputowner="28" indexofinput="2" outputowner="88" indexofoutput="4" />
                     </Diagram>
                   </BehaviorKeyframe>
                 </BehaviorLayer>
