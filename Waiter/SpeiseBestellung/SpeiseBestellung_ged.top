@@ -6,7 +6,7 @@ language: ged
 
 # Catching inputs and triggering outputs
 # Defining extra concepts out of words or group of words
-concept:(dishes) ["Kabelsalat" "Schnitzel mit Pommes" "Toast mit Omlett"]
+concept:(dishes) ["Kabelsalat" "Pizza" "Kuchen"]
 concept:(positiv) [ja "ja das habe ich" "ja hab ich"]
 concept:(negativ) [nein "noch nicht" "nein, noch nicht"]
 
