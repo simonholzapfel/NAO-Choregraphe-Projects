@@ -44097,7 +44097,7 @@ class MyClass(GeneratedClass):
 
 	def onInput_onStart(self, p):
 		p = self.typeConversion(p)
-		if(p == self.typeConversion("Schnitzel mit Pommes")):
+		if(p == self.typeConversion("Pizza")):
 			self.output_1(p)
 		elif(p == self.typeConversion("Kabelsalat")):
 			self.output_2(p)
@@ -44125,7 +44125,7 @@ class MyClass(GeneratedClass):
                                                       </script>
                                                       <pluginContent>
                                                         <keywords>
-                                                          <keyword>&quot;Schnitzel mit Pommes&quot;</keyword>
+                                                          <keyword>&quot;Pizza&quot;</keyword>
                                                           <keyword>&quot;Kabelsalat&quot;</keyword>
                                                           <keyword>&quot;Kuchen&quot;</keyword>
                                                           <keyword>&quot;Limonade&quot;</keyword>
@@ -44761,7 +44761,7 @@ class MyClass(GeneratedClass):
                                     </BehaviorLayer>
                                   </Timeline>
                                 </Box>
-                                <Box name="FromRestaurantToChair (1)" id="15" localization="8" tooltip="" x="695" y="524">
+                                <Box name="FromRestaurantToChair (1)" id="15" localization="8" tooltip="" x="710" y="636">
                                   <bitmap>media/images/box/box-diagram.png</bitmap>
                                   <script language="4">
                                     <content>
@@ -45712,7 +45712,7 @@ class MyClass(GeneratedClass):
                                     </BehaviorLayer>
                                   </Timeline>
                                 </Box>
-                                <Box name="GiveBestellung (2)" id="91" localization="8" tooltip="" x="970" y="582">
+                                <Box name="GiveBestellung (2)" id="91" localization="8" tooltip="" x="985" y="694">
                                   <bitmap>media/images/box/box-diagram.png</bitmap>
                                   <script language="4">
                                     <content>
