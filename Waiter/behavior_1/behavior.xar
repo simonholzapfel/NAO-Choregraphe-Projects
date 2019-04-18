@@ -40640,7 +40640,7 @@ class MyClass(GeneratedClass):
                                             <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                             <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                             <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
-                                            <Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="60000">
+                                            <Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="63">
                                               <BehaviorLayer name="behavior_layer1">
                                                 <BehaviorKeyframe name="keyframe1" index="1">
                                                   <Diagram />
@@ -40649,51 +40649,39 @@ class MyClass(GeneratedClass):
                                               <ActuatorList model="nao">
                                                 <ActuatorCurve name="" actuator="LElbowRoll" mute="0" unit="0">
                                                   <Key frame="63" value="-46" />
-                                                  <Key frame="60000" value="-46" />
                                                 </ActuatorCurve>
                                                 <ActuatorCurve name="" actuator="LElbowYaw" mute="0" unit="0">
                                                   <Key frame="63" value="-91.1" />
-                                                  <Key frame="60000" value="-91.1" />
                                                 </ActuatorCurve>
                                                 <ActuatorCurve name="" actuator="LHand" mute="0" unit="1">
                                                   <Key frame="63" value="0.31" />
-                                                  <Key frame="60000" value="0.31" />
                                                 </ActuatorCurve>
                                                 <ActuatorCurve name="" actuator="LShoulderPitch" mute="0" unit="0">
                                                   <Key frame="63" value="69.9" />
-                                                  <Key frame="60000" value="69.9" />
                                                 </ActuatorCurve>
                                                 <ActuatorCurve name="" actuator="LShoulderRoll" mute="0" unit="0">
                                                   <Key frame="63" value="-18" />
-                                                  <Key frame="60000" value="-18" />
                                                 </ActuatorCurve>
                                                 <ActuatorCurve name="" actuator="LWristYaw" mute="0" unit="0">
                                                   <Key frame="63" value="-80.7" />
-                                                  <Key frame="60000" value="-80.7" />
                                                 </ActuatorCurve>
                                                 <ActuatorCurve name="" actuator="RElbowRoll" mute="0" unit="0">
                                                   <Key frame="63" value="46" />
-                                                  <Key frame="60000" value="46" />
                                                 </ActuatorCurve>
                                                 <ActuatorCurve name="" actuator="RElbowYaw" mute="0" unit="0">
                                                   <Key frame="63" value="89.6" />
-                                                  <Key frame="60000" value="89.6" />
                                                 </ActuatorCurve>
                                                 <ActuatorCurve name="" actuator="RHand" mute="0" unit="1">
                                                   <Key frame="63" value="0.36" />
-                                                  <Key frame="60000" value="0.36" />
                                                 </ActuatorCurve>
                                                 <ActuatorCurve name="" actuator="RShoulderPitch" mute="0" unit="0">
                                                   <Key frame="63" value="69.3" />
-                                                  <Key frame="60000" value="69.3" />
                                                 </ActuatorCurve>
                                                 <ActuatorCurve name="" actuator="RShoulderRoll" mute="0" unit="0">
                                                   <Key frame="63" value="17.8" />
-                                                  <Key frame="60000" value="17.8" />
                                                 </ActuatorCurve>
                                                 <ActuatorCurve name="" actuator="RWristYaw" mute="0" unit="0">
                                                   <Key frame="63" value="78" />
-                                                  <Key frame="60000" value="78" />
                                                 </ActuatorCurve>
                                                 <ActuatorCurve name="value" actuator="HeadPitch" mute="1" unit="0" />
                                                 <ActuatorCurve name="value" actuator="HeadYaw" mute="1" unit="0" />
