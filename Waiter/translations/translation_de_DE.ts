@@ -1790,10 +1790,29 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/GetränkBestellungUndTischZumBringen/AusgabeGetränke/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>möchte folgendes Bestellen</source>
             <comment>Text</comment>
-            <translation type="unfinished">möchte folgendes Bestellen</translation>
+            <translation type="obsolete">möchte folgendes Bestellen</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>hat folgendes bestellt</source>
+            <comment>Text</comment>
+            <translation type="unfinished">hat folgendes bestellt</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself/GetränkBestellungUndTischZumBringen/AusgabeGetränke/Say (1)</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Tisch</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Tisch</translation>
         </message>
     </context>
     <context>
