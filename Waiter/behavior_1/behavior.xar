@@ -22843,7 +22843,7 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0.2" min="-5" max="10" tooltip="The distance in meters for forward/backward motion. Positive value&#x0A;means forward, negative value means backward." id="6" />
                                             <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="The distance in meters for lateral motion. Positive value means left, negative&#x0A;value means right." id="7" />
                                             <Parameter name="Theta (deg)" inherits_from_parent="0" content_type="2" value="-90" default_value="0" min="-180" max="180" tooltip="The orientation in degrees for final rotation. Positive value means anticlockwise,&#x0A;negative value means clockwise." id="8" />
-                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
+                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                           </Box>
                                           <Box name="Move To (1)" id="2" localization="8" tooltip="Make the robot move to a configured point relative to its current location." x="278" y="71">
@@ -22901,7 +22901,7 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="1" default_value="0.2" min="-5" max="10" tooltip="The distance in meters for forward/backward motion. Positive value&#x0A;means forward, negative value means backward." id="6" />
                                             <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="The distance in meters for lateral motion. Positive value means left, negative&#x0A;value means right." id="7" />
                                             <Parameter name="Theta (deg)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-180" max="180" tooltip="The orientation in degrees for final rotation. Positive value means anticlockwise,&#x0A;negative value means clockwise." id="8" />
-                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
+                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                           </Box>
                                           <Box name="Move To (2)" id="3" localization="8" tooltip="Make the robot move to a configured point relative to its current location." x="460" y="81">
@@ -22959,7 +22959,7 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0.2" min="-5" max="10" tooltip="The distance in meters for forward/backward motion. Positive value&#x0A;means forward, negative value means backward." id="6" />
                                             <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="The distance in meters for lateral motion. Positive value means left, negative&#x0A;value means right." id="7" />
                                             <Parameter name="Theta (deg)" inherits_from_parent="0" content_type="2" value="-90" default_value="0" min="-180" max="180" tooltip="The orientation in degrees for final rotation. Positive value means anticlockwise,&#x0A;negative value means clockwise." id="8" />
-                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
+                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                           </Box>
                                           <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
@@ -23044,7 +23044,7 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0.2" min="-5" max="10" tooltip="The distance in meters for forward/backward motion. Positive value&#x0A;means forward, negative value means backward." id="6" />
                                             <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="The distance in meters for lateral motion. Positive value means left, negative&#x0A;value means right." id="7" />
                                             <Parameter name="Theta (deg)" inherits_from_parent="0" content_type="2" value="90" default_value="0" min="-180" max="180" tooltip="The orientation in degrees for final rotation. Positive value means anticlockwise,&#x0A;negative value means clockwise." id="8" />
-                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
+                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                           </Box>
                                           <Box name="Move To (1)" id="2" localization="8" tooltip="Make the robot move to a configured point relative to its current location." x="254" y="54">
@@ -23102,7 +23102,7 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="3" default_value="0.2" min="-5" max="10" tooltip="The distance in meters for forward/backward motion. Positive value&#x0A;means forward, negative value means backward." id="6" />
                                             <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="The distance in meters for lateral motion. Positive value means left, negative&#x0A;value means right." id="7" />
                                             <Parameter name="Theta (deg)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-180" max="180" tooltip="The orientation in degrees for final rotation. Positive value means anticlockwise,&#x0A;negative value means clockwise." id="8" />
-                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
+                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                           </Box>
                                           <Box name="Move To (2)" id="3" localization="8" tooltip="Make the robot move to a configured point relative to its current location." x="418" y="75">
@@ -23160,7 +23160,7 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0.2" min="-5" max="10" tooltip="The distance in meters for forward/backward motion. Positive value&#x0A;means forward, negative value means backward." id="6" />
                                             <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="The distance in meters for lateral motion. Positive value means left, negative&#x0A;value means right." id="7" />
                                             <Parameter name="Theta (deg)" inherits_from_parent="0" content_type="2" value="90" default_value="0" min="-180" max="180" tooltip="The orientation in degrees for final rotation. Positive value means anticlockwise,&#x0A;negative value means clockwise." id="8" />
-                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
+                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                           </Box>
                                           <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
@@ -23245,7 +23245,7 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0.2" min="-5" max="10" tooltip="The distance in meters for forward/backward motion. Positive value&#x0A;means forward, negative value means backward." id="6" />
                                             <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="The distance in meters for lateral motion. Positive value means left, negative&#x0A;value means right." id="7" />
                                             <Parameter name="Theta (deg)" inherits_from_parent="0" content_type="2" value="-90" default_value="0" min="-180" max="180" tooltip="The orientation in degrees for final rotation. Positive value means anticlockwise,&#x0A;negative value means clockwise." id="8" />
-                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
+                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                           </Box>
                                           <Box name="Move To (1)" id="2" localization="8" tooltip="Make the robot move to a configured point relative to its current location." x="304" y="43">
@@ -23303,7 +23303,7 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="1" default_value="0.2" min="-5" max="10" tooltip="The distance in meters for forward/backward motion. Positive value&#x0A;means forward, negative value means backward." id="6" />
                                             <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="The distance in meters for lateral motion. Positive value means left, negative&#x0A;value means right." id="7" />
                                             <Parameter name="Theta (deg)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-180" max="180" tooltip="The orientation in degrees for final rotation. Positive value means anticlockwise,&#x0A;negative value means clockwise." id="8" />
-                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
+                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                           </Box>
                                           <Box name="Move To (2)" id="3" localization="8" tooltip="Make the robot move to a configured point relative to its current location." x="439" y="43">
@@ -23361,7 +23361,7 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0.2" min="-5" max="10" tooltip="The distance in meters for forward/backward motion. Positive value&#x0A;means forward, negative value means backward." id="6" />
                                             <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="The distance in meters for lateral motion. Positive value means left, negative&#x0A;value means right." id="7" />
                                             <Parameter name="Theta (deg)" inherits_from_parent="0" content_type="2" value="-90" default_value="0" min="-180" max="180" tooltip="The orientation in degrees for final rotation. Positive value means anticlockwise,&#x0A;negative value means clockwise." id="8" />
-                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
+                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                           </Box>
                                           <Box name="Move To (3)" id="4" localization="8" tooltip="Make the robot move to a configured point relative to its current location." x="120" y="207">
@@ -23419,7 +23419,7 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="2" default_value="0.2" min="-5" max="10" tooltip="The distance in meters for forward/backward motion. Positive value&#x0A;means forward, negative value means backward." id="6" />
                                             <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="The distance in meters for lateral motion. Positive value means left, negative&#x0A;value means right." id="7" />
                                             <Parameter name="Theta (deg)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-180" max="180" tooltip="The orientation in degrees for final rotation. Positive value means anticlockwise,&#x0A;negative value means clockwise." id="8" />
-                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
+                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                           </Box>
                                           <Box name="Move To (4)" id="5" localization="8" tooltip="Make the robot move to a configured point relative to its current location." x="254" y="199">
@@ -23477,7 +23477,7 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0.2" min="-5" max="10" tooltip="The distance in meters for forward/backward motion. Positive value&#x0A;means forward, negative value means backward." id="6" />
                                             <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="The distance in meters for lateral motion. Positive value means left, negative&#x0A;value means right." id="7" />
                                             <Parameter name="Theta (deg)" inherits_from_parent="0" content_type="2" value="-90" default_value="0" min="-180" max="180" tooltip="The orientation in degrees for final rotation. Positive value means anticlockwise,&#x0A;negative value means clockwise." id="8" />
-                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
+                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                           </Box>
                                           <Box name="Move To (5)" id="6" localization="8" tooltip="Make the robot move to a configured point relative to its current location." x="397" y="195">
@@ -23535,7 +23535,7 @@ class MyClass(GeneratedClass):
                                             <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="1" default_value="0.2" min="-5" max="10" tooltip="The distance in meters for forward/backward motion. Positive value&#x0A;means forward, negative value means backward." id="6" />
                                             <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="The distance in meters for lateral motion. Positive value means left, negative&#x0A;value means right." id="7" />
                                             <Parameter name="Theta (deg)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-180" max="180" tooltip="The orientation in degrees for final rotation. Positive value means anticlockwise,&#x0A;negative value means clockwise." id="8" />
-                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
+                                            <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                           </Box>
                                           <Box name="Move To (6)" id="7" localization="8" tooltip="Make the robot move to a configured point relative to its current location." x="175" y="417">
