@@ -2109,6 +2109,15 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Program itself/Say (4)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Euro</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Euro</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/BestellungSpeisen/MenuSentences/Animated Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
