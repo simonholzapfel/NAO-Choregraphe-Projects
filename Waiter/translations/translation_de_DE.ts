@@ -1713,12 +1713,34 @@
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/Program itself/FromChairToEnd/Say</name>
+        <name>behavior_1/behavior.xar:/Program itself/FromChairToEnd/FromChairToRestaurant/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>unbekannt</source>
+            <comment>Text</comment>
+            <translation type="unfinished">unbekannt</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself/FromChairToEnd/GiveBackTablet/Say</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Entnimm mir bitte das Tablett und berühre mich am Kopf wenn du damit fertig bist.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Entnimm mir bitte das Tablett und berühre mich am Kopf wenn du damit fertig bist.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself/FromChairToEnd/Say</name>
+        <message>
             <source>He oida irgendwos passt ned.</source>
             <comment>Text</comment>
-            <translation type="unfinished">He oida irgendwos passt ned.</translation>
+            <translation type="obsolete">He oida irgendwos passt ned.</translation>
         </message>
     </context>
     <context>
