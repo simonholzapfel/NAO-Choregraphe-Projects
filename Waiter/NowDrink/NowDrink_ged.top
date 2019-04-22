@@ -6,11 +6,11 @@ concept:(positive) [Ja Bitte Natürlich "Sehr gern" gern gerne "Ja bitte"]
 
 concept:(negative) [Nein "Nein danke" danke "Kein Problem"]
 
-concept:(ask) ^rand["Möchten Sie was Drinken?" "Darf es was zum Drinken sein?"]
+concept:(ask) ^rand["Möchten Sie was Trinken?" "Darf es was zum Trinken sein?"]
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1
-u: (e:onStart) Darf es jetzt etwas zum Drinken sein.
+u: (e:onStart) Darf es jetzt etwas zu Trinken sein.
 
 # Replying to speech
 #u:(~hello) ~hello

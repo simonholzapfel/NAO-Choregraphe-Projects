@@ -1,0 +1,14 @@
+topic: ~EatOrDrink()
+language: ged
+
+# Defining extra concepts out of words or group of words
+concept:(positiv) [ja gerne natürlich]
+concept:(negativ) [nein danke nicht]
+
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Wollen Sie vor der Speise etwas zu drinken?
+
+# Replying to speech
+u:(~positiv) $Drink=1
+u:(~negativ) $Eat=1

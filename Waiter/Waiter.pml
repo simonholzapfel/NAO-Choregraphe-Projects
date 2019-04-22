@@ -40,6 +40,7 @@
         <Dialog name="WantDrink" src="WantDrink/WantDrink.dlg" />
         <Dialog name="Eat" src="Eat/Eat.dlg" />
         <Dialog name="NowDrink" src="NowDrink/NowDrink.dlg" />
+        <Dialog name="EatOrDrink" src="EatOrDrink/EatOrDrink.dlg" />
     </Dialogs>
     <Resources>
         <File name="Animations" src="Animationen/Animations/Animations.pml" />
@@ -95,6 +96,7 @@
         <Topic name="WantDrink_ged" src="WantDrink/WantDrink_ged.top" topicName="WantDrink" language="de_DE" nuance="ged" />
         <Topic name="Eat_ged" src="Eat/Eat_ged.top" topicName="Eat" language="de_DE" nuance="ged" />
         <Topic name="NowDrink_ged" src="NowDrink/NowDrink_ged.top" topicName="NowDrink" language="de_DE" nuance="ged" />
+        <Topic name="EatOrDrink_ged" src="EatOrDrink/EatOrDrink_ged.top" topicName="EatOrDrink" language="de_DE" nuance="ged" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="de_DE">

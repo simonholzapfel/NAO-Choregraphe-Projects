@@ -6,7 +6,7 @@ language: ged
 concept:(drinks) [Limonade Wasser Kaffee]
 
 # Catching inputs and triggering outputs
-u:(e:onStart) Was darf es sein?
+u:(e:onStart) Was darf ich ihnen als zweites Getränk bringen?
 
 # Replying to speech
 u:(_~drinks) Alles klar, einmal $1 kommt sofort. $drink=$1
