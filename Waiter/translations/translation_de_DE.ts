@@ -713,343 +713,305 @@
     <context>
         <name>behavior_1/behavior.xar:/Order/FirstDrinkOrder (1)/AusgabeGetränke/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>hat folgendes bestellt</source>
             <comment>Text</comment>
-            <translation type="unfinished">hat folgendes bestellt</translation>
+            <translation type="obsolete">hat folgendes bestellt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/FirstDrinkOrder (1)/AusgabeGetränke/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch</translation>
+            <translation type="obsolete">Tisch</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/FirstDrinkOrder (1)/BestellungGetränk/DrinkSentences/sentence</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</source>
             <comment>Text</comment>
-            <translation type="unfinished">Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</translation>
+            <translation type="obsolete">Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/FirstDrinkOrder (1)/GiveBestellung/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/FirstDrinkOrder (1)/WaitForOrder (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
+            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/FirstDrinkOrder/AusgabeGetränke/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>hat folgendes bestellt</source>
             <comment>Text</comment>
-            <translation type="unfinished">hat folgendes bestellt</translation>
+            <translation type="obsolete">hat folgendes bestellt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/FirstDrinkOrder/AusgabeGetränke/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch</translation>
+            <translation type="obsolete">Tisch</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/FirstDrinkOrder/BestellungGetränk/DrinkSentences/sentence</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</source>
             <comment>Text</comment>
-            <translation type="unfinished">Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</translation>
+            <translation type="obsolete">Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/FirstDrinkOrder/GiveBestellung/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/FirstDrinkOrder/WaitForOrder (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
+            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SecondDrinkOrder (2)/AusgabeGetränke (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>hat folgendes bestellt</source>
             <comment>Text</comment>
-            <translation type="unfinished">hat folgendes bestellt</translation>
+            <translation type="obsolete">hat folgendes bestellt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SecondDrinkOrder (2)/AusgabeGetränke (1)/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch</translation>
+            <translation type="obsolete">Tisch</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SecondDrinkOrder (2)/GiveBestellung (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SecondDrinkOrder (2)/WaitForOrder (2)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
+            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SecondDrinkOrder/AusgabeGetränke (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>hat folgendes bestellt</source>
             <comment>Text</comment>
-            <translation type="unfinished">hat folgendes bestellt</translation>
+            <translation type="obsolete">hat folgendes bestellt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SecondDrinkOrder/AusgabeGetränke (1)/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch</translation>
+            <translation type="obsolete">Tisch</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SecondDrinkOrder/GiveBestellung (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SecondDrinkOrder/WaitForOrder (2)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
+            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (1)/BestellungSpeisen/MenuSentences/Animated Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation type="unfinished">Hello</translation>
+            <translation type="obsolete">Hello</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (1)/BestellungSpeisen/MenuSentences/Kabelsalat</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (1)/BestellungSpeisen/MenuSentences/Kuchen</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (1)/BestellungSpeisen/MenuSentences/Pizza</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
+            <translation type="obsolete">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (1)/FromChairToRestaurant/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="unfinished">unbekannt</translation>
+            <translation type="obsolete">unbekannt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (1)/GiveBestellung (2)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (1)/TellOrder/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>hat</source>
             <comment>Text</comment>
-            <translation type="unfinished">hat</translation>
+            <translation type="obsolete">hat</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (1)/TellOrder/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch</translation>
+            <translation type="obsolete">Tisch</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (1)/TellOrder/Say (3)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>bestellt</source>
             <comment>Text</comment>
-            <translation type="unfinished">bestellt</translation>
+            <translation type="obsolete">bestellt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (1)/WaitForOrder/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
+            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (2)/BestellungSpeisen/MenuSentences/Animated Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation type="unfinished">Hello</translation>
+            <translation type="obsolete">Hello</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (2)/BestellungSpeisen/MenuSentences/Kabelsalat</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (2)/BestellungSpeisen/MenuSentences/Kuchen</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (2)/BestellungSpeisen/MenuSentences/Pizza</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
+            <translation type="obsolete">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (2)/FromChairToRestaurant/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="unfinished">unbekannt</translation>
+            <translation type="obsolete">unbekannt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (2)/GiveBestellung (2)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (2)/TellOrder/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>hat</source>
             <comment>Text</comment>
-            <translation type="unfinished">hat</translation>
+            <translation type="obsolete">hat</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (2)/TellOrder/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch</translation>
+            <translation type="obsolete">Tisch</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (2)/TellOrder/Say (3)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>bestellt</source>
             <comment>Text</comment>
-            <translation type="unfinished">bestellt</translation>
+            <translation type="obsolete">bestellt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Order/SpeiseOrder (2)/WaitForOrder/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
+            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>
