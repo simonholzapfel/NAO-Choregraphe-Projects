@@ -12,7 +12,8 @@ concept:(noThanks) [Nein "Nein, das wars"]
 # Replying to speech
 #u:(~hello) ~hello
 
-u: (e:onStart) ~tellMe
-u: (*) Ok, noch etwas?
-u:(~yesPlease) $repeat=1
-u:(~noThanks) Ok. Ich werde das weiterleiten. Wir entschuldigen uns für die unannehmlichkeiten. $end=1
+u:(e:onStart) ~tellMe
+
+u:(*) Ok, noch etwas?
+    u1:(~yesPlease) $repeat=1
+    u1:(~noThanks) Ok. Ich werde das weiterleiten. Wir entschuldigen uns für die unannehmlichkeiten. $end=1

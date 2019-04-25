@@ -136,5 +136,8 @@
   <dialogContent topicName="EatOrDrink" typeVersion="1.0">
    <topic language="de_DE" path="EatOrDrink/EatOrDrink_ged.top"/>
   </dialogContent>
+  <dialogContent topicName="FoodOrder" typeVersion="1.0">
+   <topic language="de_DE" path="FoodOrder/FoodOrder_ged.top"/>
+  </dialogContent>
  </contents>
 </package>
