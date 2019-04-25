@@ -7,8 +7,8 @@ language: ged
 # Catching inputs and triggering outputs
 # Defining extra concepts out of words or group of words
 concept:(dishes) [Kabelsalat Pizza Kuchen]
-concept:(positiv) [ja "ja das habe ich" "ja hab ich"]
-concept:(negativ) [nein "noch nicht" "nein, noch nicht"]
+concept:(positiv) [ja "ja das habe ich" "ja hab ich" gerne bitte]
+concept:(negativ) [nein "noch nicht" "nein, noch nicht" danke]
 
 # Catching inputs and triggering outputs
 u:(e:onStart) Haben Sie sich schon für eine Speise entschieden?
@@ -19,6 +19,6 @@ u:(e:onStart) Haben Sie sich schon für eine Speise entschieden?
 u: (~positiv) Sehr gut, was darf ich Ihnen bringen?
     u1:(_~dishes) Alles klar, $1 kommt sofort. $food=$1
 
-u: (~negativ) Natürlich, ich lass ihnen noch etwas Zeit. $notYet=true
+u: (~negativ) Natürlich sehr gerne. $notYet=true
 
 

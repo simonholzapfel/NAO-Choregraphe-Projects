@@ -3129,6 +3129,24 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/BestellungSpeisen/WaitForReady/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte lassen sie sich bei ihrer Auswahl zeit.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte lassen sie sich bei ihrer Auswahl zeit.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/BestellungSpeisen/WaitForReady/WaitForHeadContact/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte berühren sie mich anschließend am Kopf um fortzufahren.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte berühren sie mich anschließend am Kopf um fortzufahren.</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/FromChairToRestaurant/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
@@ -3216,6 +3234,34 @@
             <source>Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</source>
             <comment>Text</comment>
             <translation type="unfinished">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (2)/BestellungSpeisen/WaitForReady/Say</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte lassen sie sich bei ihrer Auswahl zeit.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte lassen sie sich bei ihrer Auswahl zeit.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (2)/BestellungSpeisen/WaitForReady/WaitForHeadContact/Say</name>
+        <message>
+            <source>Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte berühren sie mich anschließend am Kopf um fortzufahren.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte berühren sie mich anschließend am Kopf um fortzufahren.</translation>
         </message>
     </context>
     <context>
