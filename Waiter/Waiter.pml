@@ -46,6 +46,9 @@
         <Dialog name="EatNowOrReserve" src="EatNowOrReserve/EatNowOrReserve.dlg" />
         <Dialog name="GoodBye" src="GoodBye/GoodBye.dlg" />
         <Dialog name="BringBillDialoge" src="BringBillDialoge/BringBillDialoge.dlg" />
+        <Dialog name="DoYouWantAnythingAtAll_drink" src="DoYouWantAnythingAtAll_drink/DoYouWantAnythingAtAll_drink.dlg" />
+        <Dialog name="DoYouWantAnythingAtAll_food" src="DoYouWantAnythingAtAll_food/DoYouWantAnythingAtAll_food.dlg" />
+        <Dialog name="PleaseLeave" src="PleaseLeave/PleaseLeave.dlg" />
     </Dialogs>
     <Resources>
         <File name="Animations" src="Animationen/Animations/Animations.pml" />
@@ -107,6 +110,9 @@
         <Topic name="EatNowOrReserve_ged" src="EatNowOrReserve/EatNowOrReserve_ged.top" topicName="EatNowOrReserve" language="de_DE" nuance="ged" />
         <Topic name="GoodBye_ged" src="GoodBye/GoodBye_ged.top" topicName="GoodBye" language="de_DE" nuance="ged" />
         <Topic name="BringBillDialoge_ged" src="BringBillDialoge/BringBillDialoge_ged.top" topicName="BringBillDialoge" language="de_DE" nuance="ged" />
+        <Topic name="DoYouWantAnythingAtAll_drink_ged" src="DoYouWantAnythingAtAll_drink/DoYouWantAnythingAtAll_drink_ged.top" topicName="DoYouWantAnythingAtAll_drink" language="de_DE" nuance="ged" />
+        <Topic name="DoYouWantAnythingAtAll_food_ged" src="DoYouWantAnythingAtAll_food/DoYouWantAnythingAtAll_food_ged.top" topicName="DoYouWantAnythingAtAll_food" language="de_DE" nuance="ged" />
+        <Topic name="PleaseLeave_ged" src="PleaseLeave/PleaseLeave_ged.top" topicName="PleaseLeave" language="de_DE" nuance="ged" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="de_DE">
