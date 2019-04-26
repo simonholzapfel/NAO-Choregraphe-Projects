@@ -4,14 +4,10 @@ language: ged
 # Defining extra concepts out of words or group of words
 #concept:(hello) [hello hi hey "good morning" greetings]
 concept:(eatNow) [essen speisen]
-concept:(konjunktiv) [wollen möchten werden bedarfen würden]
-concept: (time) [jetzt sofort unverzüglich gleich]
-concept:(person) [ich wir uns]
-
 concept:(reserve) [reservieren belegen]
 
 # Catching inputs and triggering outputs
-#u:(e:onStart) $onStopped=1
+u:(e:onStart) Wollen Sie einen Tisch reservieren oder sofort essen?
 
 # Replying to speech
 #u:(~hello) ~hello

@@ -13,6 +13,6 @@ concept:(noThanks) [Nein "Nein, das wars" danke]
 #u:(~hello) ~hello
 
 u:(e:onStart) ~tellMe
-    u1:(*) Ok, noch etwas?
+    u1:(*) Ok, wollen sie sonst noch etwas melden? Fortfahren mit Ja oder Nein.
         u2:(~yesPlease) $repeat=1
         u2:(~noThanks) Ok. Ich werde das weiterleiten. Wir entschuldigen uns für die unannehmlichkeiten. $end=1

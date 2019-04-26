@@ -3203,10 +3203,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (2)/BestellungSpeisen/MenuSentences/Animated Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation type="unfinished">Hello</translation>
+            <translation type="obsolete">Hello</translation>
         </message>
     </context>
     <context>
@@ -3611,6 +3610,17 @@
             <source>Der zu bezahlende Betrag lautet</source>
             <comment>Text</comment>
             <translation type="obsolete">Der zu bezahlende Betrag lautet</translation>
+        </message>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich bin nun dazu in der Lage weitere Gäste zu empfangen.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Ich bin nun dazu in der Lage weitere Gäste zu empfangen.</translation>
         </message>
     </context>
     <context>
