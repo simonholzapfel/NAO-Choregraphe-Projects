@@ -2960,10 +2960,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/FirstDrinkOrder (1)/GiveBestellung/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte entnehmen Sie Ihr Getränk. Tippen Sie mir auf den Kopf, wenn Sie fertig sind.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte entnehmen Sie Ihr Getränk. Tippen Sie mir auf den Kopf, wenn Sie fertig sind.</translation>
         </message>
     </context>
     <context>
@@ -3005,10 +3010,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/FirstDrinkOrder/GiveBestellung/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte nimm dein Getränk vom Tablett. Berühren Sie mich am Kopf wenn sie fertig sind.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte nimm dein Getränk vom Tablett. Berühren Sie mich am Kopf wenn sie fertig sind.</translation>
         </message>
     </context>
     <context>
@@ -3041,10 +3051,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SecondDrinkOrder (2)/GiveBestellung (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Nehmen Sie Ihr Getränk vom Tablett. Berühre mich am Kopf, wenn du fertig bist.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Nehmen Sie Ihr Getränk vom Tablett. Berühre mich am Kopf, wenn du fertig bist.</translation>
         </message>
     </context>
     <context>
@@ -3077,10 +3092,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SecondDrinkOrder/GiveBestellung (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte nehmen Sie Ihr Getränk vom Tablett. Berühren Sie mich am Kopf, wenn Sie fertig sind.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte nehmen Sie Ihr Getränk vom Tablett. Berühren Sie mich am Kopf, wenn Sie fertig sind.</translation>
         </message>
     </context>
     <context>
@@ -3154,10 +3174,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/GiveBestellung (2)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte nehmen Sie Ihre Speise vom Tablett. Tippen Sie mir auf den Kopf, wenn Sie fertig sind.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte nehmen Sie Ihre Speise vom Tablett. Tippen Sie mir auf den Kopf, wenn Sie fertig sind.</translation>
         </message>
     </context>
     <context>
@@ -3268,10 +3293,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (2)/GiveBestellung (2)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Bitte entnehmen Sie Ihre Speise vom Tablett. Tippen Sie mir auf den Kopf, wenn Sie fertig sind.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Bitte entnehmen Sie Ihre Speise vom Tablett. Tippen Sie mir auf den Kopf, wenn Sie fertig sind.</translation>
         </message>
     </context>
     <context>
