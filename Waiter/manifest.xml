@@ -139,5 +139,8 @@
   <dialogContent typeVersion="1.0" topicName="FoodOrder">
    <topic path="FoodOrder/FoodOrder_ged.top" language="de_DE"/>
   </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="GiveMeARecommendation">
+   <topic path="GiveMeARecommendation/GiveMeARecommendation_ged.top" language="de_DE"/>
+  </dialogContent>
  </contents>
 </package>

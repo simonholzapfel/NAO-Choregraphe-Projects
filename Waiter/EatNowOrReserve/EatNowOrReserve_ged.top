@@ -1,0 +1,12 @@
+topic: ~EatNowOrReserve()
+language: ged
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(eatNowVar) [essen speisen bleiben sitzen setzen]
+concept:(reserveVar) [reservieren belegen nachher]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Wollen sie jetzt essen, oder einen Tisch reservieren?
+u:(~eatNowVar) Ok, sie wollen also jetzt essen. $eatNow=1
+u:(~reserveVar) Ok, sie wollen also einen Tisch reservieren. $reserve=1

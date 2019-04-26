@@ -4087,10 +4087,15 @@
     <context>
         <name>behavior_1/behavior.xar:/SaveFerdinandFace/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hallo</source>
             <comment>Text</comment>
-            <translation>Hallo</translation>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich konnte ihr Gesicht nicht erkennen.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Ich konnte ihr Gesicht nicht erkennen.</translation>
         </message>
     </context>
     <context>
