@@ -3572,10 +3572,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/ReturnPlaceChoice/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Dieser Tisch ist frei</source>
             <comment>Text</comment>
-            <translation type="unfinished">Dieser Tisch ist frei</translation>
+            <translation type="obsolete">Dieser Tisch ist frei</translation>
         </message>
     </context>
     <context>
@@ -4039,6 +4038,19 @@
             <source>Hallo</source>
             <comment>Text</comment>
             <translation>Hallo</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/SaveFerdinandFace/Say (1)</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+        <message>
+            <source>Bitte stillhalten! Ich scanne gerade dein Gesicht.</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Bitte stillhalten! Ich scanne gerade dein Gesicht.</translation>
         </message>
     </context>
     <context>

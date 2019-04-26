@@ -9,5 +9,5 @@ concept:(negative) [Nein "Nein danke" danke "Kein Problem"]
 u:(e:onStart) Sind sie Ferdinand?
 
 # Replying to speech
-u:(~positive) Alles klar Ferdinand. $Yes=1
+u:(~positive) Alles klar Ferdinand. Bitte stillhalten! Ich scanne nun dein Gesicht. $Yes=1
 u:(~negative) Ich würde gerne Ferdinand sehen. $No=1
