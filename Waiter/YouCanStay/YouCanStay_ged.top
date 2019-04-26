@@ -1,0 +1,12 @@
+topic: ~YouCanStay()
+language: ged
+
+# Defining extra concepts out of words or group of words
+concept:(youCanStay) ["Ok, vielleicht nachher." "Ok, fühl dich wie zuhause."]
+
+# Catching inputs and triggering outputs
+#
+u:(e:onStart) ~youCanStay Ich schau mal weiter. $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello

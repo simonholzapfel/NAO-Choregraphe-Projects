@@ -2016,7 +2016,7 @@ class MyClass(GeneratedClass):
               <Timeline enable="0">
                 <BehaviorLayer name="behavior_layer1">
                   <BehaviorKeyframe name="keyframe1" index="1">
-                    <Diagram scale="59.4604">
+                    <Diagram scale="70.7107">
                       <Box name="ReturnPlaceChoice" id="31" localization="8" tooltip="" x="1640" y="502">
                         <bitmap>media/images/box/box-diagram.png</bitmap>
                         <script language="4">
@@ -13062,6 +13062,7 @@ class MyClass(GeneratedClass):
                                   <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
                                   <Output name="Eat" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
                                   <Output name="Drink" type="1" type_size="1" nature="2" inner="0" tooltip="" id="6" />
+                                  <Output name="Nothing" type="1" type_size="1" nature="2" inner="0" tooltip="" id="7" />
                                   <Timeline enable="0">
                                     <BehaviorLayer name="behavior_layer1">
                                       <BehaviorKeyframe name="keyframe1" index="1">
@@ -13080,6 +13081,7 @@ class MyClass(GeneratedClass):
                                             <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
                                             <Output name="Eat" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
                                             <Output name="Drink" type="1" type_size="1" nature="2" inner="0" tooltip="" id="6" />
+                                            <Output name="Nothing" type="1" type_size="1" nature="2" inner="0" tooltip="" id="7" />
                                             <Resource name="Head" type="Lock" timeout="0" />
                                             <Resource name="Legs" type="Lock" timeout="0" />
                                             <Resource name="Audio" type="Lock" timeout="0" />
@@ -13089,6 +13091,8 @@ class MyClass(GeneratedClass):
                                           <Link inputowner="0" indexofinput="6" outputowner="1" indexofoutput="6" />
                                           <Link inputowner="1" indexofinput="3" outputowner="1" indexofoutput="5" />
                                           <Link inputowner="1" indexofinput="3" outputowner="1" indexofoutput="6" />
+                                          <Link inputowner="0" indexofinput="7" outputowner="1" indexofoutput="7" />
+                                          <Link inputowner="1" indexofinput="3" outputowner="1" indexofoutput="7" />
                                         </Diagram>
                                       </BehaviorKeyframe>
                                     </BehaviorLayer>
@@ -42860,37 +42864,7 @@ class MyClass(GeneratedClass):
                                     </BehaviorLayer>
                                   </Timeline>
                                 </Box>
-                                <Box name="DoYouWantAnythingAtAll_drink" id="1" localization="8" tooltip="" x="638" y="342">
-                                  <dialogFile>../DoYouWantAnythingAtAll_drink/DoYouWantAnythingAtAll_drink.dlg</dialogFile>
-                                  <bitmap>media/images/box/box-dialog.png</bitmap>
-                                  <script language="4">
-                                    <content>
-                                      <![CDATA[]]>
-                                    </content>
-                                  </script>
-                                  <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
-                                  <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
-                                  <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
-                                  <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
-                                  <Output name="IWant" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
-                                  <Output name="IDoNotWant" type="1" type_size="1" nature="2" inner="0" tooltip="" id="6" />
-                                </Box>
-                                <Box name="DoYouWantAnythingAtAll_food" id="2" localization="8" tooltip="" x="634" y="86">
-                                  <dialogFile>../DoYouWantAnythingAtAll_food/DoYouWantAnythingAtAll_food.dlg</dialogFile>
-                                  <bitmap>media/images/box/box-dialog.png</bitmap>
-                                  <script language="4">
-                                    <content>
-                                      <![CDATA[]]>
-                                    </content>
-                                  </script>
-                                  <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
-                                  <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
-                                  <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
-                                  <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
-                                  <Output name="IDoWant" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" />
-                                  <Output name="IDoNotWant" type="1" type_size="1" nature="2" inner="0" tooltip="" id="6" />
-                                </Box>
-                                <Box name="If" id="3" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="1258" y="588">
+                                <Box name="If" id="3" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="924" y="682">
                                   <bitmap>media/images/box/box-diagram.png</bitmap>
                                   <script language="4">
                                     <content>
@@ -42951,7 +42925,7 @@ class MyClass(GeneratedClass):
                                   </Parameter>
                                   <Parameter name="Value to compare" inherits_from_parent="0" content_type="3" value="Ferdinand" default_value="0" custom_choice="0" tooltip="This is the value which is compared to the input value." id="6" />
                                 </Box>
-                                <Box name="Get Data" id="4" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="1014" y="580">
+                                <Box name="Get Data" id="4" localization="8" tooltip="Retrieves from NAOqi&apos;s shared memory the given value at the given key." x="736" y="496">
                                   <bitmap>media/images/box/sensors/STM.png</bitmap>
                                   <script language="4">
                                     <content>
@@ -42982,8 +42956,9 @@ class MyClass(GeneratedClass):
                                   <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
                                   <Parameter name="key" inherits_from_parent="0" content_type="3" value="MyApplication/name" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
                                 </Box>
-                                <Box name="YouCanStay" id="6" localization="8" tooltip="" x="1680" y="764">
-                                  <bitmap>media/images/box/box-diagram.png</bitmap>
+                                <Box name="PleaseLeave" id="7" localization="8" tooltip="" x="3098" y="574">
+                                  <dialogFile>../PleaseLeave/PleaseLeave.dlg</dialogFile>
+                                  <bitmap>media/images/box/box-dialog.png</bitmap>
                                   <script language="4">
                                     <content>
                                       <![CDATA[]]>
@@ -42993,16 +42968,9 @@ class MyClass(GeneratedClass):
                                   <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                   <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                   <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
-                                  <Timeline enable="0">
-                                    <BehaviorLayer name="behavior_layer1">
-                                      <BehaviorKeyframe name="keyframe1" index="1">
-                                        <Diagram />
-                                      </BehaviorKeyframe>
-                                    </BehaviorLayer>
-                                  </Timeline>
                                 </Box>
-                                <Box name="PleaseLeave" id="7" localization="8" tooltip="" x="3098" y="574">
-                                  <dialogFile>../PleaseLeave/PleaseLeave.dlg</dialogFile>
+                                <Box name="YouCanStay" id="1" localization="8" tooltip="" x="3098" y="692">
+                                  <dialogFile>../YouCanStay/YouCanStay.dlg</dialogFile>
                                   <bitmap>media/images/box/box-dialog.png</bitmap>
                                   <script language="4">
                                     <content>
@@ -43043,16 +43011,14 @@ class MyClass(GeneratedClass):
                                 <Link inputowner="70" indexofinput="3" outputowner="70" indexofoutput="5" />
                                 <Link inputowner="81" indexofinput="3" outputowner="81" indexofoutput="6" />
                                 <Link inputowner="81" indexofinput="3" outputowner="81" indexofoutput="5" />
-                                <Link inputowner="1" indexofinput="2" outputowner="79" indexofoutput="6" />
-                                <Link inputowner="43" indexofinput="2" outputowner="1" indexofoutput="5" />
-                                <Link inputowner="2" indexofinput="2" outputowner="79" indexofoutput="5" />
-                                <Link inputowner="72" indexofinput="2" outputowner="2" indexofoutput="5" />
                                 <Link inputowner="3" indexofinput="2" outputowner="4" indexofoutput="4" />
-                                <Link inputowner="4" indexofinput="2" outputowner="1" indexofoutput="6" />
-                                <Link inputowner="4" indexofinput="2" outputowner="2" indexofoutput="6" />
-                                <Link inputowner="6" indexofinput="2" outputowner="3" indexofoutput="3" />
                                 <Link inputowner="7" indexofinput="2" outputowner="3" indexofoutput="4" />
                                 <Link inputowner="0" indexofinput="4" outputowner="7" indexofoutput="4" />
+                                <Link inputowner="72" indexofinput="2" outputowner="79" indexofoutput="5" />
+                                <Link inputowner="43" indexofinput="2" outputowner="79" indexofoutput="6" />
+                                <Link inputowner="4" indexofinput="2" outputowner="79" indexofoutput="7" />
+                                <Link inputowner="1" indexofinput="2" outputowner="3" indexofoutput="3" />
+                                <Link inputowner="0" indexofinput="4" outputowner="1" indexofoutput="4" />
                               </Diagram>
                             </BehaviorKeyframe>
                           </BehaviorLayer>
