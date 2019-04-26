@@ -4,9 +4,12 @@ language: ged
 # Defining extra concepts out of words or group of words
 #concept:(hello) [hello hi hey "good morning" greetings]
 concept:(drinks) [Limonade Wasser Kaffee]
+concept:(repeat) [wiederhole "wie bitte"]
 
 # Catching inputs and triggering outputs
-u:(e:onStart) Was darf ich ihnen als zweites Getränk bringen?
+u:(e:onStart) ^nextProposal
 
 # Replying to speech
-u:(_~drinks) Alles klar, einmal $1 kommt sofort. $drink=$1
+proposal: Was darf ich ihnen als zweites Getränk bringen?
+u1:(_~drinks) Alles klar, einmal $1 kommt sofort. $drink=$1
+u1:(~repeat) Ich fragte, ^sameProposal
