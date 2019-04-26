@@ -11,7 +11,7 @@ concept:(repeat) [wiederhole "wie bitte"]
 
 
 # Catching inputs and triggering outputs
-u:(e:onStart) ^nextProposal
+u:(e:onStart) Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein? ^nextProposal
 
 # Replying to speech
 proposal: Welches Getränk soll ich Ihnen bringen?

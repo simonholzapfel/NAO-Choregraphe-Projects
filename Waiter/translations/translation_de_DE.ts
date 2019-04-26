@@ -2913,10 +2913,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/FirstDrinkOrder (1)/BestellungGetränk/DrinkSentences/sentence</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</source>
             <comment>Text</comment>
-            <translation type="unfinished">Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</translation>
+            <translation type="obsolete">Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</translation>
         </message>
     </context>
     <context>
@@ -2963,10 +2962,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/FirstDrinkOrder/BestellungGetränk/DrinkSentences/sentence</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</source>
             <comment>Text</comment>
-            <translation type="unfinished">Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</translation>
+            <translation type="obsolete">Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</translation>
         </message>
     </context>
     <context>
@@ -3109,10 +3107,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/BestellungSpeisen/WaitForHeadContact/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte lassen sie sich bei ihrer Auswahl Zeit. Bitte lassen sie sich bei ihrer Auswahl Zeit. Bitte berühren sie mich anschließend am Kopf um fortzufahren.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte lassen sie sich bei ihrer Auswahl Zeit. Bitte lassen sie sich bei ihrer Auswahl Zeit. Bitte berühren sie mich anschließend am Kopf um fortzufahren.</translation>
+            <translation type="obsolete">Bitte lassen sie sich bei ihrer Auswahl Zeit. Bitte lassen sie sich bei ihrer Auswahl Zeit. Bitte berühren sie mich anschließend am Kopf um fortzufahren.</translation>
         </message>
     </context>
     <context>
@@ -3248,10 +3245,9 @@
             <translation type="obsolete">Bitte berühren sie mich anschließend am Kopf um fortzufahren.</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte lassen sie sich bei ihrer Auswahl Zeit. Bitte lassen sie sich bei ihrer Auswahl Zeit. Bitte berühren sie mich anschließend am Kopf um fortzufahren.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte lassen sie sich bei ihrer Auswahl Zeit. Bitte lassen sie sich bei ihrer Auswahl Zeit. Bitte berühren sie mich anschließend am Kopf um fortzufahren.</translation>
+            <translation type="obsolete">Bitte lassen sie sich bei ihrer Auswahl Zeit. Bitte lassen sie sich bei ihrer Auswahl Zeit. Bitte berühren sie mich anschließend am Kopf um fortzufahren.</translation>
         </message>
     </context>
     <context>

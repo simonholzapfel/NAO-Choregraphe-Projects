@@ -17,7 +17,7 @@ u:(e:onStart) ^nextProposal
 
 proposal: Haben Sie sich schon für eine Speise entschieden?
     u1:(~positiv) ^nextProposal
-    u1:(~negativ) Natürlich sehr gerne. $notYet=true
+    u1:(~negativ) Natürlich sehr gerne. Bitte lassen sie sich bei ihrer Auswahl Zeit.  Bitte berühren sie mich anschließend am Kopf um fortzufahren. $notYet=true
 
 proposal: Sehr gut, was darf ich Ihnen bringen? 
     u1:(_~menu) Alles klar, $1 kommt sofort. $food=$1
