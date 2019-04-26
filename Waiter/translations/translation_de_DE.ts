@@ -1899,19 +1899,17 @@
             <translation type="obsolete">möchte folgendes Bestellen</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>hat folgendes bestellt</source>
             <comment>Text</comment>
-            <translation type="unfinished">hat folgendes bestellt</translation>
+            <translation type="obsolete">hat folgendes bestellt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/AusgabeGetränke (1)/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch</translation>
+            <translation type="obsolete">Tisch</translation>
         </message>
     </context>
     <context>
@@ -1925,19 +1923,17 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/BeginToEachChair/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte nehmen Sie Platz</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte nehmen Sie Platz</translation>
+            <translation type="obsolete">Bitte nehmen Sie Platz</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/BeginToEachChair/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Keine gültige Tischnummer</source>
             <comment>Text</comment>
-            <translation type="unfinished">Keine gültige Tischnummer</translation>
+            <translation type="obsolete">Keine gültige Tischnummer</translation>
         </message>
     </context>
     <context>
@@ -1988,55 +1984,49 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/BringMenu/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="unfinished">unbekannt</translation>
+            <translation type="obsolete">unbekannt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/BringMenu/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich benötige eine Speisekarte.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich benötige eine Speisekarte.</translation>
+            <translation type="obsolete">Ich benötige eine Speisekarte.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/BringMenu/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Speisekarte.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Speisekarte.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Speisekarte.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/BringMenu/Say (3)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich benötige eine Speisekarte.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich benötige eine Speisekarte.</translation>
+            <translation type="obsolete">Ich benötige eine Speisekarte.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/BringMenu/Say (4)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich benötige eine Speisekarte.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich benötige eine Speisekarte.</translation>
+            <translation type="obsolete">Ich benötige eine Speisekarte.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/FromChairToEnd/FromChairToRestaurant/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="unfinished">unbekannt</translation>
+            <translation type="obsolete">unbekannt</translation>
         </message>
     </context>
     <context>
@@ -2047,10 +2037,9 @@
             <translation type="vanished">Hallo</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Entnimm mir bitte das Tablett und berühre mich am Kopf wenn du damit fertig bist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Entnimm mir bitte das Tablett und berühre mich am Kopf wenn du damit fertig bist.</translation>
+            <translation type="obsolete">Entnimm mir bitte das Tablett und berühre mich am Kopf wenn du damit fertig bist.</translation>
         </message>
     </context>
     <context>
@@ -2064,10 +2053,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/FromChairToRestaurant (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="unfinished">unbekannt</translation>
+            <translation type="obsolete">unbekannt</translation>
         </message>
     </context>
     <context>
@@ -2081,28 +2069,25 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/FromRestaurantToTable/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="unfinished">unbekannt</translation>
+            <translation type="obsolete">unbekannt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/FromRestaurantToTable/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/GetBill</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Natürlich, ich bringe Ihnen sofort Ihre Rechnung.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Natürlich, ich bringe Ihnen sofort Ihre Rechnung.</translation>
+            <translation type="obsolete">Natürlich, ich bringe Ihnen sofort Ihre Rechnung.</translation>
         </message>
     </context>
     <context>
@@ -2113,10 +2098,9 @@
             <translation type="obsolete">möchte folgendes Bestellen</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>hat folgendes bestellt</source>
             <comment>Text</comment>
-            <translation type="unfinished">hat folgendes bestellt</translation>
+            <translation type="obsolete">hat folgendes bestellt</translation>
         </message>
     </context>
     <context>
@@ -2127,19 +2111,17 @@
             <translation type="vanished">Hallo</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch</translation>
+            <translation type="obsolete">Tisch</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/GetränkBestellungUndTischZumBringen/BestellungGetränk/DrinkSentences/sentence</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</source>
             <comment>Text</comment>
-            <translation type="unfinished">Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</translation>
+            <translation type="obsolete">Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein?</translation>
         </message>
     </context>
     <context>
@@ -2150,28 +2132,25 @@
             <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung.</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung. Berühren Sie mich am Kopf wenn sie fertig sind.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/GetränkBestellungUndTischZumBringen/WaitForOrder (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
+            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/GiveBestellung (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
         </message>
     </context>
     <context>
@@ -2198,10 +2177,9 @@
             <translation type="obsolete">Hier ist Ihre Rechnung, bitte sehr.</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hier haben Sie Ihre Rechnung</source>
             <comment>Text</comment>
-            <translation type="unfinished">Hier haben Sie Ihre Rechnung</translation>
+            <translation type="obsolete">Hier haben Sie Ihre Rechnung</translation>
         </message>
     </context>
     <context>
@@ -2215,46 +2193,41 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/NameEinspeichern/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich kenne sie bereits</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich kenne sie bereits</translation>
+            <translation type="obsolete">Ich kenne sie bereits</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/ReturnPlaceChoice/HasReservation/FoundReservation</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Unter ihrem Namen wurde eine Reservierung gefunden.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Unter ihrem Namen wurde eine Reservierung gefunden.</translation>
+            <translation type="obsolete">Unter ihrem Namen wurde eine Reservierung gefunden.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/ReturnPlaceChoice/HasReservation/NoReservation</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Unter ihrem Namen wurde keine Reservierung gefunden.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Unter ihrem Namen wurde keine Reservierung gefunden.</translation>
+            <translation type="obsolete">Unter ihrem Namen wurde keine Reservierung gefunden.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/ReturnPlaceChoice/HasReservation/ReservedTable2</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Sie hatten den Tisch mit der Nummer zwei reserviert.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Sie hatten den Tisch mit der Nummer zwei reserviert.</translation>
+            <translation type="obsolete">Sie hatten den Tisch mit der Nummer zwei reserviert.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/ReturnPlaceChoice/HasReservation/ReservedTable3</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Sie hatten den Tisch mit der Nummer drei reserviert.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Sie hatten den Tisch mit der Nummer drei reserviert.</translation>
+            <translation type="obsolete">Sie hatten den Tisch mit der Nummer drei reserviert.</translation>
         </message>
     </context>
     <context>
@@ -2265,10 +2238,9 @@
             <translation type="obsolete">Tischnummer zwei ist bereits reserviert.</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch zwei ist bereits reserviert.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch zwei ist bereits reserviert.</translation>
+            <translation type="obsolete">Tisch zwei ist bereits reserviert.</translation>
         </message>
     </context>
     <context>
@@ -2279,10 +2251,9 @@
             <translation type="obsolete">Tischnummer zwei ist bereits reserviert.</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch zwei ist bereits reserviert.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch zwei ist bereits reserviert.</translation>
+            <translation type="obsolete">Tisch zwei ist bereits reserviert.</translation>
         </message>
     </context>
     <context>
@@ -2296,10 +2267,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/ReturnPlaceChoice/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Dieser Tisch ist frei</source>
             <comment>Text</comment>
-            <translation type="unfinished">Dieser Tisch ist frei</translation>
+            <translation type="obsolete">Dieser Tisch ist frei</translation>
         </message>
     </context>
     <context>
@@ -2347,10 +2317,9 @@
             <translation type="obsolete">Ich führe sie zu ihrem Tisch. Der Tisch mit der Nummer eins ist für Sie reserviert.</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich führe dich zu deinem Tisch.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich führe dich zu deinem Tisch.</translation>
+            <translation type="obsolete">Ich führe dich zu deinem Tisch.</translation>
         </message>
     </context>
     <context>
@@ -2364,10 +2333,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/SaveFace (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich bitte den zukünftigen Stammgast sich vor mich zu stelle.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich bitte den zukünftigen Stammgast sich vor mich zu stelle.</translation>
+            <translation type="obsolete">Ich bitte den zukünftigen Stammgast sich vor mich zu stelle.</translation>
         </message>
     </context>
     <context>
@@ -2386,82 +2354,73 @@
             <translation type="obsolete">Ihr Betrag zu bezahlen lautet</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Der zu bezahlende Betrag lautet</source>
             <comment>Text</comment>
-            <translation type="unfinished">Der zu bezahlende Betrag lautet</translation>
+            <translation type="obsolete">Der zu bezahlende Betrag lautet</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Richtig, mein Name lautet Nao.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Richtig, mein Name lautet Nao.</translation>
+            <translation type="obsolete">Richtig, mein Name lautet Nao.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich habe sie leider nicht ganz verstanden. Bitte reden sie laut und deutlich.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich habe sie leider nicht ganz verstanden. Bitte reden sie laut und deutlich.</translation>
+            <translation type="obsolete">Ich habe sie leider nicht ganz verstanden. Bitte reden sie laut und deutlich.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/Say (3)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich habe sie leider nicht ganz verstanden. Bitte reden sie laut und deutlich.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich habe sie leider nicht ganz verstanden. Bitte reden sie laut und deutlich.</translation>
+            <translation type="obsolete">Ich habe sie leider nicht ganz verstanden. Bitte reden sie laut und deutlich.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/Say (4)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Euro</source>
             <comment>Text</comment>
-            <translation type="unfinished">Euro</translation>
+            <translation type="obsolete">Euro</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/BestellungSpeisen/MenuSentences/Animated Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation type="unfinished">Hello</translation>
+            <translation type="obsolete">Hello</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/BestellungSpeisen/MenuSentences/Kabelsalat</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/BestellungSpeisen/MenuSentences/Kuchen</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/BestellungSpeisen/MenuSentences/Pizza</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
+            <translation type="obsolete">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
         </message>
     </context>
     <context>
@@ -2483,10 +2442,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/FromChairToRestaurant/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="unfinished">unbekannt</translation>
+            <translation type="obsolete">unbekannt</translation>
         </message>
     </context>
     <context>
@@ -2497,10 +2455,9 @@
             <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
         </message>
     </context>
     <context>
@@ -2519,19 +2476,17 @@
             <translation type="vanished">Hallo</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>hat</source>
             <comment>Text</comment>
-            <translation type="unfinished">hat</translation>
+            <translation type="obsolete">hat</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/TellOrder/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch</translation>
+            <translation type="obsolete">Tisch</translation>
         </message>
     </context>
     <context>
@@ -2542,28 +2497,25 @@
             <translation type="vanished">Hallo</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>bestellt</source>
             <comment>Text</comment>
-            <translation type="unfinished">bestellt</translation>
+            <translation type="obsolete">bestellt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/SpeisenBestellungUndDasEssenZumTisch/WaitForOrder/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
+            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/TakeNewReserve/TutorialReservation</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte reservieren sie einen Tisch.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte reservieren sie einen Tisch.</translation>
+            <translation type="obsolete">Bitte reservieren sie einen Tisch.</translation>
         </message>
     </context>
     <context>
@@ -2577,19 +2529,17 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/TellBill/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>möchte die Rechnung</source>
             <comment>Text</comment>
-            <translation type="unfinished">möchte die Rechnung</translation>
+            <translation type="obsolete">möchte die Rechnung</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/TellBill/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch</translation>
+            <translation type="obsolete">Tisch</translation>
         </message>
     </context>
     <context>
@@ -2608,19 +2558,17 @@
             <translation type="obsolete">Wir wünschen Ihnen noch einen angenehmen Tag.</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Wir wünschen Ihnen noch einen noch einen angenehmen Tag.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Wir wünschen Ihnen noch einen noch einen angenehmen Tag.</translation>
+            <translation type="obsolete">Wir wünschen Ihnen noch einen noch einen angenehmen Tag.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/WaitForBill/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Rechnung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Rechnung fertig ist.</translation>
+            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Rechnung fertig ist.</translation>
         </message>
     </context>
     <context>
@@ -2631,28 +2579,25 @@
             <translation type="obsolete">Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte berühren Sie mich am Kopf, wenn Sie fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte berühren Sie mich am Kopf, wenn Sie fertig sind.</translation>
+            <translation type="obsolete">Bitte berühren Sie mich am Kopf, wenn Sie fertig sind.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/WaitForHeadContact (2)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</translation>
+            <translation type="obsolete">Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself/WaitForHeadContact/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</translation>
+            <translation type="obsolete">Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</translation>
         </message>
     </context>
     <context>
@@ -2666,10 +2611,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself/WaitForOrder (2)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
+            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>
@@ -3372,199 +3316,177 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/FromRestaurantToTable/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="unfinished">unbekannt</translation>
+            <translation type="obsolete">unbekannt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/FromRestaurantToTable/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/NameEinspeichern/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich kenne sie bereits</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich kenne sie bereits</translation>
+            <translation type="obsolete">Ich kenne sie bereits</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SaveFace/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich bitte den zukünftigen Stammgast sich vor mich zu stelle.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich bitte den zukünftigen Stammgast sich vor mich zu stelle.</translation>
+            <translation type="obsolete">Ich bitte den zukünftigen Stammgast sich vor mich zu stelle.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich habe sie leider nicht ganz verstanden. Bitte reden sie laut und deutlich.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich habe sie leider nicht ganz verstanden. Bitte reden sie laut und deutlich.</translation>
+            <translation type="obsolete">Ich habe sie leider nicht ganz verstanden. Bitte reden sie laut und deutlich.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich habe sie leider nicht ganz verstanden. Bitte reden sie laut und deutlich.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich habe sie leider nicht ganz verstanden. Bitte reden sie laut und deutlich.</translation>
+            <translation type="obsolete">Ich habe sie leider nicht ganz verstanden. Bitte reden sie laut und deutlich.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Richtig, mein Name lautet Nao.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Richtig, mein Name lautet Nao.</translation>
+            <translation type="obsolete">Richtig, mein Name lautet Nao.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SecondDrinkOrder/AusgabeGetränke (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>hat folgendes bestellt</source>
             <comment>Text</comment>
-            <translation type="unfinished">hat folgendes bestellt</translation>
+            <translation type="obsolete">hat folgendes bestellt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SecondDrinkOrder/AusgabeGetränke (1)/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch</translation>
+            <translation type="obsolete">Tisch</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SecondDrinkOrder/GiveBestellung (1)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SecondDrinkOrder/WaitForOrder (2)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
+            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SpeiseOrder/BestellungSpeisen/MenuSentences/Animated Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation type="unfinished">Hello</translation>
+            <translation type="obsolete">Hello</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SpeiseOrder/BestellungSpeisen/MenuSentences/Kabelsalat</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SpeiseOrder/BestellungSpeisen/MenuSentences/Kuchen</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SpeiseOrder/BestellungSpeisen/MenuSentences/Pizza</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
+            <translation type="obsolete">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SpeiseOrder/FromChairToRestaurant/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>unbekannt</source>
             <comment>Text</comment>
-            <translation type="unfinished">unbekannt</translation>
+            <translation type="obsolete">unbekannt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SpeiseOrder/GiveBestellung (2)/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
+            <translation type="obsolete">Bitte entnehmen Sie ihre Bestellung und berühren Sie mich am Kopf wenn sie damit fertig sind.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SpeiseOrder/TellOrder/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>hat</source>
             <comment>Text</comment>
-            <translation type="unfinished">hat</translation>
+            <translation type="obsolete">hat</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SpeiseOrder/TellOrder/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Tisch</source>
             <comment>Text</comment>
-            <translation type="unfinished">Tisch</translation>
+            <translation type="obsolete">Tisch</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SpeiseOrder/TellOrder/Say (3)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>bestellt</source>
             <comment>Text</comment>
-            <translation type="unfinished">bestellt</translation>
+            <translation type="obsolete">bestellt</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/SpeiseOrder/WaitForOrder/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
+            <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/RestBoxes/WaitForHeadContact/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</translation>
+            <translation type="obsolete">Bitte berühren Sie mich am Kopf sind wenn Sie fertig sind.</translation>
         </message>
     </context>
     <context>
