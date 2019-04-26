@@ -3848,10 +3848,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/TakeNewReserve/TutorialReservation</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Bitte reservieren sie einen Tisch.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Bitte reservieren sie einen Tisch.</translation>
+            <translation type="obsolete">Bitte reservieren sie einen Tisch.</translation>
         </message>
     </context>
     <context>
