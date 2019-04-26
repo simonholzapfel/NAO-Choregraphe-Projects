@@ -2643,6 +2643,15 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/BeginToEachChair/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Hallo Ferdinand, wie gehts der Frau und Kinder?</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Hallo Ferdinand, wie gehts der Frau und Kinder?</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Program itself_new/BringBill/FromChairToRestaurant (1)/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
@@ -3149,6 +3158,24 @@
             <source>Bitte nehmen Sie Ihre Speise vom Tablett. Tippen Sie mir auf den Kopf, wenn Sie fertig sind.</source>
             <comment>Text</comment>
             <translation type="unfinished">Bitte nehmen Sie Ihre Speise vom Tablett. Tippen Sie mir auf den Kopf, wenn Sie fertig sind.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/GiveBestellung (2)/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich hoffe es schmeckt dir wie immer</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Ich hoffe es schmeckt dir wie immer</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/GiveBestellung (2)/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich hoffe, dass das Essen Ihnen schmecken wird</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Ich hoffe, dass das Essen Ihnen schmecken wird</translation>
         </message>
     </context>
     <context>
@@ -4202,33 +4229,6 @@
             <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
             <comment>Text</comment>
             <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/GiveBestellung (2)/Say (1)</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>Ich hoffe es schmeckt dir wie immer</source>
-            <comment>Text</comment>
-            <translation type="unfinished">Ich hoffe es schmeckt dir wie immer</translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/GiveBestellung (2)/Say (2)</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>Ich hoffe, dass das Essen Ihnen schmecken wird</source>
-            <comment>Text</comment>
-            <translation type="unfinished">Ich hoffe, dass das Essen Ihnen schmecken wird</translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/Program itself_new/BeginToEachChair/Say (2)</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>Hallo Ferdinand, wie gehts der Frau und Kinder?</source>
-            <comment>Text</comment>
-            <translation type="unfinished">Hallo Ferdinand, wie gehts der Frau und Kinder?</translation>
         </message>
     </context>
 </TS>

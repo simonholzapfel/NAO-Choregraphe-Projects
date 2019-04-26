@@ -8710,7 +8710,7 @@ class MyClass(GeneratedClass):
                                       <ActuatorCurve name="value" actuator="LShoulderRoll" mute="0" unit="0">
                                         <Key frame="50" value="8" />
                                         <Key frame="172" value="-10.5" />
-                                        <Key frame="262" value="-11.7" />
+                                        <Key frame="262" value="-14.624" />
                                       </ActuatorCurve>
                                       <ActuatorCurve name="value" actuator="LWristYaw" mute="0" unit="0">
                                         <Key frame="50" value="-0.5" />
@@ -8746,7 +8746,7 @@ class MyClass(GeneratedClass):
                                       <ActuatorCurve name="value" actuator="RShoulderRoll" mute="0" unit="0">
                                         <Key frame="50" value="-6.6" />
                                         <Key frame="172" value="10.5" />
-                                        <Key frame="262" value="11.7" />
+                                        <Key frame="262" value="18.514" />
                                       </ActuatorCurve>
                                       <ActuatorCurve name="value" actuator="RWristYaw" mute="0" unit="0">
                                         <Key frame="50" value="3.1" />
