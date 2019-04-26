@@ -3844,10 +3844,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Verabschiedung/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Wir wünschen Ihnen noch einen noch einen angenehmen Tag.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Wir wünschen Ihnen noch einen noch einen angenehmen Tag.</translation>
+            <translation type="obsolete">Wir wünschen Ihnen noch einen noch einen angenehmen Tag.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Wir wünschen Ihnen noch einen angenehmen Tag.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Wir wünschen Ihnen noch einen angenehmen Tag.</translation>
         </message>
     </context>
     <context>

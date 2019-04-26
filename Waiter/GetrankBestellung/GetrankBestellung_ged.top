@@ -15,7 +15,7 @@ u:(e:onStart) Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfri
 
 # Replying to speech
 proposal: Welches Getränk soll ich Ihnen bringen?
-u1: (_~drinks) $1 kommt sofort. Wollen Sie noch ein Getränk? $drink1=$1
+u1:(_~drinks) $1 kommt sofort. Wollen Sie noch ein Getränk? $drink1=$1
     u2:(~positiv) ^nextProposal
     u2:(~negativ) Alles klar. Einmal $drink1 kommt sofort. $Drink1=$drink1 $Drink2=null
 
