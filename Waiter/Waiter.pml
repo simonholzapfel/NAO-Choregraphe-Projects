@@ -42,6 +42,7 @@
         <Dialog name="NowDrink" src="NowDrink/NowDrink.dlg" />
         <Dialog name="EatOrDrink" src="EatOrDrink/EatOrDrink.dlg" />
         <Dialog name="FoodOrder" src="FoodOrder/FoodOrder.dlg" />
+        <Dialog name="GiveMeARecommendation" src="GiveMeARecommendation/GiveMeARecommendation.dlg" />
     </Dialogs>
     <Resources>
         <File name="Animations" src="Animationen/Animations/Animations.pml" />
@@ -99,6 +100,7 @@
         <Topic name="NowDrink_ged" src="NowDrink/NowDrink_ged.top" topicName="NowDrink" language="de_DE" nuance="ged" />
         <Topic name="EatOrDrink_ged" src="EatOrDrink/EatOrDrink_ged.top" topicName="EatOrDrink" language="de_DE" nuance="ged" />
         <Topic name="FoodOrder_ged" src="FoodOrder/FoodOrder_ged.top" topicName="FoodOrder" language="de_DE" nuance="ged" />
+        <Topic name="GiveMeARecommendation_ged" src="GiveMeARecommendation/GiveMeARecommendation_ged.top" topicName="GiveMeARecommendation" language="de_DE" nuance="ged" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="de_DE">

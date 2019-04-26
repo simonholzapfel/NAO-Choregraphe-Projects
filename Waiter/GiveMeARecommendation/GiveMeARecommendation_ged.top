@@ -1,0 +1,11 @@
+topic: ~GiveMeARecommendation()
+language: ged
+
+# Defining extra concepts out of words or group of words
+concept:(sentence) ^rand["Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft." "Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen." "Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses."]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) ~sentence $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="waiter-bbb9ec" version="0.0.0">
+<package version="0.0.0" uuid="waiter-bbb9ec">
  <names>
   <name lang="en_US">Untitled</name>
  </names>
@@ -51,93 +51,93 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
-  <dialogContent topicName="TableChoice" typeVersion="1.0">
-   <topic language="de_DE" path="TableChoice/TableChoice_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="TableChoice">
+   <topic path="TableChoice/TableChoice_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="YesNoDialoge" typeVersion="1.0">
-   <topic language="de_DE" path="YesNoDialoge/YesNoDialoge_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="YesNoDialoge">
+   <topic path="YesNoDialoge/YesNoDialoge_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="GetrankBestellung" typeVersion="1.0">
-   <topic language="de_DE" path="GetrankBestellung/GetrankBestellung_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="GetrankBestellung">
+   <topic path="GetrankBestellung/GetrankBestellung_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="GetName" typeVersion="1.0">
-   <topic language="de_DE" path="Personenerkennung/Robotic_Project/GetName/GetName_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="GetName">
+   <topic path="Personenerkennung/Robotic_Project/GetName/GetName_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="WantSecondDrinkDialogue" typeVersion="1.0">
-   <topic language="de_DE" path="WantSecondDrinkDialogue/WantSecondDrinkDialogue_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="WantSecondDrinkDialogue">
+   <topic path="WantSecondDrinkDialogue/WantSecondDrinkDialogue_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="SecondDrink" typeVersion="1.0">
-   <topic language="de_DE" path="SecondDrink/SecondDrink_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="SecondDrink">
+   <topic path="SecondDrink/SecondDrink_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="Beschwerde" typeVersion="1.0">
-   <topic language="de_DE" path="Beschwerde/Beschwerde_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="Beschwerde">
+   <topic path="Beschwerde/Beschwerde_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="BeschwerdeItself" typeVersion="1.0">
-   <topic language="de_DE" path="BeschwerdeItself/BeschwerdeItself_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="BeschwerdeItself">
+   <topic path="BeschwerdeItself/BeschwerdeItself_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="AreYouFerdinand" typeVersion="1.0">
-   <topic language="de_DE" path="AreYouFerdinand/AreYouFerdinand_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="AreYouFerdinand">
+   <topic path="AreYouFerdinand/AreYouFerdinand_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top"/>
-   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
+  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top" language="de_DE"/>
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent topicName="TableDialoge" typeVersion="1.0">
-   <topic language="de_DE" path="GoTableRound/TableDialoge/TableDialoge_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="TableDialoge">
+   <topic path="GoTableRound/TableDialoge/TableDialoge_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="NowOrReserveDialoge" typeVersion="1.0">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="NowOrReserveDialoge">
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="CallRoboter_Dialoge" typeVersion="1.0">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="CallRoboter_Dialoge">
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top"/>
-   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
+  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top" language="de_DE"/>
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent topicName="BeginningConversation" typeVersion="1.0">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_ged.top"/>
-   <topic language="en_US" path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_enu.top"/>
+  <dialogContent typeVersion="1.0" topicName="BeginningConversation">
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_ged.top" language="de_DE"/>
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent topicName="NowOrReserveDialoge" typeVersion="1.0">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="NowOrReserveDialoge">
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/NowOrReserveDialoge/NowOrReserveDialoge_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="CallRoboter_Dialoge" typeVersion="1.0">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="CallRoboter_Dialoge">
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/CallRoboter_Dialoge/CallRoboter_Dialoge_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top"/>
-   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
+  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top" language="de_DE"/>
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent topicName="BeginningConversation" typeVersion="1.0">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_ged.top"/>
-   <topic language="en_US" path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_enu.top"/>
+  <dialogContent typeVersion="1.0" topicName="BeginningConversation">
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_ged.top" language="de_DE"/>
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/BeginningConversation/BeginningConversation_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent topicName="OrderDialoge" typeVersion="1.0">
-   <topic language="de_DE" path="Bestellung/Bestellung/OrderDialoge/OrderDialoge_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="OrderDialoge">
+   <topic path="Bestellung/Bestellung/OrderDialoge/OrderDialoge_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
-   <topic language="de_DE" path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top"/>
-   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
+  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+   <topic path="EingangReservierungDialog/Robotic/Robotic_Project/behavior_1/ExampleDialog/ExampleDialog_ged.top" language="de_DE"/>
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent topicName="SpeiseBestellung" typeVersion="1.0">
-   <topic language="de_DE" path="SpeiseBestellung/SpeiseBestellung_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="SpeiseBestellung">
+   <topic path="SpeiseBestellung/SpeiseBestellung_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="AskEatOrDrink" typeVersion="1.0"/>
-  <dialogContent topicName="WantDrink" typeVersion="1.0">
-   <topic language="de_DE" path="WantDrink/WantDrink_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="AskEatOrDrink"/>
+  <dialogContent typeVersion="1.0" topicName="WantDrink">
+   <topic path="WantDrink/WantDrink_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="Eat" typeVersion="1.0">
-   <topic language="de_DE" path="Eat/Eat_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="Eat">
+   <topic path="Eat/Eat_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="NowDrink" typeVersion="1.0">
-   <topic language="de_DE" path="NowDrink/NowDrink_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="NowDrink">
+   <topic path="NowDrink/NowDrink_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="EatOrDrink" typeVersion="1.0">
-   <topic language="de_DE" path="EatOrDrink/EatOrDrink_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="EatOrDrink">
+   <topic path="EatOrDrink/EatOrDrink_ged.top" language="de_DE"/>
   </dialogContent>
-  <dialogContent topicName="FoodOrder" typeVersion="1.0">
-   <topic language="de_DE" path="FoodOrder/FoodOrder_ged.top"/>
+  <dialogContent typeVersion="1.0" topicName="FoodOrder">
+   <topic path="FoodOrder/FoodOrder_ged.top" language="de_DE"/>
   </dialogContent>
  </contents>
 </package>

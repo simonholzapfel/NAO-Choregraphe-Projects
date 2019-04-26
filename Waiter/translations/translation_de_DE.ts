@@ -3095,37 +3095,33 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/BestellungSpeisen/MenuSentences/Animated Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation type="unfinished">Hello</translation>
+            <translation type="obsolete">Hello</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/BestellungSpeisen/MenuSentences/Kabelsalat</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/BestellungSpeisen/MenuSentences/Kuchen</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/BestellungSpeisen/MenuSentences/Pizza</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
+            <translation type="obsolete">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
         </message>
     </context>
     <context>
@@ -3211,28 +3207,25 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (2)/BestellungSpeisen/MenuSentences/Kabelsalat</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen den Kabelsalat empfehlen, frisch zubereitet von den eben gelieferten Standcomputer von Fabasoft.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (2)/BestellungSpeisen/MenuSentences/Kuchen</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
+            <translation type="obsolete">Heute würde ich Ihnen unseren frisch gebackenen Kuchen empfehlen.</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (2)/BestellungSpeisen/MenuSentences/Pizza</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
+            <translation type="obsolete">Unsere Pizza wie aus Italien wäre heute die Empfehlung des Hauses.</translation>
         </message>
     </context>
     <context>
