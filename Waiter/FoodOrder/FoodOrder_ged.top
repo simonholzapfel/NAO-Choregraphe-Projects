@@ -9,11 +9,17 @@ language: ged
 concept:(menu) [Pizza Kuchen Kabelsalat]
 concept:(positiv) [ja "ja das habe ich" "ja hab ich" gerne bitte]
 concept:(negativ) [nein "noch nicht" "nein, noch nicht" danke]
+concept:(repeat) [wiederhole "wie bitte"]
+
 
 # Catching inputs and triggering outputs
-u:(e:onStart) Haben Sie sich schon für eine Speise entschieden?
-    u1:(~positiv) Sehr gut, was darf ich Ihnen bringen?
-        u2:(_~menu) Alles klar, $1 kommt sofort. $food=$1
+u:(e:onStart) ^nextProposal
+
+proposal: Haben Sie sich schon für eine Speise entschieden?
+    u1:(~positiv) ^nextProposal
     u1:(~negativ) Natürlich sehr gerne. $notYet=true
 
+proposal: Sehr gut, was darf ich Ihnen bringen? 
+    u1:(_~menu) Alles klar, $1 kommt sofort. $food=$1
 
+u:(~repeat) Ich fragte, ^sameProposal

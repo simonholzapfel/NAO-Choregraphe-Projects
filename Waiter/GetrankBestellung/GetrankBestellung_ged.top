@@ -7,13 +7,19 @@ concept:(dishes) ["Kabelsalat" "Schnitzel mit Pommes" "Toast mit Omlett"]
 concept:(drinks) [Limonade Wasser Kaffee]
 concept:(positiv) [ja gerne natürlich]
 concept:(negativ) [nein danke nicht]
+concept:(repeat) [wiederhole "wie bitte"]
 
 
 # Catching inputs and triggering outputs
-u:(e:onStart) Welches Getränk soll ich Ihnen bringen?
+u:(e:onStart) ^nextProposal
 
 # Replying to speech
-u: (_~drinks) $1 kommt sofort. Wollen Sie noch ein Getränk? $drink1=$1
-    u1:(~positiv) Was wollen Sie noch zu trinken?
-        u2:(_~drinks) Okay, das zweite Getränk $1 wurde zusätzlich bestellt. Es wird alles vorbereitet und in kürze serviert. Bitte haben sie etwas Geduld. $Drink1=$drink1 $Drink2=$1
-    u1:(~negativ) Alles klar. Einmal $drink1 kommt sofort. $Drink1=$drink1 $Drink2=null
+proposal: Welches Getränk soll ich Ihnen bringen?
+u1: (_~drinks) $1 kommt sofort. Wollen Sie noch ein Getränk? $drink1=$1
+    u2:(~positiv) ^nextProposal
+    u2:(~negativ) Alles klar. Einmal $drink1 kommt sofort. $Drink1=$drink1 $Drink2=null
+
+proposal: Was wollen Sie noch zu trinken?
+u1:(_~drinks) Okay, das zweite Getränk $1 wurde zusätzlich bestellt. Es wird alles vorbereitet und in kürze serviert. Bitte haben sie etwas Geduld. $Drink1=$drink1 $Drink2=$1
+
+u:(~repeat) Ich fragte, ^sameProposal

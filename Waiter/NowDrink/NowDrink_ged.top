@@ -3,16 +3,18 @@ language: ged
 
 # Defining extra concepts out of words or group of words
 concept:(positive) [Ja Bitte Natürlich "Sehr gern" gern gerne "Ja bitte"]
-
 concept:(negative) [Nein "Nein danke" danke "Kein Problem"]
-
 concept:(ask) ^rand["Möchten Sie was Trinken?" "Darf es was zum Trinken sein?"]
+concept:(repeat) [wiederhole "wie bitte"]
+
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1
-u: (e:onStart) Darf es jetzt etwas zu Trinken sein.
+u: (e:onStart) ^nextProposal
 
 # Replying to speech
 #u:(~hello) ~hello
-u:(~positive) Ok. $Yes=1
-u:(~negative) Ok. $No=1
+proposal: Darf es jetzt etwas zu Trinken sein.
+u1:(~positive) Ok. $Yes=1
+u1:(~negative) Ok. $No=1
+u1:(~repeat) Ich fragte, ^sameProposal
