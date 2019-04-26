@@ -4204,4 +4204,22 @@
             <translation type="obsolete">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/GiveBestellung (2)/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich hoffe es schmeckt dir wie immer</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Ich hoffe es schmeckt dir wie immer</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/Order/SpeiseOrder (1)/GiveBestellung (2)/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Ich hoffe, dass das Essen Ihnen schmecken wird</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Ich hoffe, dass das Essen Ihnen schmecken wird</translation>
+        </message>
+    </context>
 </TS>
