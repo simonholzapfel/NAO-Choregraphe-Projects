@@ -45,6 +45,7 @@
         <Dialog name="GiveMeARecommendation" src="GiveMeARecommendation/GiveMeARecommendation.dlg" />
         <Dialog name="EatNowOrReserve" src="EatNowOrReserve/EatNowOrReserve.dlg" />
         <Dialog name="GoodBye" src="GoodBye/GoodBye.dlg" />
+        <Dialog name="BringBillDialoge" src="BringBillDialoge/BringBillDialoge.dlg" />
     </Dialogs>
     <Resources>
         <File name="Animations" src="Animationen/Animations/Animations.pml" />
@@ -105,6 +106,7 @@
         <Topic name="GiveMeARecommendation_ged" src="GiveMeARecommendation/GiveMeARecommendation_ged.top" topicName="GiveMeARecommendation" language="de_DE" nuance="ged" />
         <Topic name="EatNowOrReserve_ged" src="EatNowOrReserve/EatNowOrReserve_ged.top" topicName="EatNowOrReserve" language="de_DE" nuance="ged" />
         <Topic name="GoodBye_ged" src="GoodBye/GoodBye_ged.top" topicName="GoodBye" language="de_DE" nuance="ged" />
+        <Topic name="BringBillDialoge_ged" src="BringBillDialoge/BringBillDialoge_ged.top" topicName="BringBillDialoge" language="de_DE" nuance="ged" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="de_DE">

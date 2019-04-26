@@ -2710,10 +2710,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/BringBill/GetBill</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Natürlich, ich bringe Ihnen sofort Ihre Rechnung.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Natürlich, ich bringe Ihnen sofort Ihre Rechnung.</translation>
+            <translation type="obsolete">Natürlich, ich bringe Ihnen sofort Ihre Rechnung.</translation>
         </message>
     </context>
     <context>

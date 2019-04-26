@@ -148,5 +148,8 @@
   <dialogContent typeVersion="1.0" topicName="GoodBye">
    <topic language="de_DE" path="GoodBye/GoodBye_ged.top"/>
   </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="BringBillDialoge">
+   <topic language="de_DE" path="BringBillDialoge/BringBillDialoge_ged.top"/>
+  </dialogContent>
  </contents>
 </package>
