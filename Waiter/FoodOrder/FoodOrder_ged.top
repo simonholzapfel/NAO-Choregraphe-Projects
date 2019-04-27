@@ -6,20 +6,14 @@ language: ged
 
 # Catching inputs and triggering outputs
 # Defining extra concepts out of words or group of words
-concept:(menuFood) [Pizza Kuchen Kabelsalat]
-concept:(positiveFood) [ja "ja das habe ich" "ja hab ich" gerne bitte]
-concept:(negativeFood) [nein "noch nicht" "nein, noch nicht" danke]
-concept:(repeatFood) [wiederhole "wie bitte"]
-
+concept:(menu) [Pizza Kuchen Kabelsalat]
+concept:(positiv) [ja "ja das habe ich" "ja hab ich" gerne bitte]
+concept:(negativ) [nein "noch nicht" "nein, noch nicht" danke]
 
 # Catching inputs and triggering outputs
-u:(e:onStart) ^nextProposal
+u:(e:onStart) Haben Sie sich schon für eine Speise entschieden?
+u:(~positiv) Sehr gut, was darf ich Ihnen bringen?
+    u1:(_~menu) Alles klar, $1 kommt sofort. $food=$1
+u:(~negativ) Natürlich sehr gerne. Drücken Sie mir auf den Kopf um fortzufahren. $notYet=true
 
-proposal: Haben Sie sich schon für eine Speise entschieden?
-    u1:(~positiveFood) ^nextProposal
-    u1:(~negativeFood) Natürlich sehr gerne. Bitte lassen sie sich bei ihrer Auswahl Zeit.  Bitte berühren sie mich anschließend am Kopf um fortzufahren. $notYet=true
 
-proposal: Sehr gut, was darf ich Ihnen bringen? 
-    u1:(_~menuFood) Alles klar, $1 kommt sofort. $food=$1
-
-u:(~repeatFood) Ich fragte, ^sameProposal

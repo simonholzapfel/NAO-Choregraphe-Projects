@@ -2,23 +2,18 @@ topic: ~GetrankBestellung()
 language: ged
 
 # Defining extra concepts out of words or group of words
-concept:(drinkFirst) [Limonade Wasser Kaffee]
-concept:(positivFirst) [ja gerne natürlich]
-concept:(negativFirst) [nein danke nicht]
-concept:(repeatFirst) [wiederhole "wie bitte"]
+concept:(hello) [hello hi hey "good morning" greetings]
+concept:(dishes) ["Kabelsalat" "Schnitzel mit Pommes" "Toast mit Omlett"]
+concept:(drinks) [Limonade Wasser Kaffee]
+concept:(positiv) [ja gerne natürlich]
+concept:(negativ) [nein danke nicht]
 
 
 # Catching inputs and triggering outputs
-u:(e:onStart) Soll es ein Wasser, ein heißer Kaffee oder doch lieber eine erfrischende Limonade sein? ^nextProposal
+u:(e:onStart) Welches Getränk soll ich Ihnen bringen?
 
 # Replying to speech
-proposal: Welches Getränk soll ich Ihnen bringen?
-    u1:(_~drinkFirst) $1 kommt sofort. Wollen Sie noch ein Getränk? $drink1=$1
-        u2:(~positivFirst) ^nextProposal
-        u2:(~negativFirst) Alles klar. Einmal $drink1 kommt sofort. $Drink1=$drink1 $Drink2=null
-
-proposal: Was wollen Sie noch zu trinken?
-    u1:(_~drinkFirst) Okay, das zweite Getränk $1 wurde zusätzlich bestellt. Es wird alles vorbereitet und in kürze serviert. Bitte haben sie etwas Geduld. $Drink1=$drink1 $Drink2=$1
-
-    
-u:(~repeatFirst) Ich fragte, ^sameProposal
+u: (_~drinks) $1 kommt sofort. Wollen Sie noch ein Getränk? $drink1=$1
+    u1:(~positiv) Was wollen Sie noch zu trinken?
+        u2:(_~drinks) Okay, das zweite Getränk $1 wurde zusätzlich bestellt. Es wird alles vorbereitet und in kürze serviert. Bitte haben sie etwas Geduld. $Drink1=$drink1 $Drink2=$1
+    u1:(~negativ) Alles klar. Einmal $drink1 kommt sofort. $Drink1=$drink1 $Drink2=null

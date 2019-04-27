@@ -4,13 +4,11 @@ language: ged
 # Defining extra concepts out of words or group of words
 concept:(positiv) [ja gerne natürlich]
 concept:(negativ) [nein danke nicht]
-concept:(repeat) [wiederhole "wie bitte"]
+
 
 # Catching inputs and triggering outputs
-u:(e:onStart) ^nextProposal
+u:(e:onStart) Wollen Sie ihr zweites Getränk auch noch bestellen?
 
 # Replying to speech
-proposal: Wollen Sie ihr zweites Getränk auch noch bestellen?
-u1:(~positiv) Ok. $true=1
-u1:(~negativ) Ok. $false=1 
-u1:(~repeat) Ich fragte, ^sameProposal
+u:(~positiv) Okay. $true=1
+u:(~negativ) Okay. $false=1 

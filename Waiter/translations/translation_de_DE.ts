@@ -2645,10 +2645,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/BeginToEachChair/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hallo Ferdinand, wie gehts der Frau und Kinder?</source>
             <comment>Text</comment>
-            <translation type="unfinished">Hallo Ferdinand, wie gehts der Frau und Kinder?</translation>
+            <translation type="obsolete">Hallo Ferdinand, wie gehts der Frau und Kinder?</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Wie gehts der Frau und Kinder?</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Wie gehts der Frau und Kinder?</translation>
         </message>
     </context>
     <context>
@@ -3676,10 +3681,15 @@
             <translation type="vanished">Hallo</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Das nächste Mal bringen Sie bitt auch eine Bestellung mit, auf Wiedersehen.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Das nächste Mal bringen Sie bitt auch eine Bestellung mit, auf Wiedersehen.</translation>
+            <translation type="obsolete">Das nächste Mal bringen Sie bitt auch eine Bestellung mit, auf Wiedersehen.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Das nächste Mal bringen Sie bitte auch eine Bestellung mit, auf Wiedersehen.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Das nächste Mal bringen Sie bitte auch eine Bestellung mit, auf Wiedersehen.</translation>
         </message>
     </context>
     <context>

@@ -2,13 +2,13 @@ topic: ~WantSomethingToEat()
 language: ged
 
 # Defining extra concepts out of words or group of words
-concept:(positiveWords) [Ja sicher natürlich gerne bitte]
-concept:(negativeWords) [Nein "Nein, das wars" danke]
+concept:(positiveWord) [Ja sicher natürlich gerne bitte]
+concept:(negativeWord) [Nein "Nein, das wars" danke]
 
 
 # Catching inputs and triggering outputs
 u:(e:onStart) Sie wollen also sofort ihre Speise bestellen?
 
 # Replying to speech
-u:(~positiveWords) $wantEat=1
-u:(~negativeWords) $dontWantEat=1
+u:(~positiveWord) $wantEat=1
+u:(~negativeWord) $dontWantEat=1
