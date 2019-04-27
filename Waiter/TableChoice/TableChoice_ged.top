@@ -13,7 +13,7 @@ u:(e:onStart) ^nextProposal
 
 # Replying to speech
 proposal: Sie können nun den Tisch mit der Nummer 2 oder mit der Tischnummer 3 reservieren.
-u1:(~first) Es tut und leid, dieser Tisch ist für unseren Stammgast reserviert $invalid=true
-u1:(~second) Ok, Tisch 2 wurde für Sie reserviert. Bei Ihrem nächsten Besuch werden sie ihm zugeteilt. $tablenumber=second
-u1:(~third) Ok, der Tisch 3 wurde für sie reserviert. Bei ihrem nächsten Besuch werden sie ihm zugeteilt. $tablenumber=third
+u1:(~first) Es tut und leid, dieser Tisch ist für unseren Stammgast reserviert $invalid=true $onStopped=1
+u1:(~second) Ok, Tisch 2 wurde für Sie reserviert. Bei Ihrem nächsten Besuch werden sie ihm zugeteilt. $tablenumber=second $onStopped=1
+u1:(~third) Ok, der Tisch 3 wurde für sie reserviert. Bei ihrem nächsten Besuch werden sie ihm zugeteilt. $tablenumber=third $onStopped=1
 u1:(~repeat) Ich sagte, ^sameProposal
