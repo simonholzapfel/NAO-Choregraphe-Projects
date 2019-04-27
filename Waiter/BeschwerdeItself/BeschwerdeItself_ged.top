@@ -2,11 +2,9 @@ topic: ~BeschwerdeItself()
 language: ged
 
 # Defining extra concepts out of words or group of words
-concept:(tellMe) ^rand["Das wäre?" "Erzählen Sie mir, was nicht gepasst hat"]
+concept:(tellMe) ^rand["Das wäre?" "Ok, was ist los?" "Erzählen Sie mir, was nicht gepasst hat"]
 concept:(yesPlease) [Ja sicher natürlich]
 concept:(noThanks) [Nein "Nein, das wars" danke]
-concept:(repeat) [wiederhole "wie bitte"]
-
 
 # Catching inputs and triggering outputs
 #u:(e:onStart) $onStopped=1
@@ -14,10 +12,7 @@ concept:(repeat) [wiederhole "wie bitte"]
 # Replying to speech
 #u:(~hello) ~hello
 
-u:(e:onStart) ^nextProposal
-
-proposal: ~tellMe
+u:(e:onStart) ~tellMe
     u1:(*) Ok, wollen sie sonst noch etwas melden? Fortfahren mit Ja, oder Nein.
         u2:(~yesPlease) $repeat=1
         u2:(~noThanks) Ok. Ich werde das weiterleiten. Wir entschuldigen uns für die unannehmlichkeiten. $end=1
-    u1:(~repeat) Ich fragte, ^sameProposal

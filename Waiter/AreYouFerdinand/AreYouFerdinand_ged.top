@@ -2,11 +2,15 @@ topic: ~AreYouFerdinand()
 language: ged
 
 # Defining extra concepts out of words or group of words
-concept:(positiveVar) [Ja Natürlich]
-concept:(negativeVar) [Nein "Nein danke" danke "Kein Problem"]
-concept:(repeatVar) [wiederhole "wie bitte"]
+concept:(positive) [Ja Bitte Natürlich "Sehr gern" gern gerne "Ja bitte"]
+concept:(negative) [Nein "Nein danke" danke "Kein Problem"]
+concept:(repeat) [wiederhole "wie bitte"]
 
 # Catching inputs and triggering outputs
-u:(e:onStart) Sind Sie Ferdinand?
-u:(~positiveVar) Alles klar Ferdinand. Bitte stillhalten! Ich scanne nun dein Gesicht. $Yes=1
-u:(~negativeVar) Ich würde gerne Ferdinand sehen. $No=1
+u:(e:onStart) ^nextProposal
+
+proposal: Sind Sie Ferdinand?
+# Replying to speech
+u1:(~positive) Alles klar Ferdinand. Bitte stillhalten! Ich scanne nun dein Gesicht. $Yes=1
+u1:(~negative) Ich würde gerne Ferdinand sehen. $No=1
+u1:(~repeat) Ich fragte, ^sameProposal
