@@ -8820,7 +8820,7 @@ class MyClass(GeneratedClass):
                                       <ActuatorCurve name="value" actuator="RElbowRoll" mute="0" unit="0">
                                         <Key frame="50" value="26.7" />
                                         <Key frame="172" value="26.3" />
-                                        <Key frame="262" value="26.7" />
+                                        <Key frame="262" value="25" />
                                       </ActuatorCurve>
                                       <ActuatorCurve name="value" actuator="RElbowYaw" mute="0" unit="0">
                                         <Key frame="50" value="71.4" />
@@ -8830,7 +8830,7 @@ class MyClass(GeneratedClass):
                                       <ActuatorCurve name="value" actuator="RHand" mute="0" unit="1">
                                         <Key frame="50" value="0.79" />
                                         <Key frame="172" value="0.67" />
-                                        <Key frame="262" value="0.56" />
+                                        <Key frame="262" value="0" />
                                       </ActuatorCurve>
                                       <ActuatorCurve name="value" actuator="RHipPitch" mute="1" unit="0" />
                                       <ActuatorCurve name="value" actuator="RHipRoll" mute="1" unit="0" />
@@ -8839,17 +8839,17 @@ class MyClass(GeneratedClass):
                                       <ActuatorCurve name="value" actuator="RShoulderPitch" mute="0" unit="0">
                                         <Key frame="50" value="27.6" />
                                         <Key frame="172" value="27.6" />
-                                        <Key frame="262" value="27.2" />
+                                        <Key frame="262" value="28.8" />
                                       </ActuatorCurve>
                                       <ActuatorCurve name="value" actuator="RShoulderRoll" mute="0" unit="0">
                                         <Key frame="50" value="-8" />
                                         <Key frame="172" value="10.5" />
-                                        <Key frame="262" value="11.7" />
+                                        <Key frame="262" value="9.2" />
                                       </ActuatorCurve>
                                       <ActuatorCurve name="value" actuator="RWristYaw" mute="0" unit="0">
                                         <Key frame="50" value="0.5" />
                                         <Key frame="172" value="1" />
-                                        <Key frame="262" value="0.9" />
+                                        <Key frame="262" value="2.5" />
                                       </ActuatorCurve>
                                     </ActuatorList>
                                   </Timeline>
