@@ -1,0 +1,11 @@
+topic: ~FreeDrink()
+language: ged
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Hey Kellner, ein kühles Blondes geht für den Ferdinand heute aufs Haus. $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello

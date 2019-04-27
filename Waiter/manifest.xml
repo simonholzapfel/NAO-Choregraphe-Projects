@@ -157,5 +157,14 @@
   <dialogContent typeVersion="1.0" topicName="YouCanStay">
    <topic path="YouCanStay/YouCanStay_ged.top" language="de_DE"/>
   </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="WantSomethingToEat">
+   <topic path="WantSomethingToEat/WantSomethingToEat_ged.top" language="de_DE"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="FreeDrink">
+   <topic path="FreeDrink/FreeDrink_ged.top" language="de_DE"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="ByeDialoge">
+   <topic path="ByeDialoge/ByeDialoge_ged.top" language="de_DE"/>
+  </dialogContent>
  </contents>
 </package>

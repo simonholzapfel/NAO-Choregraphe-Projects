@@ -48,6 +48,9 @@
         <Dialog name="BringBillDialoge" src="BringBillDialoge/BringBillDialoge.dlg" />
         <Dialog name="PleaseLeave" src="PleaseLeave/PleaseLeave.dlg" />
         <Dialog name="YouCanStay" src="YouCanStay/YouCanStay.dlg" />
+        <Dialog name="WantSomethingToEat" src="WantSomethingToEat/WantSomethingToEat.dlg" />
+        <Dialog name="FreeDrink" src="FreeDrink/FreeDrink.dlg" />
+        <Dialog name="ByeDialoge" src="ByeDialoge/ByeDialoge.dlg" />
     </Dialogs>
     <Resources>
         <File name="Animations" src="Animationen/Animations/Animations.pml" />
@@ -111,6 +114,9 @@
         <Topic name="BringBillDialoge_ged" src="BringBillDialoge/BringBillDialoge_ged.top" topicName="BringBillDialoge" language="de_DE" nuance="ged" />
         <Topic name="PleaseLeave_ged" src="PleaseLeave/PleaseLeave_ged.top" topicName="PleaseLeave" language="de_DE" nuance="ged" />
         <Topic name="YouCanStay_ged" src="YouCanStay/YouCanStay_ged.top" topicName="YouCanStay" language="de_DE" nuance="ged" />
+        <Topic name="WantSomethingToEat_ged" src="WantSomethingToEat/WantSomethingToEat_ged.top" topicName="WantSomethingToEat" language="de_DE" nuance="ged" />
+        <Topic name="FreeDrink_ged" src="FreeDrink/FreeDrink_ged.top" topicName="FreeDrink" language="de_DE" nuance="ged" />
+        <Topic name="ByeDialoge_ged" src="ByeDialoge/ByeDialoge_ged.top" topicName="ByeDialoge" language="de_DE" nuance="ged" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="de_DE">

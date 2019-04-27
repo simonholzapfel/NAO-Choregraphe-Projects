@@ -2878,10 +2878,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/Greetings/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Grüß dich Ferdinand!</source>
             <comment>Text</comment>
-            <translation type="unfinished">Grüß dich Ferdinand!</translation>
+            <translation type="obsolete">Grüß dich Ferdinand!</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Grüß dich Ferdinand, wie gehts wie stehts.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Grüß dich Ferdinand, wie gehts wie stehts.</translation>
         </message>
     </context>
     <context>
@@ -2899,6 +2904,32 @@
             <source>Ich kenne sie bereits</source>
             <comment>Text</comment>
             <translation type="obsolete">Ich kenne sie bereits</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/Order/FerdinandFreeDrink/GiveBestellung/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Entnehme dein Freibier vom Tablett und tippe mir auf den Kopf wenn du soweit bist.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Entnehme dein Freibier vom Tablett und tippe mir auf den Kopf wenn du soweit bist.</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/Order/FerdinandFreeDrink/Say</name>
+        <message>
+            <source>Hallo</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hallo</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/Order/FerdinandFreeDrink/WaitForOrder/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Berühren Sie mich bitte am Kopf, wenn die Bestellung fertig ist.</translation>
         </message>
     </context>
     <context>
@@ -3577,19 +3608,23 @@
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/ReturnPlaceChoice/Stammgast</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hallo Ferdinand</source>
             <comment>Text</comment>
-            <translation type="unfinished">Hallo Ferdinand</translation>
+            <translation type="obsolete">Hallo Ferdinand</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Program itself_new/ReturnPlaceChoice/ZuTischFühren</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Ich führe dich zu deinem Tisch.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Ich führe dich zu deinem Tisch.</translation>
+            <translation type="obsolete">Ich führe dich zu deinem Tisch.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Na los komm, ich führe dich gleich zu deinen Tisch.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Na los komm, ich führe dich gleich zu deinen Tisch.</translation>
         </message>
     </context>
     <context>
@@ -3876,10 +3911,9 @@
             <translation type="obsolete">Wir wünschen Ihnen noch einen noch einen angenehmen Tag.</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Wir wünschen Ihnen noch einen angenehmen Tag.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Wir wünschen Ihnen noch einen angenehmen Tag.</translation>
+            <translation type="obsolete">Wir wünschen Ihnen noch einen angenehmen Tag.</translation>
         </message>
     </context>
     <context>

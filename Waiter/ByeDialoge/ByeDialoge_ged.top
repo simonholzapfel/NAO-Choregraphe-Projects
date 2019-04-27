@@ -1,0 +1,11 @@
+topic: ~ByeDialoge()
+language: ged
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) Ich muss mich nun auch noch um andere Gäste kümmern. Lass es dir dennoch schmecken. Wünsch dir noch einen schönen Tag. $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello

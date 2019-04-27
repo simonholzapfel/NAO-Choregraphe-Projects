@@ -2,15 +2,13 @@ topic: ~EatOrDrink()
 language: ged
 
 # Defining extra concepts out of words or group of words
-concept:(drinkAnswer) [trinken "etwas zu trinken"]
-concept:(foodAnswer) [essen "etwas zu essen"]
-concept:(nothingAnswer) [nichts garnichts "ich will nichts"]
+concept:(positiveSentence) [Ja sicher natürlich gerne bitte]
+concept:(negativeSentence) [Nein "Nein, das wars" danke]
 
 
 # Catching inputs and triggering outputs
-u:(e:onStart) Wollen Sie jetzt etwas zu essen, trinken oder garnichts?
+u:(e:onStart) Wollen Sie vor der Speise noch etwas zu trinken bekommen?
 
 # Replying to speech
-u:(~drinkAnswer) $Drink=1
-u:(~foodAnswer) $Eat=1
-u:(~nothingAnswer) $Nothing=1
+u:(~positiveSentence) $Drink=1
+u:(~negativeSentence) $Eat=1
