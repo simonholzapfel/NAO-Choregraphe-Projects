@@ -12,8 +12,8 @@ concept:(negativ) [nein "noch nicht" "nein, noch nicht" danke]
 
 # Catching inputs and triggering outputs
 u:(e:onStart) Haben Sie sich schon für eine Speise entschieden?
-    u1:(~positiv) Sehr gut, was darf ich Ihnen bringen?
-        u2:(_~menu) Alles klar, $1 kommt sofort. $food=$1
-    u1:(~negativ) Natürlich sehr gerne. $notYet=true
+u:(~positiv) Sehr gut, was darf ich Ihnen bringen?
+    u1:(_~menu) Alles klar, $1 kommt sofort. $food=$1
+u:(~negativ) Natürlich sehr gerne. Drücken Sie mir auf den Kopf um fortzufahren. $notYet=true
 
 
