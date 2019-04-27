@@ -2818,6 +2818,15 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Program itself_new/FromChairToBegin/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>unbekannt</source>
+            <comment>Text</comment>
+            <translation type="unfinished">unbekannt</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Program itself_new/FromChairToEnd/FromChairToRestaurant/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>

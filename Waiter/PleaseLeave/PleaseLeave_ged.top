@@ -5,7 +5,7 @@ language: ged
 concept:(leave) ^rand["Um Kunden einen Platz zu garantieren muss ich Sie bitten, muss ich Sie bitten, dieses Restaurant zu verlassen." "Wenn Sie nichts bestellen, muss ich Sie bitten zu gehen."]
 
 # Catching inputs and triggering outputs
-u:(e:onStart) Wie sie sehen ist dieses Restaurant bis auf den letzten Platz ausgebucht und wir wollen jedem Kunden welcher auch etwas bestellen will einen Platz garantieren. Ich muss sie also leider auffordern zu gehen.  $onStopped=1
+u:(e:onStart) Wie sie sehen ist dieses Restaurant bis auf den letzten Platz ausgebucht und wir wollen jedem Kunden welcher auch etwas bestellen will einen freien Platz garantieren. Ich muss sie also leider auffordern zu gehen. Ich begleite Sie noch zum Ausgang. Bitte folgen Sie mir.  $onStopped=1
 
 # Replying to speech
 #u:(~hello) ~hello
