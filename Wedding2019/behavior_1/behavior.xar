@@ -714,7 +714,7 @@
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="STOP" id="8" localization="8" tooltip="" x="107" y="187">
+            <Box name="STOP" id="8" localization="8" tooltip="" x="127" y="231">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
@@ -728,7 +728,28 @@
               <Timeline enable="0">
                 <BehaviorLayer name="behavior_layer1">
                   <BehaviorKeyframe name="keyframe1" index="1">
-                    <Diagram />
+                    <Diagram>
+                      <Box name="Comment" id="1" localization="8" tooltip="To comment your behavior. Enter the text here and move the box where you like&#x0A;to add the comment.&#x0A;&#x0A;Note: This box is not functional and has no effect on the behavior." plugin="textedit_plugin" x="242" y="95">
+                        <bitmap>media/images/box/box-script.png</bitmap>
+                        <script language="4">
+                          <content>
+                            <![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("This diagram is just for better readability.")]]>
+                          </content>
+                        </script>
+                        <pluginContent>
+                          <text>
+                            <![CDATA[This diagram is just for better readability.]]>
+                          </text>
+                        </pluginContent>
+                        <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
+                      </Box>
+                    </Diagram>
                   </BehaviorKeyframe>
                 </BehaviorLayer>
               </Timeline>
