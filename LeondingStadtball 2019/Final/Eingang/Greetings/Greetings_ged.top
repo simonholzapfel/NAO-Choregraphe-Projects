@@ -1,0 +1,10 @@
+topic: ~Greetings()
+language: ged
+
+concept:(greetingsOne) ^rand["Guten Abend und herzlich Willkommen zum Ball der Leondinger." "Herzlich Willkommen zum Ball der Leondinger." "Schön Sie am Ball der Leondinger begrüßen zu dürfen."]
+
+concept:(greetingsTwo) ^rand["Bitte legen Sie Ihre Mäntel und Jacken an der Garderobe ab." "Sie können Ihren Mantel an der Garderobe abgeben." "Mein Kollege an der Garderobe hilft Ihnen, Ihre Mäntel und Jacken loszuwerden."]
+
+
+u:(e:onStart) ~greetingsOne ~greetingsTwo $onStopped=1
+

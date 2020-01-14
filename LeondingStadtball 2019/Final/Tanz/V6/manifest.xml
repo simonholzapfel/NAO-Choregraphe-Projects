@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="5_tanz-51fb68" version="0.0.0">
+ <names>
+  <name lang="en_US">GangnamStyle</name>
+ </names>
+ <supportedLanguages>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="GangnamStyle">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

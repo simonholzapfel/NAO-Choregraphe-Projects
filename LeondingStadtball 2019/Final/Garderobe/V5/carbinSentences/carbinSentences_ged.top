@@ -1,0 +1,13 @@
+topic: ~carbinSentences()
+language: ged
+
+concept:(firstSentence) ^rand["Einen schönen guten Abend." "Guten Abend" "Hallo und guten Abend."]
+
+concept:(secondSentence) ^rand["Ihre Mäntel sind bei uns gut aufgehoben." "Hier können Sie Ihre Jacken und Mäntel loswerden."]
+
+
+concept:(thirdSentence) ^rand["Das kostet nur lächerliche zwei Euro." "Um zwei Euro sind Ihre Sachen bei uns sicher." "Wir passen um zwei Euro gerne darauf auf."]
+
+concept:(extra) ^rand["Anschließend freuen wir uns, sie an der Sektbar begrüßen zu dürfen." "Bitte kommen Sie dann an unsere Sektbar." "Mein Kollege an der Sektbar freut sich sicherlich, Sie zu sehen."]
+
+u:(e:onStart) ~firstSentence ~secondSentence ~thirdSentence ~extra $onStopped=1

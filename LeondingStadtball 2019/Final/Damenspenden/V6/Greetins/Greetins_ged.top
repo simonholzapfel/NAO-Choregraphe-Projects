@@ -1,0 +1,10 @@
+topic: ~Greetins()
+language: ged
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(greetSecond) ^rand["Darf ich Ihnen ein kleines Geschenk überreichen?" "Hier ein kleines Geschenk für Sie." "Ein kleines Geschenk, bitte sehr."]
+concept:(greetThird) ^rand["Ich wünsche Ihnen eine rauschende Ballnacht." "Haben Sie eine schöne Ballnacht." "Viel Spaß."]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) ~greetSecond ~greetThird $onStopped=1

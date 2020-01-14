@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="2_garderobe-16dd54">
+ <names>
+  <name lang="en_US">2_Garderobe</name>
+ </names>
+ <supportedLanguages>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="carbinSentences&#xd;">
+   <topic path="carbinSentences/carbinSentences_ged.top" language="de_DE"/>
+  </dialogContent>
+ </contents>
+</package>

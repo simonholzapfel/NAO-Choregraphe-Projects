@@ -1,0 +1,10 @@
+topic: ~BeginningText()
+language: ged
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(beginFirst) ^rand["Einen schönen Abend." "Guten Abend."]
+
+
+# Catching inputs and triggering outputs
+u:(e:onStart) ~beginFirst $onStopped=1

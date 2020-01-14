@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.0" uuid="damengaben-4db3fa">
+ <names>
+  <name lang="de_DE">LeondingStadtballDamengaben</name>
+  <name lang="en_US">Untitled</name>
+ </names>
+ <supportedLanguages>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="de_DE">GoodBye</name>
+   </names>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent topicName="MaleChoice" typeVersion="1.0">
+   <topic path="MaleChoice/MaleChoice_ged.top" language="de_DE"/>
+  </dialogContent>
+  <dialogContent topicName="Greetins" typeVersion="1.0">
+   <topic path="Greetins/Greetins_ged.top" language="de_DE"/>
+  </dialogContent>
+  <dialogContent topicName="BeginningText" typeVersion="1.0">
+   <topic path="BeginningText/BeginningText_ged.top" language="de_DE"/>
+  </dialogContent>
+ </contents>
+</package>

@@ -1,0 +1,14 @@
+topic: ~Bestellung()
+language: ged
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(first) ^rand["Hallo" "Hi"]
+concept:(second) ^rand["Warten sie einen moment" "gleich"]
+
+# Catching inputs and triggering outputs
+
+u:(e:onStart) ~first ~second $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello

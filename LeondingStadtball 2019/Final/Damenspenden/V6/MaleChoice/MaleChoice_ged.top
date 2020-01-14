@@ -1,0 +1,13 @@
+topic: ~MaleChoice()
+language: ged
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(maleChoiceFirst) ^rand["Hallo mein Name ist Nao." "Guten Abend." "Ich freue mich sehr über Ihren Besuch." "Ich bin ein Roboter namens Nao."]
+concept:(maleChoiceSecond) ^rand["Ich wünsche Ihnen viel Spaß auf den Ball." "Unser diesjähriges Motto ist Leonding zweitausenddreißig." "Willkommen im Jahr zweitausenddreißig."]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) ~maleChoiceFirst ~maleChoiceSecond $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello

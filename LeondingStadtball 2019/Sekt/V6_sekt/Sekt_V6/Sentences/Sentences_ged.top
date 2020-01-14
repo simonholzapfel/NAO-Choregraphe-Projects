@@ -1,0 +1,15 @@
+topic: ~Sentences()
+language: ged
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(first) ^rand["Sie haben mich gerufen." "Ja, bitte?"]
+concept:(second) ^rand["Was möchten sie bestellen?" "Wie lautet Ihre Bestellung?"]
+
+# Catching inputs and triggering outputs
+
+u:(e:onStart) ~first ~second $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+

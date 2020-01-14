@@ -1,0 +1,15 @@
+topic: ~Sentences()
+language: ged
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+concept:(first) ^rand["Guten Abend." "Schönen guten Abend und herzlich Wilkommen." "Hallo und herzlich Willkommen."]
+
+concept:(second) ^rand["Sie können zwischen Sekt und Sekt Orange wählen. Ein Glas kostet 4 Euro." "Wollen sie ein Glas Sekt oder Sekt Orange. Ein Glas kostet 4 Euro." "Wir haben hier Sekt oder Sekt Orange, was möchten Sie? Ein Glas kostet 4 Euro."]
+
+# Catching inputs and triggering outputs
+
+u:(e:onStart) ~first ~second $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello

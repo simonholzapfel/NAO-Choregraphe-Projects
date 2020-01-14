@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="sekt_alt-2c2c9e">
+ <names>
+  <name lang="en_US">Sekt_alt</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName="Sentences&#xd;">
+   <topic path="Sentences/Sentences_ged.top" language="de_DE"/>
+  </dialogContent>
+ </contents>
+</package>
